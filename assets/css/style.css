@@ -1,6 +1,16 @@
+/* For sticky footer */
+.wrapper {
+  min-height: calc(100vh - 70px);
+}
+footer {
+  height: 50px;
+}
+
+
+/* Begin main css */
 body {
 	margin: 0;
-	padding: 0;
+  padding: 0;
 	border: 0;
 	line-height: 1.328571;
 	/*background-image: url('../images/background5.png');*/
@@ -9,12 +19,12 @@ body {
   background-color: #93BFDB;
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center; 
+  background-attachment: fixed;
+  background-position: center; 
 }
 
 #bStreamer{
-    margin: 0;
+  margin: 0;
   padding: 0;
   border: 0;
   line-height: 1.328571;
@@ -24,13 +34,12 @@ body {
   background-color: #93BFDB;
   background-size: 100% 100%;
   background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center; 
+  background-attachment: fixed;
+  background-position: center; 
 }
-}
+
 p, h3 {
 	font-family: 'Raleway', sans-serif;
-  color: ;
 }
 
 h2{
@@ -42,9 +51,14 @@ p{
   font-size: 16px;
 }
 
-.navbar-default .navbar-collapse, .navbar-default .navbar-form {
-	margin: 4px;
+.navbar-default {
+  background-color: #fff;
+  border: none;
 }
+
+#navStarted {
+  padding-right: 25px;
+ }
 
 #navCost{
   position: fixed;
@@ -53,13 +67,7 @@ p{
   opacity: 0.8;
   z-index: 1030;
 }
-#navStarted{
-  position: fixed;
-  top: 0;
-  width: 100%;
-  opacity: 0.8;
-  z-index: 1030;
-}
+
 #navBrands{
   position: fixed;
   top: 0;
@@ -67,6 +75,7 @@ p{
   opacity: 0.8;
   z-index: 1030;
 }
+
 #navIndex{
   position: fixed;
   top: 0;
@@ -74,6 +83,7 @@ p{
   opacity: 0.8;
   z-index: 1030;
 }
+
 #navHowItWorks{
   position: fixed;
   top: 0;
@@ -81,6 +91,7 @@ p{
   opacity: 0.8;
   z-index: 1030;
 }
+
 #navBenefits{
   position: fixed;
   top: 0;
@@ -88,14 +99,99 @@ p{
   opacity: 0.8;
   z-index: 1030;
 }
+
 .navFont{
   font-weight: 500;
-  color: #003D87 !important;
+  color: #003399 !important;
 }
+
 .navFont:hover {
-  background-color: rgb(100, 65, 164) !important;
+  background-color: #003399 !important;
   color: white !important;
 }
+.navLink{
+  border-right: #003399 solid 1px;
+  border-left: #003399 solid 1px;
+  padding: 0px 15px;
+  height: 30px;
+}
+.navLink:first-child,
+.navLink:last-child{
+  border-left: none;
+}
+.navLink:nth-last-child(2){
+  border-right: none;
+}
+.nav>li>a {
+  padding: 15px 0px;
+}
+#navJoin{
+  padding-left: 15px;
+  padding-right: 25px;
+  background-color: #003399 !important;
+  color: white !important;
+}
+#navJoin:hover{
+  background-color: #93BFDB !important;
+  color: #003399 !important;
+}
+
+/* Top left logo with triangle background */
+#brand-background {
+  position: absolute;
+  top: 0px;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 200px 450px 0 0;
+  border-color: #fff transparent transparent transparent;
+  z-index: 1;
+}
+#brand-logo {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: 9999;
+  max-height: 100px;
+  width: auto;
+}
+
+/** Index Sections**/
+#section1 {
+  position: relative;
+  top: 0;
+  width: 100%;
+  background-color: #0399F1;
+}
+
+#jumbo-index {
+  margin-top: 80px;
+  background-color: transparent;
+}
+#jumbo-index p {
+  color: #fff;
+}
+#jumbo-index h1 {
+  color: #003399;
+  text-shadow: 2px 2px #fff;
+}
+#jumbo-index h1:last-child{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+a.btn-round-lg{
+  width: 200px;
+  border-radius: 22.5px;
+  margin: 10px;
+  }
+
+#section2{
+
+}
+
+
 #container1 {
   margin-top: 100px;
   margin-bottom: 20px;
@@ -294,8 +390,8 @@ hr{
 }
 
 /*Footer*/
-
 .copyright{
+  width: 100%;
   background-color: #444444;
   color: white;
   height: 50px;
@@ -328,10 +424,6 @@ html {
     left: 0;*/
 }
 
-#landingFoot{
-  text-align: center;
-
-}
 h3{
   font-family: 'Roboto', sans-serif;
   font-size: 24px;
