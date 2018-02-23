@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<title>StreamFluence</title>
+    <!-- bootstap html and cc elemets-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!--links my css page -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <!--Allows me to use JQuery -->
+    <script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
+    <!-- Allows me to use Bootstrap JS -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
+    <link rel="shortcut icon" href="assets/images/floo.png">
+    <link rel="apple-touch-icon" href="assets/images/favicon-floo.png">
+
+</head>
+<body>
+
+<nav class="navbar navbar-default" id="navStarted">
+      
+        <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="index.html"><img id='logoID' src="assets/images/logo.png"></a>
+      </div>
+  
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a class="navFont" data-toggle="dropdown">Start Here</a>
+              <ul class="dropdown-menu">
+                <li><a class="navFont" href="streamer.html">As a Streamer</a></li>
+                <li><a class="navFont" href="brands.html">As a Brand</a></li>
+              </ul>
+          </li>
+          <li>
+              <a class="navFont" data-toggle="dropdown">Login<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a class="navFont" href="https://streamfluence.herokuapp.com/api/v1/auth/twitch">Streamer</a></li>
+                <li><a class="navFont" href="https://streamfluence.herokuapp.com/register">Brand</a></li>
+              </ul>
+          </li>
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    
+</nav>
+
+  <!-- brands/streamers -->
+  <div class="row indexRow" id="setMarginTop">
+    <div class="col-md-1"></div>
+    <!-- left column -->
+    <a href="streamer.html">
+      <div class="col-md-5" class="rightStreamer">
+        <div id="righty">
+         <!--  <center>
+            <div class="textBox">
+          <h1>Streamers</h1>
+          <br>
+          <div id="hideRight">
+          <p> You love streaming. Why not go full time? We'll make it easy to monetize your channel. Explore how. </p>
+            </div>
+          </div>
+          </center> -->
+      </div>
+        </div>
+    </a>
+    <!-- right column -->
+      <a href="brands.html">
+      <div class="col-md-5" class="leftBrand">
+        <div id="lefty">
+          <!-- <center>
+            <div class="textBox">
+          <h4>StreamFluence</h4>
+          <h1>Brands</h1>
+          <div id="hideLeft">
+          <p> Our platform connects you to your exact audience at a price that makes sense for your budget. </p>
+        </div>
+
+        </center>
+           -->
+      </div>
+        </div>
+      </div>
+    </a>
+    <div class="col-md-1"></div>
+  </div>
+
+<!-- Get to top of page button -->
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+<!-- Footer -->
+
+<div id="footer">
+    <div class="container">
+        <div class="row" id="bone">
+            <div class="col-md-4"></div>
+            <div class="col-md-4" id="landingFoot">
+              <h3>Come Talk to our Devs</h3>
+              <a href="https://discord.gg/yzpUS2G"><button class="btn btn-lg btn-outline-light mt-3 call-button-1" data-toggle="modal" data-target="#myModal" id="submitButton">Join Discord</button></a>
+            </div>
+            <div class="col-md-4"></div>
+        </div>
+    </div>
+</div>
+<div class="copyright">
+  <div class="container">
+    <div class="row">
+            <center><p class="copyrighttext">Copyright 2017 StreamFluence</p></center>
+        </div>
+  </div>
+</div>
+</body>
+<script type="text/javascript">
+window.onscroll = function() {scrollFunction()};
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("myBtn").style.display = "block";
+    } else {
+        document.getElementById("myBtn").style.display = "none";
+    }
+}
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+    document.body.scrollTop = 0; // For Chrome, Safari and Opera 
+    document.documentElement.scrollTop = 0; // For IE and Firefox
+}
+</script>
+</html>
