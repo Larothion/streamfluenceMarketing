@@ -1,4 +1,9 @@
 /* Begin main css */
+@font-face {
+    font-family: 'Terminator nfi';
+    src: url('fonts/terminator real nfi.ttf') format('truetype');
+}
+
 html {
     position: relative;
     min-height: 100%;
@@ -7,6 +12,7 @@ body {
     font-family: 'Roboto', sans-serif;
     /* Margin bottom by footer height */
     margin-bottom: 200px;
+    overflow-x: hidden;
 }
 h1 {
     font-size: 44px;
@@ -19,7 +25,7 @@ h3 {
     font-size: 24px;
     line-height: 1.29;
     color: #003D87;
-    font-weight: 300;
+    font-weight: 400;
 }
 p {
     font-family: 'Raleway', sans-serif;
@@ -37,9 +43,10 @@ p {
 }
 .navFont {
     color: #003399 !important;
+    letter-spacing: 1px;
 }
 #navLinks a:hover {
-    background-color: #0399F1 !important;
+    background-color: rgb(100, 65, 164) !important;
     color: white !important;
 }
 .navbar .divider-vertical {
@@ -53,6 +60,7 @@ p {
     border-left-color: #111111;
 }
 #navJoin {
+    font-weight: bold;
     padding-left: 15px;
     padding-right: 25px;
     background-color: #003399 !important;
@@ -126,15 +134,22 @@ p {
 #jumbo-index h4 {
     color: #fff;
 }
-#jumbo-index h1 {
-    font-size: 80px;
+#hero {
+    max-width: 596px;
+}
+#hero h1 {
+    font-family: 'Terminator nfi', 'Roboto', sans-serif;
+    font-size: 75px;
     font-weight: bolder;
     color: #003399;
     text-shadow: 2px 2px #fff;
 }
-#jumbo-index h1:last-child {
+#hero h1:last-child {
     margin-top: 20px;
     margin-bottom: 20px;
+}
+#hero-btns {
+    margin-top: 20px;
 }
 a.btn-round-lg {
     font-size: 25px;
@@ -265,8 +280,15 @@ footer {
     background-color: #fff;
 }
 
-@media (max-width: 453px) {
-    #jumbo-index h1 {
+.col-center {
+    margin: 0 auto;
+    float:none;
+}
+@media (max-width: 768px){
+    #hero {
+        max-width: 478px;
+    }
+    #hero h1 {
         font-size: 60px;
     }
     h2 {
@@ -275,5 +297,28 @@ footer {
     h3 {
         font-size: 18px;
     }
+    p {
+        font-size: 12px;
+    }
+    a.btn-round-lg {
+        font-size: 18px;
+    }
+}
 
+@media (max-width: 453px) {
+    #hero h1 {
+        font-size: 33px;
+    }
+    h2 {
+        font-size: 20px;
+    }
+    h3 {
+        font-size: 14px;
+    }
+    p {
+        font-size:10px;
+    }
+    #img-platforms img {
+        max-height: 30px;
+    }
 }
