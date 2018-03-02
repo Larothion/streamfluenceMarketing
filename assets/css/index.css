@@ -1,9 +1,12 @@
 /* Begin main css */
+html {
+    position: relative;
+    min-height: 100%;
+  }
 body {
-    margin: 0;
-    padding: 0;
-    overflow-x: hidden;
     font-family: 'Roboto', sans-serif;
+    /* Margin bottom by footer height */
+    margin-bottom: 200px;
 }
 h1 {
     font-size: 44px;
@@ -157,9 +160,6 @@ a.btn-round-lg:hover {
 }
 
 /** Section 2 - info **/
-#section2 {
-    height: 100vh;
-}
 #section2>.row {
     margin-bottom: 20px;
 }
@@ -173,7 +173,7 @@ a.btn-round-lg:hover {
     margin-bottom: 10px;
 }
 #sec2-box {
-    min-height: 65vh;
+    padding-bottom: 50px;
 }
 #sec2-info {
     margin-top: 20px;
@@ -187,19 +187,27 @@ a.btn-round-lg:hover {
     color: white;
     height: 50px;
 }
-
 .copyrighttext {
     color: white;
     padding-top: 15px;
 }
+.footertext {
+    color: #202020;
+}
 
-#footer {
+/* Custom footer with sticky */
+/* .wrapper {
+    min-height: calc(100vh - 70px);
+} */
+
+footer {
+    position: absolute;
+    bottom: 0;
     width: 100%;
-    padding-bottom: 5px;
+    height: 167px;
     border-top: 1px solid #4d98d3;
     background-color: rgb(239, 246, 255);
 }
-
 
 #myBtn {
     display: none; /* Hidden by default */
@@ -221,17 +229,6 @@ a.btn-round-lg:hover {
     color: #fff;
 }
 
-
-/* Custom footer with sticky */
-.wrapper {
-    min-height: calc(100vh - 70px);
-}
-footer {
-    height: 50px;
-}
-.footertext {
-    color: #202020;
-}
 /*White we use : #E0E0E0
   Black we use : #202020*/
 
@@ -241,35 +238,23 @@ footer {
     width: 40%;
     background: #fff;
 }
-#submitButton{
+#btn-discord{
     border-color: #6441a4;
     background-color: #6441a4;
     font-size: 16px;
+    color: #f8f9fa;
+    margin: 10px auto;
   }
-  #submitButton:hover {
+#btn-discord:hover {
     background-color: #4d98d3;
     color: white;
-  }
-button {
-    margin-top: 15px;
 }
-
-button:hover {
-    background-color: #0085B6;
-}
-
 .btn-group-lg > .btn,
 .btn-lg {
     padding: .5rem 1rem;
     font-size: 1.25rem;
     line-height: 1.5;
     border-radius: .3rem;
-}
-.btn-outline-light {
-    color: #f8f9fa;
-    background-color: transparent;
-    background-image: none;
-    border-color: #f8f9fa;
 }
 
 .bg-blue {
@@ -278,4 +263,17 @@ button:hover {
 
 .bg-white {
     background-color: #fff;
+}
+
+@media (max-width: 453px) {
+    #jumbo-index h1 {
+        font-size: 60px;
+    }
+    h2 {
+        font-size: 24px;
+    }
+    h3 {
+        font-size: 18px;
+    }
+
 }

@@ -21,7 +21,7 @@
 
 </head>
 
-<body>
+<body id="top">
 
   <div class="wrapper">
 
@@ -34,45 +34,29 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand">
+        <a class="navbar-brand" href="#top">
           <img id="navbar-logo" alt="Brand" src="./assets/images/logo.png">
         </a>
       </div>
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse" id="navbar-collapse-1">
         <ul class="nav navbar-nav navbar-right" id="navLinks">
-          <li>
-            <a class="navFont" href="streamer.html">Streamers</a>
-          </li>
+          <li><a class="navFont" href="streamer.html">Streamers</a></li>
           <li class="divider-vertical"></li>
-          <li>
-            <a class="navFont" href="brands.html">Brand</a>
-          </li>
+          <li><a class="navFont" href="brands.html">Brand</a></li>
           <li class="divider-vertical"></li>
-          <li>
-            <a class="navFont" href="http://blog.streamfluence.io/">Blog</a>
-          </li>
+          <li><a class="navFont" href="http://blog.streamfluence.io/">Blog</a></li>
           <li class="divider-vertical"></li>
-          <li>
-            <a class="navFont" data-toggle="dropdown">Login</a>
+          <li><a class="navFont" data-toggle="dropdown">Login</a>
             <ul class="dropdown-menu">
-              <li>
-                <a class="navFont" href="https://streamfluence.herokuapp.com/api/v1/auth/twitch">Streamer</a>
-              </li>
-              <li>
-                <a class="navFont" href="https://streamfluence.herokuapp.com/register">Brand</a>
-              </li>
+              <li><a class="navFont" href="https://streamfluence.herokuapp.com/api/v1/auth/twitch">Streamer</a></li>
+              <li><a class="navFont" href="https://streamfluence.herokuapp.com/register">Brand</a></li>
             </ul>
           </li>
-          <li>
-            <a class="navFont" id="navJoin" data-toggle="dropdown">Join</a>
+          <li><a class="navFont" id="navJoin" data-toggle="dropdown">Join</a>
             <ul class="dropdown-menu">
-              <li>
-                <a class="navFont" href="https://streamfluence.herokuapp.com/api/v1/auth/twitch">Streamer</a>
-              </li>
-              <li>
-                <a class="navFont" href="https://streamfluence.herokuapp.com/register">Brand</a>
-              </li>
+              <li><a class="navFont" href="https://streamfluence.herokuapp.com/api/v1/auth/twitch">Streamer</a></li>
+              <li><a class="navFont" href="https://streamfluence.herokuapp.com/register">Brand</a></li>
             </ul>
           </li>
         </ul>
@@ -80,7 +64,7 @@
       <!-- /.navbar-collapse -->
     </nav>
     <!-- BRAND LOGO with Triangle background-->
-    <div id="brand-corner">
+    <div id="brand-corner" class="hidden-xs">
       <div id="brand-background"></div>
       <img id="brand-logo" src="assets/images/streamfluence-logo.png">
     </div>
@@ -95,7 +79,7 @@
               </div>
             </div>
             <div class="row">
-              <div class="col-xs-8 col-xs-offset-2 col-sm-6 col-sm-offset-3">
+              <div class="col-xs-12 col-sm-6 col-sm-offset-3 col-lg-6 col-lg-offset-4">
                 <h1>LIVE</h1>
                 <h1>CONTENT</h1>
               </div>
@@ -155,60 +139,64 @@
 
   <!-- Footer -->
   <footer>
-    <div class="text-center" id="footer">
-      <div class="container">
+      <div class="container-fluid">
         <div class="row">
-          <div class="col-sm-12 text-center">
+          <div class="col-xs-12 text-center">
             <h3>Come Talk to our Devs</h3>
-            <a href="https://discord.gg/yzpUS2G">
-              <button class="btn btn-lg btn-outline-light mt-3 call-button-1" data-toggle="modal" data-target="#myModal" id="submitButton">
-                Join Discord
-              </button>
+            <a id="btn-discord" class="btn btn-lg" href="https://discord.gg/yzpUS2G" target="_blank" role="button">
+              Join Discord
             </a>
           </div>
         </div>
-      </div>
-    </div>
-    <div class="copyright">
-      <div class="container">
         <div class="row">
-          <center>
-            <p class="copyrighttext">Copyright 2017 StreamFluence</p>
-          </center>
+          <div class="col-xs-12 text-center copyright">
+              <p class="copyrighttext">Copyright 2017 StreamFluence</p>
+          </div>
         </div>
-      </div>
     </div>
   </footer>
 
   <!-- SCRIPT -->
   <script type="text/javascript">
-    window.onscroll = function () {
-      scrollFunction()
-    };
+
+      // run test on resize of the window
+      $(window).resize(function(){
+        if ($(window).width() > 767 && $(window).scrollTop() < 120) {
+          $('#brand-corner').show();
+          $(".navbar-brand").hide();
+        }
+        else {
+          $('#brand-corner').hide();
+          $(".navbar-brand").show();
+        }
+      });
   
     $(document).scroll(function() {
       var y = $(this).scrollTop();
-      if (y > 120) {
-        $('#brand-corner').hide();
-        $(".navbar-brand").show();
-      } else {
+      // Show large or small logo
+      if (y < 120 && $(window).width() > 767) {
         $('#brand-corner').show();
         $(".navbar-brand").hide();
       }
-    });
-  
-    function scrollFunction() {
-      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-        document.getElementById("myBtn").style.display = "block";
-      } else {
-        document.getElementById("myBtn").style.display = "none";
+      else {
+        $('#brand-corner').hide();
+        $(".navbar-brand").show();       
       }
-    }
+      // Show Top button
+      if (y > 30) {
+        $("#myBtn").show();
+      }
+      else {
+        $("#myBtn").hide();
+      }
+    });
+
     // When the user clicks on the button, scroll to the top of the document
     function topFunction() {
-      document.body.scrollTop = 0; // For Chrome, Safari and Opera 
-      document.documentElement.scrollTop = 0; // For IE and Firefox
+      window.scrollTo(0,0);
     }
+
+
   </script>
 
 </body>
