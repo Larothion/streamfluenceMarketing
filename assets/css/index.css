@@ -194,6 +194,10 @@ a.btn-round-lg:hover {
     margin-top: 20px;
     margin-bottom: 50px;
 }
+.thumbnail {
+    border: none;
+    padding-top: 13px;
+}
 
 /*Footer*/
 .copyright {
@@ -284,7 +288,7 @@ footer {
     margin: 0 auto;
     float:none;
 }
-@media (max-width: 768px){
+@media (max-width: 678px){
     #hero {
         max-width: 478px;
     }
