@@ -32,6 +32,9 @@ p {
     color: #696969;
     font-size: 16px;
 }
+h4 {
+    font-size: 22px;
+}
 
 /* Navbar */
 .navbar-default {
@@ -139,7 +142,7 @@ p {
 }
 #hero h1 {
     font-family: 'Terminator nfi', 'Roboto', sans-serif;
-    font-size: 75px;
+    font-size: 90px;
     font-weight: bolder;
     color: #003399;
     text-shadow: 2px 2px #fff;
