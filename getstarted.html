@@ -2,13 +2,14 @@
 <html lang="en-us">
 
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-	<title>StreamFluence</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>StreamFluence</title>
     <!-- bootstap html and cc elemets-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <!--links my css page -->
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/index.css">
     <!--Allows me to use JQuery -->
     <script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
     <!-- Allows me to use Bootstrap JS -->
@@ -16,127 +17,133 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
     <link rel="shortcut icon" href="assets/images/floo.png">
     <link rel="apple-touch-icon" href="assets/images/favicon-floo.png">
-
 </head>
-<body>
 
-<nav class="navbar navbar-default" id="navStarted">
-      
-        <!-- Brand and toggle get grouped for better mobile display -->
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand" href="index.html"><img id='logoID' src="assets/images/logo.png"></a>
-      </div>
-  
-      <!-- Collect the nav links, forms, and other content for toggling -->
-      <div class="collapse navbar-collapse" id="navbar-collapse-1">
-        <ul class="nav navbar-nav navbar-right">
-          <li><a class="navFont" href="brands">Brands</a></li>
-          <li><a class="navFont" href="benefits">Benefits</a></li>
-          <li><a class="navFont" href="howitworks">How it Works</a></li>
-          <li><a class="navFont" href="cost">Cost</a></li>
-          <li><a class="navFont" style="margin-right: 15px;" href="getstarted" >Get Started</a></li>
-        </ul>
-      </div><!-- /.navbar-collapse -->
-    
-</nav>
-<div id="container2" class="container">
-       
-    <div class="row">
-      <div class="col-md-12">
-        <h1 class="startedHeader">Ready to get Started?</h1>
-      </div>
-    </div> 
-    <div class="row">
-      <div id='rightSideContainer' class="col-md-6">
-            <h2 class="segmentHeader">Sign Yourself Up</h2>
-            <h2 class="segmentSubHead">Begin in minutes</h2>
-
-            <p class="startedText">Getting started is easy. Start building your campaign today for free.</p>
-
+<body id="top">
+        <nav class="navbar navbar-default navbar-fixed-top navbar-right" id="navStarted">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#top">
+          <img id="navbar-logo" alt="Brand" src="./assets/images/logo.png">
+        </a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right" id="navLinks">
+                    <li><a class="navFont" href="brands">Brands</a></li>
+                    <li class="divider-vertical"></li>
+                    <li><a class="navFont" href="benefits">Benefits</a></li>
+                    <li class="divider-vertical"></li>
+                    <li><a class="navFont" href="howitworks">How it Works</a></li>
+                    <li class="divider-vertical"></li>
+                    <li><a class="navFont" href="cost">Cost</a></li>
+                    <li><a class="navFont" id="navJoin" data-toggle="dropdown" href="https://streamfluence.herokuapp.com/register">Get Started</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </nav>
+        <!-- BRAND LOGO with Triangle background-->
+        <div id="brand-corner" class="hidden-xs">
+            <div id="brand-background"></div>
+             <a href="/"><img id="brand-logo" src="assets/images/streamfluence-logo.png"></a>
         </div>
-        <div class="col-md-6">
-            <h2 class="segmentHeader">Get Expert Help</h2>
-            <h2 class="segmentSubHead">Help is always Free</h2>
-
-            <p class="startedText">Don't know where to start? Our team of professionals can get you set up quickly.</p>
+        <div id="container2" class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1 class="startedHeader">Ready to get Started?</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div id='rightSideContainer' class="col-md-6">
+                    <h2 class="segmentHeader">Sign Yourself Up</h2>
+                    <h2 class="segmentSubHead">Begin in minutes</h2>
+                    <p class="startedText">Getting started is easy. Start building your campaign today for free.</p>
+                </div>
+                <div class="col-md-6">
+                    <h2 class="segmentHeader">Get Expert Help</h2>
+                    <h2 class="segmentSubHead">Help is always Free</h2>
+                    <p class="startedText">Don't know where to start? Our team of professionals can get you set up quickly.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <h2 class="segmentSubHead">Ultimate Control</h2>
+                    <p class="startedText">Get 24-hour access to the insights you need to make your decisions. You are in the driver seat</p>
+                </div>
+                <div class="col-md-6">
+                    <h2 class="segmentSubHead">Get help reaching your goals</h2>
+                    <p class="startedText">You set big goals let us help you achieve them.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <h2 class="segmentSubHead">Tuning is easy</h2>
+                    <p class="startedText">Identify opportunities and seize them to create campaigns that really pop!</p>
+                </div>
+                <div class="col-md-6">
+                    <h2 class="segmentSubHead">We are the experts</h2>
+                    <p class="startedText">We've run successful campaigns before. Let our experts give you the advice to make yourr campaign one of a kind.</p>
+                </div>
+            </div>
         </div>
-    </div>
-    <div class="row">
-      <div class="col-md-6">
-        <h2 class="segmentSubHead">Ultimate Control</h2>
-
-        <p class="startedText">Get 24-hour access to the insights you need to make your decisions. You are in the driver seat</p>
-      </div>
-      <div class="col-md-6">
-        <h2 class="segmentSubHead">Get help reaching your goals</h2>
-
-        <p class="startedText">You set big goals let us help you achieve them.</p>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-6">
-        <h2 class="segmentSubHead">Tuning is easy</h2>
-
-        <p class="startedText">Identify opportunities and seize them to create campaigns that really pop!</p>
-      </div>
-      <div class="col-md-6">
-        <h2 class="segmentSubHead">We are the experts</h2>
-
-        <p class="startedText">We've run successful campaigns before. Let our experts give you the advice to make yourr campaign one of a kind.</p>
-      </div>
-    </div>
-    </div>
-    
-
-<!-- Get to top of page button -->
-<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
-<!-- Footer -->
-
-<div id="footer">
-    <div class="container">
-        <div class="row">
-          <div class="col-md-6">
-            <h2>Get Started In Minutes</h2>
-          </div>
+        <!-- Get to top of page button -->
+        <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+        <!-- Footer -->
+        <div id="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h2>Get Started In Minutes</h2>
+                    </div>
+                </div>
+                <div class="row" id="bone">
+                    <br>
+                    <div class="col-md-6">
+                        <center>
+                            <br>
+                            <h4>Creating an account is free</h4>
+                            <p>You can sign up and make a campaign without putting in any payment information. Find out how StreamFluence can help you get noticed.</p>
+                            <a href="https://docs.google.com/forms/d/e/1FAIpQLSeBt67QeRU6YqJokPZydJaverAPPtfjEOhOqfrUEvpdd72XIA/viewform" target="_blank">
+                                <button class="btn btn-lg btn-outline-light mt-3 call-button-1" data-toggle="modal" data-target="#myModal" id="submitButton">Get Started</button>
+                            </a>
+                        </center>
+                    </div>
+                    <div class="col-md-6">
+                        <center>
+                            <br>
+                            <h4>Simple. Easy. Effective.</h4>
+                            <p>We will walk you through creating an account and starting a campaign. Our experts are here to help, schedule a call today.
+                                <br>
+                            </p>
+                            <a href="https://app.hubspot.com/meetings/alindsay/getting-started-with-streamfluence?embed=true%22%3E" target="_blank">
+                                <button class="btn btn-lg btn-outline-light mt-3 call-button-1" data-toggle="modal" data-target="#myModal" id="scheduleButton">Schedule a Call</button>
+                            </a>
+                        </center>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="row" id="bone">
-            <br>
-              <div class="col-md-6">
-                <center>
-                  <br>
-                  
-                  <h4>Creating an account is free</h4>
-                  <p>You can sign up and make a campaign without putting in any payment information. Find out  how StreamFluence can help you get noticed.</p>
-                  <a href="https://docs.google.com/forms/d/e/1FAIpQLSeBt67QeRU6YqJokPZydJaverAPPtfjEOhOqfrUEvpdd72XIA/viewform" target="_blank"><button class="btn btn-lg btn-outline-light mt-3 call-button-1" data-toggle="modal" data-target="#myModal" id="submitButton">Get Started</button></a>
-                </center>
-              </div>
-              <div class="col-md-6">
-                <center>
-                  <br>
-                  <h4>Simple. Easy. Effective.</h4>
-                  <p>We will walk you through creating an account and starting a campaign. Our experts are here to help, schedule a call today.<br></p>
-                  <a href="https://app.hubspot.com/meetings/alindsay/getting-started-with-streamfluence?embed=true%22%3E" target="_blank"><button class="btn btn-lg btn-outline-light mt-3 call-button-1" data-toggle="modal" data-target="#myModal" id="scheduleButton">Schedule a Call</button></a>
-                </center>
-              </div>
+        <div class="copyright">
+            <div class="container">
+                <div class="row">
+                    <center>
+                        <p class="copyrighttext">Copyright 2017 StreamFluence</p>
+                    </center>
+                </div>
+            </div>
         </div>
-    </div>
-</div>
-<div class="copyright">
-  <div class="container">
-    <div class="row">
-            <center><p class="copyrighttext">Copyright 2017 StreamFluence</p></center>
-        </div>
-  </div>
-</div>
 </body>
 <script type="text/javascript">
-window.onscroll = function() {scrollFunction()};
+window.onscroll = function() { scrollFunction() };
+
 function scrollFunction() {
     if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
         document.getElementById("myBtn").style.display = "block";
@@ -150,4 +157,5 @@ function topFunction() {
     document.documentElement.scrollTop = 0; // For IE and Firefox
 }
 </script>
+
 </html>

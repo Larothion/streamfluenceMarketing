@@ -57,35 +57,35 @@ p{
   position: fixed;
   top: 0;
   width: 100%;
-  opacity: 0.8;
+  opacity: 1.0;
   z-index: 1030;
 }
 #navBrands{
   position: fixed;
   top: 0;
   width: 100%;
-  opacity: 0.8;
+  opacity: 1.0;
   z-index: 1030;
 }
 #navIndex{
   position: fixed;
   top: 0;
   width: 100%;
-  opacity: 0.8;
+  opacity: 1.0;
   z-index: 1030;
 }
 #navHowItWorks{
   position: fixed;
   top: 0;
   width: 100%;
-  opacity: 0.8;
+  opacity: 1.0;
   z-index: 1030;
 }
 #navBenefits{
   position: fixed;
   top: 0;
   width: 100%;
-  opacity: 0.8;
+  opacity: 1.0;
   z-index: 1030;
 }
 .navFont{
