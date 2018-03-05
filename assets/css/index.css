@@ -1,4 +1,5 @@
 /* Begin main css */
+
 @font-face {
     font-family: 'Terminator nfi';
     src: url('fonts/terminator real nfi.ttf') format('truetype');
@@ -7,62 +8,76 @@
 html {
     position: relative;
     min-height: 100%;
-  }
+}
+
 body {
     font-family: 'Roboto', sans-serif;
     /* Margin bottom by footer height */
     margin-bottom: 200px;
     overflow-x: hidden;
 }
+
 h1 {
     font-size: 44px;
     color: #003D87;
 }
+
 h2 {
     color: #fff;
 }
+
 h3 {
     font-size: 24px;
     line-height: 1.29;
     color: #003D87;
     font-weight: 400;
 }
+
 p {
     font-family: 'Raleway', sans-serif;
     color: #696969;
     font-size: 16px;
 }
+
 h4 {
     font-size: 22px;
 }
 
+
+
 /* Navbar */
+
 .navbar-default {
     background-color: #fff;
     border: none;
 }
+
 #navStarted {
     padding-right: 25px;
-    
 }
+
 .navFont {
     color: #003399 !important;
     letter-spacing: 1px;
 }
+
 #navLinks a:hover {
     background-color: rgb(100, 65, 164) !important;
     color: white !important;
 }
+
 .navbar .divider-vertical {
     height: 30px;
     margin: 10px 2px;
     border-right: 1px solid #003399;
     border-left: 1px solid #003399;
 }
+
 .navbar-inverse .divider-vertical {
     border-right-color: #222222;
     border-left-color: #111111;
 }
+
 #navJoin {
     font-weight: bold;
     padding-left: 15px;
@@ -70,37 +85,48 @@ h4 {
     background-color: #003399 !important;
     color: white !important;
 }
+
 #navJoin:hover {
     background-color: #0399F1 !important;
     color: #003399 !important;
 }
+
 .navbar-brand {
     padding: 8px 0px 8px 15px;
     display: none;
 }
+
 #navbar-logo {
     max-height: 34px;
 }
-/* Change Brand Logo */
-@media (max-width: 767px) {
-    .navbar-collapse .nav > .divider-vertical {
-        display: none;
-    }
-    .navbar-brand {
-        display: block;
-    }
-    #brand-corner {
-        display: none;
-    }
-    #navStarted {
-        padding-right: 0;
-    }
+
+.center-messaging {
+    position: absolute;
+    top: 25%;
+    left: 30%;
 }
 
+.home-hr {
+    position: absolute;
+    top: 70%;
+    left: 5%;
+}
+
+.home-hr2 {
+    position: absolute;
+    top: 30%;
+    left: 5%
+}
+
+
+
+
 /* Top left logo with triangle background */
+
 #brand-corner {
     display: block;
 }
+
 #brand-background {
     position: absolute;
     top: 0px;
@@ -112,6 +138,7 @@ h4 {
     border-color: #fff transparent transparent transparent;
     z-index: 1;
 }
+
 #brand-logo {
     position: absolute;
     top: 10px;
@@ -121,8 +148,33 @@ h4 {
     width: auto;
 }
 
+
+
+/* Top left logo with triangle background */
+
+#brand-bottom-corner {
+    display: block;
+}
+
+#brand-bottom-background {
+    position: absolute;
+    bottom: 0%;
+    right: 0%;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0px 0px 200px 450px;
+    border-color: transparent transparent #fff transparent;
+    z-index: 1;
+}
+
+
+
+
 /** Section 1 - hero **/
+
 #section1 {
+    position: relative;
     top: 0;
     width: 100%;
     background-color: #0399F1;
@@ -130,17 +182,21 @@ h4 {
     display: table;
     max-width: none;
 }
+
 #jumbo-index {
     background-color: transparent;
     display: table-cell;
     vertical-align: middle;
 }
+
 #jumbo-index h4 {
     color: #fff;
 }
+
 #hero {
     max-width: 596px;
 }
+
 #hero h1 {
     font-family: 'Terminator nfi', 'Roboto', sans-serif;
     font-size: 90px;
@@ -148,13 +204,16 @@ h4 {
     color: #003399;
     text-shadow: 2px 2px #fff;
 }
+
 #hero h1:last-child {
     margin-top: 20px;
     margin-bottom: 20px;
 }
+
 #hero-btns {
     margin-top: 20px;
 }
+
 a.btn-round-lg {
     font-size: 25px;
     color: #003399;
@@ -162,15 +221,18 @@ a.btn-round-lg {
     border-radius: 22.5px;
     margin: 10px;
 }
+
 #btn-streamer {
     background-color: #003399;
     border-color: #003399;
     color: #fff;
 }
+
 #btn-brand {
     color: #003399;
     border-color: #fff;
 }
+
 a.btn-round-lg:hover {
     /* background-color: #0399F1 !important;
     color: white !important; */
@@ -178,7 +240,10 @@ a.btn-round-lg:hover {
     border-color: #696969
 }
 
+
+
 /** Section 2 - info **/
+
 #section2>.row {
     margin-bottom: 20px;
 }
@@ -186,39 +251,52 @@ a.btn-round-lg:hover {
 #img-platforms {
     margin-bottom: 20px;
 }
+
 #img-platforms img {
     max-height: 50px;
     margin-top: 10px;
     margin-bottom: 10px;
 }
+
 #sec2-box {
     padding-bottom: 50px;
 }
+
 #sec2-info {
     margin-top: 20px;
     margin-bottom: 50px;
 }
+
 .thumbnail {
     border: none;
     padding-top: 13px;
 }
 
+
+
 /*Footer*/
+
 .copyright {
     width: 100%;
     background-color: #444444;
     color: white;
     height: 50px;
 }
+
 .copyrighttext {
     color: white;
     padding-top: 15px;
 }
+
 .footertext {
     color: #202020;
 }
 
+
+
 /* Custom footer with sticky */
+
+
 /* .wrapper {
     min-height: calc(100vh - 70px);
 } */
@@ -233,24 +311,39 @@ footer {
 }
 
 #myBtn {
-    display: none; /* Hidden by default */
-    position: fixed; /* Fixed/sticky position */
-    bottom: 20px; /* Place the button at the bottom of the page */
-    right: 30px; /* Place the button 30px from the right */
-    z-index: 99; /* Make sure it does not overlap */
-    border: none; /* Remove borders */
-    outline: none; /* Remove outline */
-    background-color: rgba(85, 85, 85, 0.888); /* Set a background color */
-    color: white; /* Text color */
-    cursor: pointer; /* Add a mouse pointer on hover */
-    padding: 15px; /* Some padding */
-    border-radius: 10px; /* Rounded corners */
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Fixed/sticky position */
+    bottom: 20px;
+    /* Place the button at the bottom of the page */
+    right: 30px;
+    /* Place the button 30px from the right */
+    z-index: 99;
+    /* Make sure it does not overlap */
+    border: none;
+    /* Remove borders */
+    outline: none;
+    /* Remove outline */
+    background-color: rgba(85, 85, 85, 0.888);
+    /* Set a background color */
+    color: white;
+    /* Text color */
+    cursor: pointer;
+    /* Add a mouse pointer on hover */
+    padding: 15px;
+    /* Some padding */
+    border-radius: 10px;
+    /* Rounded corners */
 }
 
 #myBtn:hover {
-    background-color: #555; /* Add a dark-grey background on hover */
+    background-color: #555;
+    /* Add a dark-grey background on hover */
     color: #fff;
 }
+
+
 
 /*White we use : #E0E0E0
   Black we use : #202020*/
@@ -261,18 +354,21 @@ footer {
     width: 40%;
     background: #fff;
 }
-#btn-discord{
+
+#btn-discord {
     border-color: #6441a4;
     background-color: #6441a4;
     font-size: 16px;
     color: #f8f9fa;
     margin: 10px auto;
-  }
+}
+
 #btn-discord:hover {
     background-color: #4d98d3;
     color: white;
 }
-.btn-group-lg > .btn,
+
+.btn-group-lg>.btn,
 .btn-lg {
     padding: .5rem 1rem;
     font-size: 1.25rem;
@@ -290,9 +386,52 @@ footer {
 
 .col-center {
     margin: 0 auto;
-    float:none;
+    float: none;
 }
-@media (max-width: 678px){
+
+@media (max-width: 1440px) {
+    .home-hr {
+        top: 80%;
+        left: 10%;
+    }
+    .home-hr2 {
+        top: 32%;
+        left: 10%;
+    }
+}
+
+
+@media (max-width: 1050px) {
+    .center-messaging {
+        left: 18%;
+    }
+}
+
+
+/* Change Brand Logo */
+
+@media (max-width: 870px) {
+    .navbar-collapse .nav>.divider-vertical {
+        display: none;
+    }
+    .navbar-brand {
+        display: block;
+    }
+    #brand-corner {
+        display: none;
+    }
+    #brand-bottom-corner {
+        display: none;
+    }
+    #navStarted {
+        padding-right: 0;
+    }
+    .center-messaging {
+        left: 5%;
+    }
+}
+
+@media (max-width: 678px) {
     #hero {
         max-width: 478px;
     }
@@ -311,6 +450,9 @@ footer {
     a.btn-round-lg {
         font-size: 18px;
     }
+    .home-hr2 {
+        top: 32%;
+    }
 }
 
 @media (max-width: 453px) {
@@ -324,7 +466,7 @@ footer {
         font-size: 14px;
     }
     p {
-        font-size:10px;
+        font-size: 10px;
     }
     #img-platforms img {
         max-height: 30px;
