@@ -103,19 +103,19 @@ h4 {
 .center-messaging {
     position: absolute;
     top: 25%;
-    left: 30%;
+    left: 33%;
 }
 
 .home-hr {
     position: absolute;
     top: 70%;
-    left: 5%;
+    left: 8%;
 }
 
 .home-hr2 {
     position: absolute;
     top: 30%;
-    left: 5%
+    left: 8%
 }
 
 
@@ -451,7 +451,11 @@ footer {
         font-size: 18px;
     }
     .home-hr2 {
-        top: 32%;
+        top: 36%;
+        left: 5%;
+    }
+    .home-hr {
+        left: 5%;
     }
 }
 
@@ -470,5 +474,11 @@ footer {
     }
     #img-platforms img {
         max-height: 30px;
+    }
+    .home-hr2 {
+        top: 37%;
+    }
+    .home-hr {
+        top: 88%;
     }
 }
