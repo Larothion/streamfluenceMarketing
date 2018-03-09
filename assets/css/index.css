@@ -1,5 +1,4 @@
 /* Begin main css */
-
 @font-face {
     font-family: 'Terminator nfi';
     src: url('fonts/terminator real nfi.ttf') format('truetype');
@@ -13,7 +12,7 @@ html {
 body {
     font-family: 'Roboto', sans-serif;
     /* Margin bottom by footer height */
-    margin-bottom: 200px;
+    margin-bottom: 167px;
     overflow-x: hidden;
 }
 
@@ -23,7 +22,7 @@ h1 {
 }
 
 h2 {
-    color: #fff;
+    color: #0399F1;
 }
 
 h3 {
@@ -33,17 +32,29 @@ h3 {
     font-weight: 400;
 }
 
+h4 {
+    font-size: 22px;
+    color: #fff;
+}
+
 p {
     font-family: 'Raleway', sans-serif;
     color: #696969;
     font-size: 16px;
 }
 
-h4 {
-    font-size: 22px;
+a.btn {
+    border-color: #6441a4;
+    background-color: #6441a4;
+    font-size: 16px;
+    color: #f8f9fa;
+    margin: 10px auto;
 }
 
-
+a.btn:hover {
+    background-color: #4d98d3;
+    color: white;
+}
 
 /* Navbar */
 
@@ -53,7 +64,7 @@ h4 {
 }
 
 #navStarted {
-    padding-right: 25px;
+    padding-right: 20px;
 }
 
 .navFont {
@@ -119,8 +130,6 @@ h4 {
 }
 
 
-
-
 /* Top left logo with triangle background */
 
 #brand-corner {
@@ -149,7 +158,6 @@ h4 {
 }
 
 
-
 /* Top left logo with triangle background */
 
 #brand-bottom-corner {
@@ -167,12 +175,70 @@ h4 {
     border-color: transparent transparent #fff transparent;
     z-index: 1;
 }
+/*Footer*/
 
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 167px;
+    border-top: 1px solid #4d98d3;
+    /* background-color: rgb(239, 246, 255); */
+}
+.copyright {
+    width: 100%;
+    background-color: #444444;
+    color: white;
+    height: 50px;
+}
 
+.copyrighttext {
+    color: white;
+    padding-top: 15px;
+}
 
+.footertext {
+    color: #202020;
+}
 
-/** Section 1 - hero **/
+#myBtn {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Fixed/sticky position */
+    bottom: 20px;
+    /* Place the button at the bottom of the page */
+    right: 30px;
+    /* Place the button 30px from the right */
+    z-index: 99;
+    /* Make sure it does not overlap */
+    border: none;
+    /* Remove borders */
+    outline: none;
+    /* Remove outline */
+    background-color: rgba(85, 85, 85, 0.888);
+    /* Set a background color */
+    color: white;
+    /* Text color */
+    cursor: pointer;
+    /* Add a mouse pointer on hover */
+    padding: 15px;
+    /* Some padding */
+    border-radius: 10px;
+    /* Rounded corners */
+}
 
+#myBtn:hover {
+    background-color: #555;
+    /* Add a dark-grey background on hover */
+    color: #fff;
+}
+
+/******************/
+/*****  HOME  *****/
+/******************/
+
+/** Section 1 - Hero **/
 #section1 {
     position: relative;
     top: 0;
@@ -214,6 +280,18 @@ h4 {
     margin-top: 20px;
 }
 
+#btn-streamer {
+    background-color: #003399;
+    border-color: #003399;
+    color: #fff;
+}
+
+#btn-brand {
+    background-color: #fff;
+    color: #003399;
+    border-color: #fff;
+}
+
 a.btn-round-lg {
     font-size: 25px;
     color: #003399;
@@ -222,25 +300,12 @@ a.btn-round-lg {
     margin: 10px;
 }
 
-#btn-streamer {
-    background-color: #003399;
-    border-color: #003399;
-    color: #fff;
-}
-
-#btn-brand {
-    color: #003399;
-    border-color: #fff;
-}
-
 a.btn-round-lg:hover {
     /* background-color: #0399F1 !important;
     color: white !important; */
     opacity: 0.8;
     border-color: #696969
 }
-
-
 
 /** Section 2 - info **/
 
@@ -273,75 +338,48 @@ a.btn-round-lg:hover {
 }
 
 
+/******************/
+/***** BRANDS *****/
+/******************/
 
-/*Footer*/
-
-.copyright {
-    width: 100%;
-    background-color: #444444;
-    color: white;
-    height: 50px;
+#brands-section-1,
+#brands-section-2,
+#brands-section-3,
+#streamer-section-1,
+#streamer-section-2,
+#streamer-section-3 {
+    padding: 40px;
+}
+#brands-section-1,
+#streamer-section-1 {
+    background-color:#0399F1;
+}
+#brands-section-3,
+#streamer-section-3 {
+    background-color: #003D87;
+}
+#brands-section-1 p,
+#brands-section-3 p,
+#streamer-section-1 p,
+#streamer-section-3 p {
+    color:#fff;
 }
 
-.copyrighttext {
-    color: white;
-    padding-top: 15px;
+#brands-section-1,
+#streamer-section-1 {
+    position: relative;
+    padding-top: 169px;
+    padding-bottom: 90px;
 }
 
-.footertext {
-    color: #202020;
-}
-
-
-
-/* Custom footer with sticky */
-
-
-/* .wrapper {
-    min-height: calc(100vh - 70px);
-} */
-
-footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 167px;
-    border-top: 1px solid #4d98d3;
-    background-color: rgb(239, 246, 255);
-}
-
-#myBtn {
-    display: none;
-    /* Hidden by default */
-    position: fixed;
-    /* Fixed/sticky position */
-    bottom: 20px;
-    /* Place the button at the bottom of the page */
-    right: 30px;
-    /* Place the button 30px from the right */
-    z-index: 99;
-    /* Make sure it does not overlap */
-    border: none;
-    /* Remove borders */
-    outline: none;
-    /* Remove outline */
-    background-color: rgba(85, 85, 85, 0.888);
-    /* Set a background color */
-    color: white;
-    /* Text color */
-    cursor: pointer;
-    /* Add a mouse pointer on hover */
-    padding: 15px;
-    /* Some padding */
-    border-radius: 10px;
-    /* Rounded corners */
-}
-
-#myBtn:hover {
-    background-color: #555;
-    /* Add a dark-grey background on hover */
+#brands-section-3 h1,
+#streamer-section-3 h1 {
     color: #fff;
 }
+
+/******************/
+/**** STREAMER ****/
+/******************/
 
 
 
@@ -353,19 +391,6 @@ footer {
     margin: 0 auto;
     width: 40%;
     background: #fff;
-}
-
-#btn-discord {
-    border-color: #6441a4;
-    background-color: #6441a4;
-    font-size: 16px;
-    color: #f8f9fa;
-    margin: 10px auto;
-}
-
-#btn-discord:hover {
-    background-color: #4d98d3;
-    color: white;
 }
 
 .btn-group-lg>.btn,
@@ -383,10 +408,25 @@ footer {
 .bg-white {
     background-color: #fff;
 }
-
+.text-white {
+    color: #fff;
+}
+.text-blue {
+    color: #003399;
+}
+.text-blue-lt {
+    color: #0399F1;
+}
 .col-center {
     margin: 0 auto;
     float: none;
+}
+
+
+@media (max-width: 1050px) {
+    .center-messaging {
+        left: 18%;
+    }
 }
 
 @media (max-width: 1440px) {
@@ -399,16 +439,6 @@ footer {
         left: 10%;
     }
 }
-
-
-@media (max-width: 1050px) {
-    .center-messaging {
-        left: 18%;
-    }
-}
-
-
-/* Change Brand Logo */
 
 @media (max-width: 870px) {
     .navbar-collapse .nav>.divider-vertical {
@@ -423,11 +453,14 @@ footer {
     #brand-bottom-corner {
         display: none;
     }
-    #navStarted {
-        padding-right: 0;
-    }
     .center-messaging {
         left: 5%;
+    }
+}
+
+@media (max-width: 784px) {
+    #brands-section-1 {
+        padding-top: 90px;
     }
 }
 
@@ -463,6 +496,9 @@ footer {
     #hero h1 {
         font-size: 33px;
     }
+    h1 {
+        font-size: 33px;
+    }
     h2 {
         font-size: 20px;
     }
@@ -470,7 +506,7 @@ footer {
         font-size: 14px;
     }
     p {
-        font-size: 10px;
+        font-size: 12px;
     }
     #img-platforms img {
         max-height: 30px;

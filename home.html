@@ -141,7 +141,7 @@
                     <div class="col-sm-12 bg-blue" id="sec2-box">
                         <div class="row">
                             <div class="col-sm-12">
-                                <h2>Why StreamFluence?</h2>
+                                <h2 class="text-white">Why StreamFluence?</h2>
                             </div>
                         </div>
                         <div class="row" id="sec2-info">
@@ -157,7 +157,7 @@
                     <div class="col-sm-12 bg-white" id="sec2-box">
                         <div class="row">
                             <div class="col-sm-12">
-                                <h2 style="color:#003399;">Our Technology</h2>
+                                <h2 class="text-blue">Our Technology</h2>
                             </div>
                         </div>
                         <div class="row" id="sec2-info">
@@ -166,14 +166,14 @@
                             </div>
                             <div class="col-xs-8 col-xs-offset-2 col-sm-8 col-sm-offset-0 img-rounded bg-blue">
                                 <div class="col-xs-12" style="float:right;">
-                                    <h3 style="font-size: 20px; color:white;">The Floo Valuation Calculator puts a tangible dollar value on the promotion of brands by live streamers everywhere. Floo tracks the use of brand hashtags, mentions and logos within livestreams  and assigns media values based on promotion quality and total engagement.</h3>
+                                    <h3 class="text-white">The Floo Valuation Calculator puts a tangible dollar value on the promotion of brands by live streamers everywhere. Floo tracks the use of brand hashtags, mentions and logos within livestreams  and assigns media values based on promotion quality and total engagement.</h3>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-    </div>
+        </div> <!-- /wrapper -->
     </section>
     <!-- Get to top of page button -->
     <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
@@ -197,41 +197,7 @@
         </div>
     </footer>
     <!-- SCRIPT -->
-    <script type="text/javascript">
-    // run test on resize of the window
-    $(window).resize(function() {
-        if ($(window).width() > 767 && $(window).scrollTop() < 120) {
-            $('#brand-corner').show();
-            $(".navbar-brand").hide();
-        } else {
-            $('#brand-corner').hide();
-            $(".navbar-brand").show();
-        }
-    });
-
-    $(document).scroll(function() {
-        var y = $(this).scrollTop();
-        // Show large or small logo
-        if (y < 120 && $(window).width() > 767) {
-            $('#brand-corner').show();
-            $(".navbar-brand").hide();
-        } else {
-            $('#brand-corner').hide();
-            $(".navbar-brand").show();
-        }
-        // Show Top button
-        if (y > 30) {
-            $("#myBtn").show();
-        } else {
-            $("#myBtn").hide();
-        }
-    });
-
-    // When the user clicks on the button, scroll to the top of the document
-    function topFunction() {
-        window.scrollTo(0, 0);
-    }
-    </script>
+    <script type="text/javascript" src="assets/js/app.js"></script>
 </body>
 
 </html>

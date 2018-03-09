@@ -2,174 +2,158 @@
 <html lang="en-us">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>StreamFluence</title>
-    <!-- bootstap html and cc elemets-->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <!--links my css page -->
-    <link rel="stylesheet" type="text/css" href="assets/css/index.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-    <!--Allows me to use JQuery -->
-    <script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
-    <!-- Allows me to use Bootstrap JS -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
-    <link rel="shortcut icon" href="assets/images/floo.png">
-    <link rel="apple-touch-icon" href="assets/images/favicon-floo.png">
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+   <title>StreamFluence</title>
+   <!-- bootstap html and cc elemets-->
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+      crossorigin="anonymous">
+   <!--links my css page -->
+   <link rel="stylesheet" type="text/css" href="assets/css/index.css">
+   <link rel="stylesheet" type="text/css" href="assets/css/streamer.css">
+   <!--Allows me to use JQuery -->
+   <script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
+   <!-- Allows me to use Bootstrap JS -->
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+      crossorigin="anonymous"></script>
+   <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
+   <link rel="shortcut icon" href="assets/images/floo.png">
+   <link rel="apple-touch-icon" href="assets/images/favicon-floo.png">
+   <link href="https://fonts.googleapis.com/css?family=Averia+Serif+Libre" rel="stylesheet">
 </head>
 
-<body id="bStreamer">
-    <nav class="navbar navbar-default navbar-fixed-top navbar-right" id="navStarted">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header">
+<body id="top">
+   <div class="wrapper">
+      <nav class="navbar navbar-default navbar-fixed-top navbar-right" id="navStarted">
+         <!-- Brand and toggle get grouped for better mobile display -->
+         <div class="navbar-header">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
+               <span class="sr-only">Toggle navigation</span>
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
             </button>
             <a class="navbar-brand" href="#top">
-          <img id="navbar-logo" alt="Brand" src="./assets/images/logo.png">
-        </a>
-        </div>
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="navbar-collapse-1">
+               <img id="navbar-logo" alt="Brand" src="./assets/images/logo.png">
+            </a>
+         </div>
+         <!-- Collect the nav links, forms, and other content for toggling -->
+         <div class="collapse navbar-collapse" id="navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right" id="navLinks">
-                <li><a class="navFont" id="navJoin" href="https://streamfluence.herokuapp.com/api/v1/auth/twitch" target="_blank">Login</a>
-                </li>
+               <li>
+                  <a class="navFont" id="navJoin" href="https://streamfluence.herokuapp.com/api/v1/auth/twitch" target="_blank">Login</a>
+               </li>
             </ul>
-        </div>
-        <!-- /.navbar-collapse -->
-    </nav>
-    <!-- BRAND LOGO with Triangle background-->
-    <div id="brand-corner" class="hidden-xs">
-        <div id="brand-background"></div>
-         <a href="/"><img id="brand-logo" src="assets/images/streamfluence-logo.png"></a>
-    </div>
-    <div id="container1" class="container">
-        <!-- brands/streamers -->
-        <div class="row" id="setMarginTop">
-            <div class="col-md-2"></div>
-            <div class="col-md-8">
-                <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/-JOXzqmAPH4" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
-            </div>
-            <div class="col-md-2"></div>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-md-4"></div>
-        <div class="col-md-4">
-            <p style="font-size: 22px; color: white; text-align: center; ">We're Changing the Way Streamers Find Sponsors</p>
-        </div>
-        <div class="col-md-4"></div>
-    </div>
-    <div class="row">
-        <div class="col-md-4"></div>
-        <div class="col-md-4">
-            <center>
-                <a href="https://streamfluence.herokuapp.com/api/v1/auth/twitch" target="_blank">
-                    <button id="scheduleButton" class="btn btn-lg btn-outline-light mt-3 call-button-1" data-toggle="modal" data-target="#myModal" id="scheduleButton">Sign Up Now</button>
-                </a>
-            </center>
-        </div>
-        <div class="col-md-4"></div>
-    </div>
-    <div id="containerS">
-        <div class="row">
-            <div class="col-md-2"></div>
-            <div class="col-md-8">
-                <h1 style="text-align: center;">Lets Make Streaming Your Career</h1>
-                <br>
-                <br>
-                <br>
-            </div>
-            <div class="col-md-2"></div>
-        </div>
-        <div class="row">
-            <div class="col-md-4">
-                <h2 style="text-align: center;">Quit Your Day Job</h2>
-                <p style="text-align: center;">You love streaming. Why not go full time? We'll make it easy to monetize your channel.</p>
-            </div>
-            <div class="col-md-4">
-                <h2 style="text-align: center;">Put An End To #sellout</h2>
-                <p style="text-align: center;">Select from a variety of sponsors, allowing you to keep your content authentic.</p>
-            </div>
-            <div class="col-md-4">
-                <h2 style="text-align: center;">Always Free for Streamers</h2>
-                <p style="text-align: center;">Streamers display products live and produce content according to the brand's guidelines. StreamFluence provides brands with reports regarding reach, engagement, and audience feedback.</p>
-            </div>
-        </div>
-        <br>
-        <hr>
-        <div class="row">
-            <div class="col-md-4"></div>
-            <div class="col-md-4">
-                <h1 style="text-align: center;">How It Works</h1>
-                <br>
-                <br>
-                <br>
-            </div>
-            <div class="col-md-4"></div>
-        </div>
-        <div class="row">
-            <div class="col-md-4">
-                <h2 style="text-align: center;">Streamers Apply</h2>
-                <p style="text-align: center;">Streamers in our network have authentic and active followings, produce quality content, and will uphold brand standards.</p>
-            </div>
-            <div class="col-md-4">
-                <h2 style="text-align: center;">Matchmaking</h2>
-                <p style="text-align: center;">Brands are matched with likeminded streamers, ensuring content and engagement from the specific audience they want to reach.</p>
-            </div>
-            <div class="col-md-4">
-                <h2 style="text-align: center;">Featured Content</h2>
-                <p style="text-align: center;">Streamers display products live and produce content according to the brand's guidelines. StreamFluence provides brands with reports regarding reach, engagement, and audience feedback.</p>
-            </div>
-        </div>
-    </div>
-    <!-- Get to top of page button -->
-    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
-    <!-- Footer -->
-    <div id="footer">
-        <div class="container">
-            <div class="row" id="bone">
-                <div class="col-md-4"></div>
-                <div class="col-md-4" id="landingFoot">
-                    <h3>Come Talk to our Devs</h3>
-                    <a href="https://discord.gg/yzpUS2G">
-                        <button class="btn btn-lg btn-outline-light mt-3 call-button-1" data-toggle="modal" data-target="#myModal" id="submitButton">Join Discord</button>
-                    </a>
-                </div>
-                <div class="col-md-4"></div>
-            </div>
-        </div>
-    </div>
-    <div class="copyright">
-        <div class="container">
-            <div class="row">
-                <center>
-                    <p class="copyrighttext">Copyright 2017 StreamFluence</p>
-                </center>
-            </div>
-        </div>
-    </div>
-</body>
-<script type="text/javascript">
-window.onscroll = function() { scrollFunction() };
+         </div>
+         <!-- /.navbar-collapse -->
+      </nav>
+      <!-- BRAND LOGO with Triangle background-->
+      <div id="brand-corner" class="hidden-xs">
+         <div id="brand-background"></div>
+         <img id="brand-logo" src="assets/images/streamfluence-logo.png">
+      </div>
 
-function scrollFunction() {
-    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-        document.getElementById("myBtn").style.display = "block";
-    } else {
-        document.getElementById("myBtn").style.display = "none";
-    }
-}
-// When the user clicks on the button, scroll to the top of the document
-function topFunction() {
-    document.body.scrollTop = 0; // For Chrome, Safari and Opera 
-    document.documentElement.scrollTop = 0; // For IE and Firefox
-}
-</script>
+      <section id="streamer-section-1" class="container-fluid">
+         <!-- brands/streamers -->
+         <div class="row">
+            <div class="col-sm-8 col-sm-offset-2 text-center">
+               <!-- 16:9 aspect ratio -->
+               <div class="embed-responsive embed-responsive-16by9">
+                  <iframe class="embed-responsive-item video" width="560" height="315" src="https://www.youtube.com/embed/-JOXzqmAPH4" gesture="media"
+                     allow="encrypted-media" allowfullscreen></iframe>
+               </div>
+            </div>
+         </div>
+         <br>
+         <div class="row">
+            <div class="col-md-4 col-md-offset-4 text-center">
+               <h4>We're Changing the Way Streamers Find Sponsors</h4>
+            </div>
+         </div>
+         <div class="row">
+            <div class="col-md-4 col-md-offset-4 text-center">
+               <a class="btn btn-lg" href="https://streamfluence.herokuapp.com/api/v1/auth/twitch" target="_blank" role="button">
+                  Sign Up Now
+               </a>
+            </div>
+         </div>
+      </section>
+      <!-- /section-1 -->
+
+      <section id="streamer-section-2" class="container-fluid">
+         <div class="row">
+            <div class="col-md-8 col-md-offset-2 text-center">
+               <h1>Lets Make Streaming Your Career</h1>
+            </div>
+         </div>
+         <hr>
+         <div class="row">
+            <div class="col-md-4 text-center">
+               <h2>Quit Your Day Job</h2>
+               <p>You love streaming. Why not go full time? We'll make it easy to monetize your channel.</p>
+            </div>
+            <div class="col-md-4 text-center">
+               <h2>Put An End To #sellout</h2>
+               <p>Select from a variety of sponsors, allowing you to keep your content authentic.</p>
+            </div>
+            <div class="col-md-4 text-center">
+               <h2>Always Free for Streamers</h2>
+               <p>Streamers display products live and produce content according to the brand's guidelines. StreamFluence provides
+                  brands with reports regarding reach, engagement, and audience feedback.</p>
+            </div>
+         </div>
+      </section>
+
+      <section id="streamer-section-3" class="container-fluid">
+         <div class="row">
+            <div class="col-md-12">
+               <h1 class="text-center">How It Works</h1>
+            </div>
+         </div>
+         <hr>
+         <div class="row">
+            <div class="col-md-4 text-center">
+               <h2>Streamers Apply</h2>
+               <p>Streamers in our network have authentic and active followings, produce quality content, and will uphold brand
+                  standards.
+               </p>
+            </div>
+            <div class="col-md-4 text-center">
+               <h2>Matchmaking</h2>
+               <p>Brands are matched with likeminded streamers, ensuring content and engagement from the specific audience they
+                  want to reach.</p>
+            </div>
+            <div class="col-md-4 text-center">
+               <h2>Featured Content</h2>
+               <p>Streamers display products live and produce content according to the brand's guidelines. StreamFluence provides
+                  brands with reports regarding reach, engagement, and audience feedback.</p>
+            </div>
+         </div>
+      </section>
+      <!-- /.wrapper -->
+      <!-- Get to top of page button -->
+      <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+      <!-- Footer -->
+      <footer>
+         <div class="container-fluid">
+            <div class="row">
+               <div class="col-xs-12 text-center">
+                  <h3>Come Talk to our Devs</h3>
+                  <a id="btn-discord" class="btn btn-lg" href="https://discord.gg/yzpUS2G" target="_blank" role="button">
+                     Join Discord
+                  </a>
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-xs-12 text-center copyright">
+                  <p class="copyrighttext">Copyright 2017 StreamFluence</p>
+               </div>
+            </div>
+         </div>
+      </footer>
+
+      <script type="text/javascript" src="assets/js/app.js"></script>
+
+</body>
 
 </html>
