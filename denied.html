@@ -2,154 +2,151 @@
 <html lang="en-us">
 
 <head>
-   <meta charset="utf-8">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-   <title>StreamFluence</title>
-   <!-- bootstap html and cc elemets-->
-   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
-      crossorigin="anonymous">
-   <!--links my css page -->
-   <link rel="stylesheet" type="text/css" href="./assets/css/index.css">
-   <!--Allows me to use JQuery -->
-   <script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
-   <!-- Allows me to use Bootstrap JS -->
-   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
-      crossorigin="anonymous"></script>
-   <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
-   <link rel="shortcut icon" href="assets/images/floo.png">
-   <link rel="apple-touch-icon" href="assets/images/favicon-floo.png">
-   <script>
-      window['_fs_debug'] = false;
-      window['_fs_host'] = 'fullstory.com';
-      window['_fs_org'] = 'AW3HK';
-      window['_fs_namespace'] = 'FS';
-      (function (m, n, e, t, l, o, g, y) {
-         if (e in m) { if (m.console && m.console.log) { m.console.log('FullStory namespace conflict. Please set window["_fs_namespace"].'); } return; } g = m[e] = function (a, b) { g.q ? g.q.push([a, b]) : g._api(a, b); };
-         g.q = [];
-         o = n.createElement(t);
-         o.async = 1;
-         o.src = 'https://' + _fs_host + '/s/fs.js';
-         y = n.getElementsByTagName(t)[0];
-         y.parentNode.insertBefore(o, y);
-         g.identify = function (i, v) { g(l, { uid: i }); if (v) g(l, v) };
-         g.setUserVars = function (v) { g(l, v) };
-         y = "rec";
-         g.shutdown = function (i, v) { g(y, !1) };
-         g.restart = function (i, v) { g(y, !0) };
-         g.identifyAccount = function (i, v) {
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>StreamFluence</title>
+    <!-- bootstap html and cc elemets-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!--links my css page -->
+    <link rel="stylesheet" type="text/css" href="./assets/css/index.css">
+    <!--Allows me to use JQuery -->
+    <script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
+    <!-- Allows me to use Bootstrap JS -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
+    <link rel="shortcut icon" href="assets/images/floo.png">
+    <link rel="apple-touch-icon" href="assets/images/favicon-floo.png">
+    <script>
+    window['_fs_debug'] = false;
+    window['_fs_host'] = 'fullstory.com';
+    window['_fs_org'] = 'AW3HK';
+    window['_fs_namespace'] = 'FS';
+    (function(m, n, e, t, l, o, g, y) {
+        if (e in m) { if (m.console && m.console.log) { m.console.log('FullStory namespace conflict. Please set window["_fs_namespace"].'); } return; } g = m[e] = function(a, b) { g.q ? g.q.push([a, b]) : g._api(a, b); };
+        g.q = [];
+        o = n.createElement(t);
+        o.async = 1;
+        o.src = 'https://' + _fs_host + '/s/fs.js';
+        y = n.getElementsByTagName(t)[0];
+        y.parentNode.insertBefore(o, y);
+        g.identify = function(i, v) { g(l, { uid: i }); if (v) g(l, v) };
+        g.setUserVars = function(v) { g(l, v) };
+        y = "rec";
+        g.shutdown = function(i, v) { g(y, !1) };
+        g.restart = function(i, v) { g(y, !0) };
+        g.identifyAccount = function(i, v) {
             o = 'account';
             v = v || {};
             v.acctId = i;
             g(o, v)
-         };
-         g.clearUserCookie = function () { };
-      })(window, document, window['_fs_namespace'], 'script', 'user');
-   </script>
+        };
+        g.clearUserCookie = function() {};
+    })(window, document, window['_fs_namespace'], 'script', 'user');
+    </script>
 </head>
 
 <body id="top">
-   <div class="wrapper">
-      <nav class="navbar navbar-default navbar-fixed-top navbar-right" id="navStarted">
-         <!-- Brand and toggle get grouped for better mobile display -->
-         <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1">
-               <span class="sr-only">Toggle navigation</span>
-               <span class="icon-bar"></span>
-               <span class="icon-bar"></span>
-               <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="#top">
+    <div class="wrapper">
+        <nav class="navbar navbar-default navbar-fixed-top navbar-right" id="navStarted">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#top">
                <img id="navbar-logo" alt="Brand" src="./assets/images/logo.png">
             </a>
-         </div>
-         <!-- Collect the nav links, forms, and other content for toggling -->
-         <div class="collapse navbar-collapse" id="navbar-collapse-1">
-            <ul class="nav navbar-nav navbar-right" id="navLinks">
-               <li>
-                  <a class="navFont" href="brands">Brands</a>
-               </li>
-               <li class="divider-vertical"></li>
-               <li>
-                  <a class="navFont" href="benefits">Benefits</a>
-               </li>
-               <li class="divider-vertical"></li>
-               <li>
-                  <a class="navFont" href="howitworks">How it Works</a>
-               </li>
-               <li class="divider-vertical"></li>
-               <li>
-                  <a class="navFont" href="cost">Cost</a>
-               </li>
-               <li>
-                  <a class="navFont" id="navJoin" data-toggle="dropdown" href="https://streamfluence.herokuapp.com/register" target="_blank">Get Started</a>
-               </li>
-            </ul>
-         </div>
-         <!-- /.navbar-collapse -->
-      </nav>
-      <!-- BRAND LOGO with Triangle background-->
-      <div id="brand-corner" class="hidden-xs">
-         <div id="brand-background"></div>
-         <a href="/">
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right" id="navLinks">
+                    <li>
+                        <a class="navFont" href="brands">Brands</a>
+                    </li>
+                    <li class="divider-vertical"></li>
+                    <li>
+                        <a class="navFont" href="benefits">Benefits</a>
+                    </li>
+                    <li class="divider-vertical"></li>
+                    <li>
+                        <a class="navFont" href="howitworks">How it Works</a>
+                    </li>
+                    <li class="divider-vertical"></li>
+                    <li>
+                        <a class="navFont" href="cost">Cost</a>
+                    </li>
+                    <li>
+                        <a class="navFont" id="navJoin" data-toggle="dropdown" href="https://streamfluence.herokuapp.com/register" target="_blank">Get Started</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </nav>
+        <!-- BRAND LOGO with Triangle background-->
+        <div id="brand-corner" class="hidden-xs">
+            <div id="brand-background"></div>
+            <a href="/">
             <img id="brand-logo" src="assets/images/streamfluence-logo.png">
          </a>
-      </div>
-
-      <section class="container-fluid sec sec-top sec-liteblue">
-         <div class="row">
-            <div class="col-md-12">
-               <h1 class='text-center'>Oh no! You don't currently meet our 1000 follower limit.</h1>
-               <h3>Unfortunately, we currently only accept streamers who have a thousand followers or over. We do this because,
+        </div>
+        <section class="container-fluid sec sec-top sec-liteblue">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1 class='text-center'>Oh no! You don't currently meet our 1000 follower limit.</h1>
+                    <h3>Unfortunately, we currently only accept streamers who have a thousand followers or over. We do this because,
                   while we want to work with streamers of all sizes, sponsors have given us feedback that they prefer influencers
                   above that size. Don't let this discourage you though! We have a very active discord with a community of
                   streamers who love to.... </h3>
+                </div>
             </div>
-         </div>
-      </section>
-      <section class="container-fluid sec">
-         <div class="row">
-            <div class="col-md-6">
-               <h2>Give support and advice!</h2>
-               <p>Our veteran streamers are often chatting it up in our Discord so come hang out, join the conversation, and
-                  ask any questions you might have!</p>
-            </div>
-            <div class="col-md-6">
-               <a href='https://discord.gg/datQUXG' target='_blank'>
+        </section>
+        <section class="container-fluid sec">
+            <div class="row">
+                <div class="col-md-6">
+                    <h2>Give support and advice!</h2>
+                    <p>Our veteran streamers are often chatting it up in our Discord so come hang out, join the conversation, and ask any questions you might have!</p>
+                </div>
+                <div class="col-md-6">
+                    <a href='https://discord.gg/datQUXG' target='_blank'>
                   <img class='filler1' src="assets/images/discord-logo-sm.png" style="width: 100%; height: 100%; margin-bottom: 5px;">
                </a>
+                </div>
+                <hr>
             </div>
-            <hr>
-         </div>
-      <!-- </section>
+            <!-- </section>
       <section class="container-fluid sec sec-darkblue"> -->
-         <div class="row">
-            <div class="col-md-6">
-               <img class="img-responsive" src="assets/images/twitchCom.jpg">
+            <div class="row">
+                <div class="col-md-6">
+                    <img class="img-responsive" src="assets/images/twitchCom.jpg">
+                </div>
+                <div class="col-md-6">
+                    <h2>Streamer Only Community Events</h2>
+                    <p>A couple times a month we will host
+                        <strong>Streamer</strong> Only events such as free giveaways (for you and your audience), karaoke nights, and much more. We would love to have you there, especially if you have a good voice :P!</p>
+                </div>
+                <hr>
             </div>
-            <div class="col-md-6">
-               <h2>Streamer Only Community Events</h2>
-               <p>A couple times a month we will host
-                  <strong>Streamer</strong> Only events such as free giveaways (for you and your audience), karaoke nights, and much
-                  more. We would love to have you there, especially if you have a good voice :P!</p>
+        </section>
+        <!-- Footer -->
+        <footer class="empty-footer">
+            <div class="copyright">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12 text-center">
+                            <p class="copyrighttext">Copyright 2017 StreamFluence</p>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <hr>
-         </div>
-      </section>
-      <!-- Footer -->
-      <footer class="empty-footer">
-         <div class="copyright">
-            <div class="container">
-               <div class="row">
-                  <div class="col-md-12 text-center">
-                     <p class="copyrighttext">Copyright 2017 StreamFluence</p>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </footer>
-      <!-- SCRIPT -->
-      <script type="text/javascript" src="assets/js/app.js"></script>
-
+        </footer>
+        <!-- SCRIPT -->
+        <script type="text/javascript" src="assets/js/app.js"></script>
+        <!-- Start of HubSpot Embed Code -->
+        <script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/2995043.js"></script>
+        <!-- End of HubSpot Embed Code -->
 </body>
 
 </html>
