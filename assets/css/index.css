@@ -185,6 +185,9 @@ footer {
     border-top: 1px solid #4d98d3;
     /* background-color: rgb(239, 246, 255); */
 }
+footer h4 {
+    color: #000;
+}
 .copyright {
     width: 100%;
     background-color: #444444;
@@ -340,47 +343,39 @@ a.btn-round-lg:hover {
 
 /******************/
 /***** BRANDS *****/
+/**** STREAMER ****/
 /******************/
-
-#brands-section-1,
-#brands-section-2,
-#brands-section-3,
-#streamer-section-1,
-#streamer-section-2,
-#streamer-section-3 {
+.sec {
     padding: 40px;
 }
-#brands-section-1,
-#streamer-section-1 {
+.sec-liteblue {
     background-color:#0399F1;
 }
-#brands-section-3,
-#streamer-section-3 {
+.sec-darkblue {
     background-color: #003D87;
 }
-#brands-section-1 p,
-#brands-section-3 p,
-#streamer-section-1 p,
-#streamer-section-3 p {
+.sec-darkblue p,
+.sec-liteblue p {
     color:#fff;
 }
-
-#brands-section-1,
-#streamer-section-1 {
+.sec-top {
     position: relative;
     padding-top: 169px;
     padding-bottom: 90px;
 }
-
-#brands-section-3 h1,
-#streamer-section-3 h1 {
+.sec-liteblue h2 {
+    color:#003D87;
+}
+.sec-darkblue h1 {
     color: #fff;
 }
 
 /******************/
-/**** STREAMER ****/
+/**** DENIED ****/
 /******************/
-
+.empty-footer {
+    height: 50px;
+}
 
 
 /*White we use : #E0E0E0
