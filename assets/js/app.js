@@ -1,11 +1,13 @@
 // run test on resize of the window
 $(window).resize(function () {
-    if ($(window).width() > 767 && $(window).scrollTop() < 120) {
-        $('#brand-corner').show();
-        $(".navbar-brand").hide();
-    } else {
+    if ($(window).width() < 768 && $(window).scrollTop() < 120) {
         $('#brand-corner').hide();
+        $('#brand-bottom-corner').hide();
         $(".navbar-brand").show();
+    } else {
+        $('#brand-corner').show();
+        $('#brand-bottom-corner').show();
+        $(".navbar-brand").hide();
     }
 });
 

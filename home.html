@@ -2,233 +2,243 @@
 <html lang="en-us">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>StreamFluence</title>
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <!-- Custom CSS for Index -->
-    <link rel="stylesheet" type="text/css" href="./assets/css/index.css">
-    <!-- JQuery -->
-    <script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
-    <!-- Bootstrap JS -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
-    <link rel="shortcut icon" href="assets/images/floo.png">
-    <link rel="apple-touch-icon" href="assets/images/favicon-floo.png">
-    <script>
-    window['_fs_debug'] = false;
-    window['_fs_host'] = 'fullstory.com';
-    window['_fs_org'] = 'AW3HK';
-    window['_fs_namespace'] = 'FS';
-    (function(m, n, e, t, l, o, g, y) {
-        if (e in m) { if (m.console && m.console.log) { m.console.log('FullStory namespace conflict. Please set window["_fs_namespace"].'); } return; } g = m[e] = function(a, b) { g.q ? g.q.push([a, b]) : g._api(a, b); };
-        g.q = [];
-        o = n.createElement(t);
-        o.async = 1;
-        o.src = 'https://' + _fs_host + '/s/fs.js';
-        y = n.getElementsByTagName(t)[0];
-        y.parentNode.insertBefore(o, y);
-        g.identify = function(i, v) { g(l, { uid: i }); if (v) g(l, v) };
-        g.setUserVars = function(v) { g(l, v) };
-        y = "rec";
-        g.shutdown = function(i, v) { g(y, !1) };
-        g.restart = function(i, v) { g(y, !0) };
-        g.identifyAccount = function(i, v) {
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+   <title>StreamFluence</title>
+   <!-- Bootstrap CSS -->
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+      crossorigin="anonymous">
+   <!-- Custom CSS for Index -->
+   <link rel="stylesheet" type="text/css" href="./assets/css/index.css">
+   <!-- JQuery -->
+   <script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
+   <!-- Bootstrap JS -->
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+      crossorigin="anonymous"></script>
+   <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
+   <link rel="shortcut icon" href="assets/images/floo.png">
+   <link rel="apple-touch-icon" href="assets/images/favicon-floo.png">
+   <script>
+      window['_fs_debug'] = false;
+      window['_fs_host'] = 'fullstory.com';
+      window['_fs_org'] = 'AW3HK';
+      window['_fs_namespace'] = 'FS';
+      (function (m, n, e, t, l, o, g, y) {
+         if (e in m) { if (m.console && m.console.log) { m.console.log('FullStory namespace conflict. Please set window["_fs_namespace"].'); } return; } g = m[e] = function (a, b) { g.q ? g.q.push([a, b]) : g._api(a, b); };
+         g.q = [];
+         o = n.createElement(t);
+         o.async = 1;
+         o.src = 'https://' + _fs_host + '/s/fs.js';
+         y = n.getElementsByTagName(t)[0];
+         y.parentNode.insertBefore(o, y);
+         g.identify = function (i, v) { g(l, { uid: i }); if (v) g(l, v) };
+         g.setUserVars = function (v) { g(l, v) };
+         y = "rec";
+         g.shutdown = function (i, v) { g(y, !1) };
+         g.restart = function (i, v) { g(y, !0) };
+         g.identifyAccount = function (i, v) {
             o = 'account';
             v = v || {};
             v.acctId = i;
             g(o, v)
-        };
-        g.clearUserCookie = function() {};
-    })(window, document, window['_fs_namespace'], 'script', 'user');
-    </script>
+         };
+         g.clearUserCookie = function () { };
+      })(window, document, window['_fs_namespace'], 'script', 'user');
+   </script>
 </head>
 
 <body id="top">
-    <div class="wrapper">
-        <nav class="navbar navbar-default navbar-fixed-top navbar-right" id="navStarted">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="#top">
+   <div class="wrapper">
+      <nav class="navbar navbar-default navbar-fixed-top navbar-right" id="navStarted">
+         <!-- Brand and toggle get grouped for better mobile display -->
+         <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1">
+               <span class="sr-only">Toggle navigation</span>
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#top">
                <img id="navbar-logo" alt="Brand" src="./assets/images/logo.png">
             </a>
-            </div>
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right" id="navLinks">
-                    <li>
-                        <a class="navFont" href="streamer">Streamers</a>
-                    </li>
-                    <li class="divider-vertical"></li>
-                    <li>
-                        <a class="navFont" href="brands">Brand</a>
-                    </li>
-                    <li class="divider-vertical"></li>
-                    <li>
-                        <a class="navFont" href="http://blog.streamfluence.io/">Blog</a>
-                    </li>
-                    <li class="divider-vertical"></li>
-                    <li>
-                        <a class="navFont" data-toggle="dropdown">Login</a>
-                        <ul class="dropdown-menu">
-                            <li>
-                                <a class="navFont" href="https://streamfluence.herokuapp.com/api/v1/auth/twitch">Streamer</a>
-                            </li>
-                            <li>
-                                <a class="navFont" href="https://streamfluence.herokuapp.com/login">Brand</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a class="navFont" id="navJoin" data-toggle="dropdown">Join</a>
-                        <ul class="dropdown-menu">
-                            <li>
-                                <a class="navFont" href="https://streamfluence.herokuapp.com/api/v1/auth/twitch">Streamer</a>
-                            </li>
-                            <li>
-                                <a class="navFont" href="https://streamfluence.herokuapp.com/register">Brand</a>
-                            </li>
-                        </ul>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </nav>
-        <!-- BRAND LOGO with Triangle background-->
-        <div id="brand-corner" class="hidden-xs">
-            <div id="brand-background"></div>
+         </div>
+         <!-- Collect the nav links, forms, and other content for toggling -->
+         <div class="collapse navbar-collapse" id="navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right" id="navLinks">
+               <li>
+                  <a class="navFont" href="streamer">Streamers</a>
+               </li>
+               <li class="divider-vertical"></li>
+               <li>
+                  <a class="navFont" href="brands">Brand</a>
+               </li>
+               <li class="divider-vertical"></li>
+               <li>
+                  <a class="navFont" href="http://blog.streamfluence.io/">Blog</a>
+               </li>
+               <li class="divider-vertical"></li>
+               <li>
+                  <a class="navFont" data-toggle="dropdown">Login</a>
+                  <ul class="dropdown-menu">
+                     <li>
+                        <a class="navFont" href="https://streamfluence.herokuapp.com/api/v1/auth/twitch">Streamer</a>
+                     </li>
+                     <li>
+                        <a class="navFont" href="https://streamfluence.herokuapp.com/login">Brand</a>
+                     </li>
+                  </ul>
+               </li>
+               <li>
+                  <a class="navFont" id="navJoin" data-toggle="dropdown">Join</a>
+                  <ul class="dropdown-menu">
+                     <li>
+                        <a class="navFont" href="https://streamfluence.herokuapp.com/api/v1/auth/twitch">Streamer</a>
+                     </li>
+                     <li>
+                        <a class="navFont" href="https://streamfluence.herokuapp.com/register">Brand</a>
+                     </li>
+                  </ul>
+               </li>
+            </ul>
+         </div>
+         <!-- /.navbar-collapse -->
+      </nav>
+      <!-- BRAND LOGO with Triangle background-->
+      <div id="brand-corner" class="hidden-xs">
+         <div id="brand-background"></div>
+         <a href="/">
             <img id="brand-logo" src="assets/images/streamfluence-logo.png">
-        </div>
-        <section id="section1">
-            <div class="container" id="jumbo-index">
-                <hr class="col-xs-10 col-center home-hr2">
-                <div class="row center-messaging">
-                    <div class="col-xs-12">
-                        <div class="row">
-                            <div class="col-xs-12">
-                                <h4 class="text-center">THE INFLUENCER MARKETING PLATFORM FOR</h4>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-xs-12">
-                                <div class="col-center" id="hero">
-                                    <h1>LIVE</h1>
-                                    <h1>CONTENT</h1>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div id="hero-btns" class="col-sm-12 text-center">
-                                <a href="streamer" type="button" class="btn btn-default btn-round-lg btn-lg" id="btn-streamer">Streamers</a>
-                                <a href="brands" type="button" class="btn btn-default btn-round-lg btn-lg" id="btn-brand">Brands</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <hr class="col-xs-10 col-center home-hr">
+         </a>
+      </div>
+
+      <!-- Content -->
+      <section class="container-fluid sec sec-top sec-liteblue">
+         <!-- <div class="container" id="jumbo-index"> -->
+         <div class="row">
+            <div class="col-xs-12">
+               <h4 class="text-center">THE INFLUENCER MARKETING PLATFORM FOR</h4>
             </div>
-            <div id="brand-bottom-corner" class="hidden-xs">
-                <div id="brand-bottom-background"></div>
+         </div>
+         <div class="row">
+            <hr class="col-xs-10 col-center">
+         </div>
+         <div class="row">
+            <div class="col-xs-12">
+               <div class="col-center" id="hero">
+                  <h1>LIVE</h1>
+                  <h1>CONTENT</h1>
+               </div>
             </div>
-        </section>
-        <section id="section2">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-12">
-                        <h3 class="text-center">You can find our content creators on...</h3>
-                    </div>
-                </div>
-                <div class="row" id="img-platforms">
-                    <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-                        <img class="img-responsive center-block" src="assets/images/twitch-logo.png">
-                    </div>
-                    <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-                        <img class="img-responsive center-block" src="assets/images/mixer-logo.png">
-                    </div>
-                    <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-                        <img class="img-responsive center-block" src="assets/images/yt_logo_rgb_light.png">
-                    </div>
-                </div>
-                <div class="row text-center">
-                    <div class="col-sm-12 bg-blue" id="sec2-box">
-                        <div class="row">
-                            <div class="col-sm-12">
-                                <h2 class="text-white">Why StreamFluence?</h2>
-                            </div>
-                        </div>
-                        <div class="row" id="sec2-info">
-                            <div class="col-xs-8 col-xs-offset-2 img-rounded bg-white">
-                                <h3>StreamFluence quantifies the value of brand sponsorships in livestreams and social media using real-time,
+         </div>
+         <div class="row">
+            <hr class="col-xs-10 col-center">
+         </div>
+         <div class="row">
+            <div id="hero-btns" class="col-sm-12 text-center">
+               <a href="streamer" type="button" class="btn btn-default btn-round-lg btn-lg" id="btn-streamer">Streamers</a>
+               <a href="brands" type="button" class="btn btn-default btn-round-lg btn-lg" id="btn-brand">Brands</a>
+            </div>
+         </div>
+         <!-- </div> -->
+
+         <div id="brand-bottom-corner" class="hidden-xs">
+            <div id="brand-bottom-background"></div>
+         </div>
+      </section>
+
+      <section id="section2">
+         <div class="container">
+            <div class="row">
+               <div class="col-sm-12">
+                  <h3 class="text-center">You can find our content creators on...</h3>
+               </div>
+            </div>
+            <div class="row" id="img-platforms">
+               <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                  <img class="img-responsive center-block" src="assets/images/twitch-logo.png">
+               </div>
+               <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                  <img class="img-responsive center-block" src="assets/images/mixer-logo.png">
+               </div>
+               <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                  <img class="img-responsive center-block" src="assets/images/yt_logo_rgb_light.png">
+               </div>
+            </div>
+            <div class="row text-center">
+               <div class="col-sm-12 bg-blue" id="sec2-box">
+                  <div class="row">
+                     <div class="col-sm-12">
+                        <h2 class="text-white">Why StreamFluence?</h2>
+                     </div>
+                  </div>
+                  <div class="row" id="sec2-info">
+                     <div class="col-xs-8 col-xs-offset-2 img-rounded bg-white">
+                        <h3>StreamFluence quantifies the value of brand sponsorships in livestreams and social media using real-time,
                            data-driven intelligence and actionable insights.</h3>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <br>
-                <br>
-                <div class="row text-center">
-                    <div class="col-sm-12 bg-white" id="sec2-box">
-                        <div class="row">
-                            <div class="col-sm-12">
-                                <h2 class="text-blue">Our Technology</h2>
-                            </div>
-                        </div>
-                        <div class="row" id="sec2-info">
-                            <div class="col-xs-12 col-sm-2 thumbnail">
-                                <img class="img-responsive" src="assets/images/floo.png">
-                            </div>
-                            <div class="col-xs-8 col-xs-offset-2 col-sm-8 col-sm-offset-0 img-rounded bg-blue">
-                                <div class="col-xs-12" style="float:right;">
-                                    <h3 class="text-white">The Floo Valuation Calculator puts a tangible dollar value on the promotion of brands by live
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <br>
+            <br>
+            <div class="row text-center">
+               <div class="col-sm-12 bg-white" id="sec2-box">
+                  <div class="row">
+                     <div class="col-sm-12">
+                        <h2 class="text-blue">Our Technology</h2>
+                     </div>
+                  </div>
+                  <div class="row" id="sec2-info">
+                     <div class="col-xs-12 col-sm-2 thumbnail">
+                        <img class="img-responsive" src="assets/images/floo.png">
+                     </div>
+                     <div class="col-xs-8 col-xs-offset-2 col-sm-8 col-sm-offset-0 img-rounded bg-blue">
+                        <div class="col-xs-12" style="float:right;">
+                           <h3 class="text-white">The Floo Valuation Calculator puts a tangible dollar value on the promotion of brands by live
                               streamers everywhere. Floo tracks the use of brand hashtags, mentions and logos within livestreams
                               and assigns media values based on promotion quality and total engagement.</h3>
-                                </div>
-                            </div>
                         </div>
-                    </div>
-                </div>
+                     </div>
+                  </div>
+               </div>
             </div>
-    </div>
-    <!-- /wrapper -->
-    </section>
-    <!-- Get to top of page button -->
-    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
-    </div>
-    <!-- Footer -->
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-xs-12 text-center">
-                    <h3>Come Talk to our Devs</h3>
-                    <a id="btn-discord" class="btn btn-lg" href="https://discord.gg/yzpUS2G" target="_blank" role="button">
+         </div>
+   </div>
+   </section>
+   </div>
+   <!-- /wrapper -->
+
+   <!-- Get to top of page button -->
+   <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+   </div>
+
+   <!-- Footer -->
+   <footer>
+      <div class="container">
+         <div class="row">
+            <div class="col-xs-12 text-center">
+               <h3>Come Talk to our Devs</h3>
+               <a id="btn-discord" class="btn btn-lg" href="https://discord.gg/yzpUS2G" target="_blank" role="button">
                   Join Discord
                </a>
-                </div>
             </div>
-        </div>
-        <div class="copyright">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12 text-center">
-                        <p class="copyrighttext">Copyright 2017 StreamFluence</p>
-                    </div>
-                </div>
+         </div>
+      </div>
+      <div class="copyright">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12 text-center">
+                  <p class="copyrighttext">Copyright 2017 StreamFluence</p>
+               </div>
             </div>
-        </div>
-    </footer>
-    <!-- SCRIPT -->
-    <script type="text/javascript" src="assets/js/app.js"></script>
-    <!-- Start of HubSpot Embed Code -->
-    <script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/2995043.js"></script>
-    <!-- End of HubSpot Embed Code -->
+         </div>
+      </div>
+   </footer>
+   <!-- SCRIPT -->
+   <script type="text/javascript" src="assets/js/app.js"></script>
+   <!-- Start of HubSpot Embed Code -->
+   <script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/2995043.js"></script>
+   <!-- End of HubSpot Embed Code -->
 </body>
 
 </html>

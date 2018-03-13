@@ -1,240 +1,241 @@
 /* Begin main css */
 @font-face {
-    font-family: 'Terminator nfi';
-    src: url('fonts/terminator real nfi.ttf') format('truetype');
+  font-family: "Terminator nfi";
+  src: url("fonts/terminator real nfi.ttf") format("truetype");
 }
 
 html {
-    position: relative;
-    min-height: 100%;
+  position: relative;
+  min-height: 100%;
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
-    /* Margin bottom by footer height */
-    margin-bottom: 167px;
-    overflow-x: hidden;
+  font-family: "Roboto", sans-serif;
+  /* Margin bottom by footer height */
+  margin-bottom: 167px;
+  overflow-x: hidden;
 }
 
 h1 {
-    font-size: 44px;
-    color: #003D87;
+  color: #003d87;
 }
 
 h2 {
-    color: #0399F1;
+  font-size: 27px;
+  color: #0399f1;
 }
 
 h3 {
-    font-size: 24px;
-    line-height: 1.29;
-    color: #003D87;
-    font-weight: 400;
+  font-size: 20px;
+  line-height: 1.29;
+  color: #003d87;
+  font-weight: 400;
 }
 
 h4 {
-    font-size: 22px;
-    color: #fff;
+  font-size: 16px;
+  color: #fff;
 }
 
 p {
-    font-family: 'Raleway', sans-serif;
-    color: #696969;
-    font-size: 16px;
+  font-family: "Raleway", sans-serif;
+  color: #696969;
 }
 
 a.btn {
-    border-color: #6441a4;
-    background-color: #6441a4;
-    font-size: 16px;
-    color: #f8f9fa;
-    margin: 10px auto;
+  border-color: #6441a4;
+  background-color: #6441a4;
+  font-size: 16px;
+  color: #f8f9fa;
+  margin: 10px auto;
 }
 
 a.btn:hover {
-    background-color: #4d98d3;
-    color: white;
+  background-color: #4d98d3;
+  color: white;
 }
 
 /* Navbar */
 
 .navbar-default {
-    background-color: #fff;
-    border: none;
+  background-color: #fff;
+  border: none;
+}
+
+.navbar-collapse .nav > .divider-vertical {
+  display: none;
 }
 
 #navStarted {
-    padding-right: 20px;
+  padding-right: 20px;
 }
 
 .navFont {
-    color: #003399 !important;
-    letter-spacing: 1px;
+  color: #003d87 !important;
+  letter-spacing: 1px;
 }
 
 #navLinks a:hover {
-    background-color: rgb(100, 65, 164) !important;
-    color: white !important;
+  background-color: rgb(100, 65, 164) !important;
+  color: white !important;
 }
 
 .navbar .divider-vertical {
-    height: 30px;
-    margin: 10px 2px;
-    border-right: 1px solid #003399;
-    border-left: 1px solid #003399;
+  height: 30px;
+  margin: 10px 2px;
+  border-right: 1px solid #003d87;
+  border-left: 1px solid #003d87;
 }
 
 .navbar-inverse .divider-vertical {
-    border-right-color: #222222;
-    border-left-color: #111111;
+  border-right-color: #222222;
+  border-left-color: #111111;
 }
 
 #navJoin {
-    font-weight: bold;
-    padding-left: 15px;
-    padding-right: 25px;
-    background-color: #003399 !important;
-    color: white !important;
+  font-weight: bold;
+  padding-left: 15px;
+  padding-right: 25px;
+  background-color: #003d87 !important;
+  color: white !important;
 }
 
 #navJoin:hover {
-    background-color: #0399F1 !important;
-    color: #003399 !important;
+  background-color: #0399f1 !important;
+  color: #003d87 !important;
 }
 
 .navbar-brand {
-    padding: 8px 0px 8px 15px;
-    display: none;
+  padding: 8px 0px 8px 15px;
+  display: block;
 }
 
 #navbar-logo {
-    max-height: 34px;
+  max-height: 34px;
 }
 
 .center-messaging {
-    position: absolute;
-    top: 25%;
-    left: 33%;
+  position: absolute;
+  top: 25%;
+  left: 33%;
 }
 
 .home-hr {
-    position: absolute;
-    top: 70%;
-    left: 8%;
+  position: absolute;
+  top: 70%;
+  left: 8%;
 }
 
 .home-hr2 {
-    position: absolute;
-    top: 30%;
-    left: 8%
+  position: absolute;
+  top: 30%;
+  left: 8%;
 }
-
 
 /* Top left logo with triangle background */
 
 #brand-corner {
-    display: block;
+  display: none;
 }
 
 #brand-background {
-    position: absolute;
-    top: 0px;
-    left: 0;
-    width: 0;
-    height: 0;
-    border-style: solid;
-    border-width: 200px 450px 0 0;
-    border-color: #fff transparent transparent transparent;
-    z-index: 1;
+  position: absolute;
+  top: 0px;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 200px 450px 0 0;
+  border-color: #fff transparent transparent transparent;
+  z-index: 1;
 }
 
 #brand-logo {
-    position: absolute;
-    top: 10px;
-    left: 10px;
-    z-index: 9999;
-    max-height: 100px;
-    width: auto;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: 9999;
+  max-height: 100px;
+  width: auto;
 }
 
-
-/* Top left logo with triangle background */
+/* Bottom right triangle background */
 
 #brand-bottom-corner {
-    display: block;
+  display: none;
 }
 
 #brand-bottom-background {
-    position: absolute;
-    bottom: 0%;
-    right: 0%;
-    width: 0;
-    height: 0;
-    border-style: solid;
-    border-width: 0px 0px 200px 450px;
-    border-color: transparent transparent #fff transparent;
-    z-index: 1;
+  position: absolute;
+  bottom: 0%;
+  right: 0%;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0px 0px 170px 383px;
+  border-color: transparent transparent #fff transparent;
+  z-index: 1;
 }
 /*Footer*/
 
 footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 167px;
-    border-top: 1px solid #4d98d3;
-    /* background-color: rgb(239, 246, 255); */
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 167px;
+  border-top: 1px solid #4d98d3;
+  /* background-color: rgb(239, 246, 255); */
 }
 footer h4 {
-    color: #000;
+  color: #000;
 }
 .copyright {
-    width: 100%;
-    background-color: #444444;
-    color: white;
-    height: 50px;
+  width: 100%;
+  background-color: #444444;
+  color: white;
+  height: 50px;
 }
 
 .copyrighttext {
-    color: white;
-    padding-top: 15px;
+  color: white;
+  padding-top: 15px;
 }
 
 .footertext {
-    color: #202020;
+  color: #202020;
 }
 
 #myBtn {
-    display: none;
-    /* Hidden by default */
-    position: fixed;
-    /* Fixed/sticky position */
-    bottom: 20px;
-    /* Place the button at the bottom of the page */
-    right: 30px;
-    /* Place the button 30px from the right */
-    z-index: 99;
-    /* Make sure it does not overlap */
-    border: none;
-    /* Remove borders */
-    outline: none;
-    /* Remove outline */
-    background-color: rgba(85, 85, 85, 0.888);
-    /* Set a background color */
-    color: white;
-    /* Text color */
-    cursor: pointer;
-    /* Add a mouse pointer on hover */
-    padding: 15px;
-    /* Some padding */
-    border-radius: 10px;
-    /* Rounded corners */
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Fixed/sticky position */
+  bottom: 20px;
+  /* Place the button at the bottom of the page */
+  right: 30px;
+  /* Place the button 30px from the right */
+  z-index: 99;
+  /* Make sure it does not overlap */
+  border: none;
+  /* Remove borders */
+  outline: none;
+  /* Remove outline */
+  background-color: rgba(85, 85, 85, 0.888);
+  /* Set a background color */
+  color: white;
+  /* Text color */
+  cursor: pointer;
+  /* Add a mouse pointer on hover */
+  padding: 15px;
+  /* Some padding */
+  border-radius: 10px;
+  /* Rounded corners */
 }
 
 #myBtn:hover {
-    background-color: #555;
-    /* Add a dark-grey background on hover */
-    color: #fff;
+  background-color: #555;
+  /* Add a dark-grey background on hover */
+  color: #fff;
 }
 
 /******************/
@@ -243,273 +244,282 @@ footer h4 {
 
 /** Section 1 - Hero **/
 #section1 {
-    position: relative;
-    top: 0;
-    width: 100%;
-    background-color: #0399F1;
-    height: 100vh;
-    display: table;
-    max-width: none;
+  position: relative;
+  top: 0;
+  width: 100%;
+  background-color: #0399f1;
+  min-height: 100vh;
+  display: table;
+  max-width: none;
 }
 
 #jumbo-index {
-    background-color: transparent;
-    display: table-cell;
-    vertical-align: middle;
+  background-color: transparent;
+  display: table-cell;
+  vertical-align: middle;
 }
 
 #jumbo-index h4 {
-    color: #fff;
+  color: #fff;
 }
 
 #hero {
-    max-width: 596px;
+  width: 255px;
 }
 
 #hero h1 {
-    font-family: 'Terminator nfi', 'Roboto', sans-serif;
-    font-size: 90px;
-    font-weight: bolder;
-    color: #003399;
-    text-shadow: 2px 2px #fff;
+  font-family: "Terminator nfi", "Roboto", sans-serif;
+  font-size: 32px;
+  font-weight: bolder;
+  color: #003d87;
+  text-shadow: 2px 2px #fff;
 }
 
 #hero h1:last-child {
-    margin-top: 20px;
-    margin-bottom: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 #hero-btns {
-    margin-top: 20px;
+  margin-top: 20px;
 }
 
 #btn-streamer {
-    background-color: #003399;
-    border-color: #003399;
-    color: #fff;
+  background-color: #003d87;
+  border-color: #003d87;
+  color: #fff;
 }
 
 #btn-brand {
-    background-color: #fff;
-    color: #003399;
-    border-color: #fff;
+  background-color: #fff;
+  color: #003d87;
+  border-color: #fff;
 }
 
 a.btn-round-lg {
-    font-size: 25px;
-    color: #003399;
-    min-width: 200px;
-    border-radius: 22.5px;
-    margin: 10px;
+  font-size: 18px;
+  color: #003d87;
+  min-width: 160px;
+  border-radius: 22.5px;
+  margin: 10px;
 }
 
 a.btn-round-lg:hover {
-    /* background-color: #0399F1 !important;
+  /* background-color: #0399F1 !important;
     color: white !important; */
-    opacity: 0.8;
-    border-color: #696969
+  opacity: 0.8;
+  border-color: #696969;
 }
 
 /** Section 2 - info **/
 
-#section2>.row {
-    margin-bottom: 20px;
+#section2 > .row {
+  margin-bottom: 20px;
 }
 
 #img-platforms {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 #img-platforms img {
-    max-height: 50px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+  max-height: 50px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 #sec2-box {
-    padding-bottom: 50px;
+  padding-bottom: 50px;
 }
 
 #sec2-info {
-    margin-top: 20px;
-    margin-bottom: 50px;
+  margin-top: 20px;
+  margin-bottom: 50px;
 }
 
 .thumbnail {
-    border: none;
-    padding-top: 13px;
+  border: none;
+  padding-top: 13px;
 }
 
-
-/******************/
-/***** BRANDS *****/
-/**** STREAMER ****/
-/******************/
+/** Sections **/
 .sec {
-    padding: 40px;
+  padding: 40px;
 }
 .sec-liteblue {
-    background-color:#0399F1;
+  background-color: #0399f1;
 }
 .sec-darkblue {
-    background-color: #003D87;
+  background-color: #003d87;
 }
 .sec-darkblue p,
 .sec-liteblue p {
-    color:#fff;
+  color: #fff;
 }
 .sec-top {
-    position: relative;
-    padding-top: 169px;
-    padding-bottom: 90px;
+  position: relative;
+  padding-top: 90px;
+  padding-bottom: 40px;
 }
 .sec-liteblue h2 {
-    color:#003D87;
+  color: #003d87;
 }
 .sec-darkblue h1 {
-    color: #fff;
+  color: #fff;
 }
 
-/******************/
-/**** DENIED ****/
-/******************/
+/** Denied page **/
 .empty-footer {
-    height: 50px;
+  height: 50px;
 }
-
 
 /*White we use : #E0E0E0
   Black we use : #202020*/
 
 .form-control {
-    position: relative;
-    margin: 0 auto;
-    width: 40%;
-    background: #fff;
+  position: relative;
+  margin: 0 auto;
+  width: 40%;
+  background: #fff;
 }
 
-.btn-group-lg>.btn,
+.btn-group-lg > .btn,
 .btn-lg {
-    padding: .5rem 1rem;
-    font-size: 1.25rem;
-    line-height: 1.5;
-    border-radius: .3rem;
+  padding: 0.5rem 1rem;
+  font-size: 1.25rem;
+  line-height: 1.5;
+  border-radius: 0.3rem;
 }
 
 .bg-blue {
-    background-color: #003D87;
+  background-color: #003d87;
 }
 
 .bg-white {
-    background-color: #fff;
+  background-color: #fff;
 }
 .text-white {
-    color: #fff;
+  color: #fff;
 }
 .text-blue {
-    color: #003399;
+  color: #003d87;
 }
 .text-blue-lt {
-    color: #0399F1;
+  color: #0399f1;
 }
 .col-center {
-    margin: 0 auto;
-    float: none;
+  margin: 0 auto;
+  float: none;
 }
 
-
-@media (max-width: 1050px) {
-    .center-messaging {
-        left: 18%;
-    }
+/* Extra small devices (phones, less than 768px) */
+@media (min-width: 400px) {
+  #hero {
+    width: 318px;
+  }
+  #hero h1 {
+    font-size: 40px;
+  }
 }
 
-@media (max-width: 1440px) {
-    .home-hr {
-        top: 80%;
-        left: 10%;
-    }
-    .home-hr2 {
-        top: 32%;
-        left: 10%;
-    }
+@media (min-width: 600px) {
+  #hero {
+    width: 484px;
+  }
+  #hero h1 {
+    font-size: 60px;
+  }
+  .sec {
+    padding: 40px 60px;
+  }
+  .sec-top {
+    padding-top: 90px;
+  }
 }
 
-@media (max-width: 870px) {
-    .navbar-collapse .nav>.divider-vertical {
-        display: none;
-    }
-    .navbar-brand {
-        display: block;
-    }
-    #brand-corner {
-        display: none;
-    }
-    #brand-bottom-corner {
-        display: none;
-    }
-    .center-messaging {
-        left: 5%;
-    }
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  h1 {
+    font-size: 40px;
+  }
+  h2 {
+    font-size: 30px;
+  }
+  h3 {
+    font-size: 24px;
+  }
+  h4 {
+    font-size: 20px;
+  }
+  p {
+    font-size: 16px;
+  }
+  #brand-corner {
+    display: block;
+  }
+  #brand-bottom-corner {
+    display: block;
+  }
+  .navbar-brand {
+    display: none;
+  }
+  .navbar-collapse .nav > .divider-vertical {
+    display: block;
+  }
+  .sec {
+    padding: 40px 90px;
+  }
+  .sec-top {
+    padding-top: 125px;
+    padding-bottom: 75px;
+  }
+  .sec-top h1 {
+      padding-left: 30px;
+  }
+  #hero {
+    width: 551px;
+  }
+  #hero h1 {
+    font-size: 69px;
+    padding-left: 0px;
+  }
+  a.btn-round-lg {
+    font-size: 25px;
+    min-width: 200px;
+  }
+
 }
 
-@media (max-width: 784px) {
-    #brands-section-1 {
-        padding-top: 90px;
-    }
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  #hero {
+    width: 793px;
+  }
+  #hero h1 {
+    font-size: 100px;
+  }
+  h4 {
+    font-size: 22px;
+  }
+  /* .img-center-parent {
+    position: relative;
+  }
+.img-center {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0;
+} */
 }
 
-@media (max-width: 678px) {
-    #hero {
-        max-width: 478px;
-    }
-    #hero h1 {
-        font-size: 60px;
-    }
-    h2 {
-        font-size: 24px;
-    }
-    h3 {
-        font-size: 18px;
-    }
-    p {
-        font-size: 12px;
-    }
-    a.btn-round-lg {
-        font-size: 18px;
-    }
-    .home-hr2 {
-        top: 36%;
-        left: 5%;
-    }
-    .home-hr {
-        left: 5%;
-    }
-}
-
-@media (max-width: 453px) {
-    #hero h1 {
-        font-size: 33px;
-    }
-    h1 {
-        font-size: 33px;
-    }
-    h2 {
-        font-size: 20px;
-    }
-    h3 {
-        font-size: 14px;
-    }
-    p {
-        font-size: 12px;
-    }
-    #img-platforms img {
-        max-height: 30px;
-    }
-    .home-hr2 {
-        top: 37%;
-    }
-    .home-hr {
-        top: 88%;
-    }
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  #hero {
+    width: 915px;
+  }
+  #hero h1 {
+    font-size: 115px;
+  }
+  h4 {
+    font-size: 26px;
+  }
 }
