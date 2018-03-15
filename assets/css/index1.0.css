@@ -411,6 +411,29 @@ a.btn-round-lg:hover {
   float: none;
 }
 
+/*call to actions*/
+
+#callToActions {
+  background-color: #815fc0;
+  border-color: #815fc0;
+  color: #fff;
+}
+
+#getStarted {
+  background-color: #e6b600;
+  border-color: #e6b600;
+  color: #fff;
+}
+
+#callSchedule {
+  background-color: #e6b600;
+  border-color: #e6b600;
+  color: #fff;
+}
+
+
+/*====================*/
+
 /* Extra small devices (phones, less than 768px) */
 @media (min-width: 400px) {
   #hero {
