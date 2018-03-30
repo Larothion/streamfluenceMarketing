@@ -10,7 +10,6 @@
       crossorigin="anonymous">
    <!--links my css page -->
    <link rel="stylesheet" type="text/css" href="./assets/css/index1.1.css">
-   <link rel="stylesheet" type="text/css" href="./assets/css/streamer.css">
    <!--Allows me to use JQuery -->
    <script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
    <!-- Allows me to use Bootstrap JS -->
@@ -26,25 +25,44 @@
       window['_fs_org'] = 'AW3HK';
       window['_fs_namespace'] = 'FS';
       (function (m, n, e, t, l, o, g, y) {
-         if (e in m) { if (m.console && m.console.log) { m.console.log('FullStory namespace conflict. Please set window["_fs_namespace"].'); } return; } g = m[e] = function (a, b) { g.q ? g.q.push([a, b]) : g._api(a, b); };
+         if (e in m) {
+            if (m.console && m.console.log) {
+               m.console.log('FullStory namespace conflict. Please set window["_fs_namespace"].');
+            }
+            return;
+         }
+         g = m[e] = function (a, b) {
+            g.q ? g.q.push([a, b]) : g._api(a, b);
+         };
          g.q = [];
          o = n.createElement(t);
          o.async = 1;
          o.src = 'https://' + _fs_host + '/s/fs.js';
          y = n.getElementsByTagName(t)[0];
          y.parentNode.insertBefore(o, y);
-         g.identify = function (i, v) { g(l, { uid: i }); if (v) g(l, v) };
-         g.setUserVars = function (v) { g(l, v) };
+         g.identify = function (i, v) {
+            g(l, {
+               uid: i
+            });
+            if (v) g(l, v)
+         };
+         g.setUserVars = function (v) {
+            g(l, v)
+         };
          y = "rec";
-         g.shutdown = function (i, v) { g(y, !1) };
-         g.restart = function (i, v) { g(y, !0) };
+         g.shutdown = function (i, v) {
+            g(y, !1)
+         };
+         g.restart = function (i, v) {
+            g(y, !0)
+         };
          g.identifyAccount = function (i, v) {
             o = 'account';
             v = v || {};
             v.acctId = i;
             g(o, v)
          };
-         g.clearUserCookie = function () { };
+         g.clearUserCookie = function () {};
       })(window, document, window['_fs_namespace'], 'script', 'user');
    </script>
 </head>
@@ -60,7 +78,7 @@
                <span class="icon-bar"></span>
                <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#top">
+            <a class="navbar-brand" href="/">
                <img id="navbar-logo" alt="Brand" src="./assets/images/logo.png">
             </a>
          </div>
@@ -92,18 +110,19 @@
                      allow="encrypted-media" allowfullscreen></iframe>
                </div>
             </div>
-            <br>
-            <div class="row">
-               <div class="col-md-4 col-md-offset-4 text-center">
-                  <h4>We're Changing the Way Streamers Find Sponsors</h4>
-               </div>
+         </div>
+         <br>
+         <div class="row">
+            <div class="col-md-6 col-md-offset-3 text-center">
+               <h4>We're Changing the Way Streamers Find Sponsors</h4>
             </div>
-            <div class="row">
-               <div class="col-md-4 col-md-offset-4 text-center">
-                  <a class="btn btn-default btn-round-lg btn-lg" id="callToActions" href="https://streamfluence.herokuapp.com/api/v1/auth/twitch" target="_blank" role="button">
-                     Sign Up Now
-                  </a>
-               </div>
+         </div>
+         <div class="row">
+            <div class="col-md-4 col-md-offset-4 text-center">
+               <a class="btn btn-default btn-round-lg btn-lg" id="callToActions" href="https://streamfluence.herokuapp.com/api/v1/auth/twitch"
+                  target="_blank" role="button">
+                  Sign Up Now
+               </a>
             </div>
          </div>
       </section>

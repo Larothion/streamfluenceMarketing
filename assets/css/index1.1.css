@@ -66,10 +66,6 @@ a.btn:hover {
   display: none;
 }
 
-#navStarted {
-  padding-right: 20px;
-}
-
 .navFont {
   color: #003d87 !important;
   letter-spacing: 1px;
@@ -422,7 +418,7 @@ a.btn-round-lg:hover {
 #getStarted {
   background-color: #e6b600;
   border-color: #e6b600;
-  color: #fff;
+  color: #000;
 }
 
 #callSchedule {
@@ -481,6 +477,9 @@ a.btn-round-lg:hover {
   }
   #brand-bottom-corner {
     display: block;
+  }
+  #navStarted {
+    padding-right: 20px;
   }
   .navbar-brand {
     display: none;
