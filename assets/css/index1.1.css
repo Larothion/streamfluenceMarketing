@@ -63,6 +63,10 @@ a.btn:hover {
 
 
 
+
+
+
+
 /* Navbar */
 
 .navbar-default {
@@ -75,8 +79,9 @@ a.btn:hover {
 }
 
 .navFont {
-    color: #003d87 !important;
+    color: #30b7fe !important;
     letter-spacing: 1px;
+    margin-top: 6px;
 }
 
 #navLinks a:hover {
@@ -85,10 +90,9 @@ a.btn:hover {
 }
 
 .navbar .divider-vertical {
-    height: 30px;
+    height: 40px;
     margin: 10px 2px;
-    border-right: 1px solid #003d87;
-    border-left: 1px solid #003d87;
+    background-color: #fff;
 }
 
 .navbar-inverse .divider-vertical {
@@ -100,7 +104,8 @@ a.btn:hover {
     font-weight: bold;
     padding-left: 15px;
     padding-right: 25px;
-    background-color: #003d87 !important;
+    background-color: #30b7fe;
+    border-radius: 80px;
     color: white !important;
 }
 
@@ -143,6 +148,10 @@ a.btn:hover {
 
 
 
+
+
+
+
 /* Top left logo with triangle background */
 
 #brand-corner {
@@ -177,6 +186,10 @@ a.btn:hover {
 
 
 
+
+
+
+
 /* Bottom right triangle background */
 
 #brand-bottom-corner {
@@ -194,6 +207,10 @@ a.btn:hover {
     border-color: transparent transparent #fff transparent;
     z-index: 1;
 }
+
+
+
+
 
 
 
@@ -265,6 +282,10 @@ footer h4 {
     /* Add a dark-grey background on hover */
     color: #fff;
 }
+
+
+
+
 
 
 
@@ -359,6 +380,10 @@ a.btn-round-lg:hover {
 
 
 
+
+
+
+
 /** Section 2 - info **/
 
 #section2>.row {
@@ -388,6 +413,10 @@ a.btn-round-lg:hover {
     border: none;
     padding-top: 13px;
 }
+
+
+
+
 
 
 
@@ -440,11 +469,19 @@ a.btn-round-lg:hover {
 
 
 
+
+
+
+
 /** Denied page **/
 
 .empty-footer {
     height: 50px;
 }
+
+
+
+
 
 
 
@@ -465,32 +502,96 @@ a.btn-round-lg:hover {
 
 
 
+
+
+
+
 /*main home section begin*/
 
 #homeBigScreen {
-    height: 100vh; 
-    background-color: #6291fb;
+    height: 100vh;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#a023ff+11,a023ff+11,50aafa+80 */
+    background: #a023ff;
+    /* Old browsers */
+    background: -moz-linear-gradient(left, #a023ff 11%, #a023ff 11%, #50aafa 80%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, #a023ff 11%, #a023ff 11%, #50aafa 80%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, #a023ff 11%, #a023ff 11%, #50aafa 80%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a023ff', endColorstr='#50aafa', GradientType=1);
+    /* IE6-9 */
+    padding: 0px;
+}
+
+#homeBigImage {
+    position: absolute;
+    bottom: -1%;
+    z-index: 1;
+}
+
+#homeBigImage2 {
+    position: absolute;
+    height: 100vh;
+    bottom: -1%;
+    z-index: 2;
 }
 
 #homeTitle {
-  color: #fff;
-  font-size: 30px;
-  letter-spacing: 2px;
-  font-weight: normal;
+    color: #fff;
+    font-size: 30px;
+    letter-spacing: 2px;
+    font-weight: normal;
+    width: 650px;
 }
 
 #liveContentTitle {
-  color:#fff;
-  font-size: 90px;
-  font-weight: bold;
-  margin-left: 30px;
+    color: #fff;
+    font-size: 90px;
+    font-weight: bold;
+    margin-left: 30px;
+    width: 750px;
 }
 
 .homeContent {
-  position: relative;
-  top: 30%;
-  left: 15%;
+    position: relative;
+    top: 30%;
+    left: 20%;
+    z-index: 3;
 }
+
+#broadcastersBtn {
+    background-color: #30b7fe;
+    color: #fff;
+    height: 60px;
+    width: 240px;
+    font-size: 16px;
+    border-radius: 30px;
+    border: none;
+    padding: 20px;
+    font-weight: 500;
+    position: absolute;
+    top: 100%;
+    left: 10%;
+}
+
+#brandsBtn {
+    background-color: #fff;
+    color: #b945f6;
+    height: 60px;
+    width: 240px;
+    font-size: 16px;
+    border-radius: 30px;
+    border: none;
+    padding: 20px;
+    font-weight: 500;
+    position: absolute;
+    top: 100%;
+    left: 40%;
+}
+
+
+
 
 
 /*main home section end*/
@@ -551,6 +652,10 @@ a.btn-round-lg:hover {
 
 
 
+
+
+
+
 /*end why streamfluence section*/
 
 
@@ -559,6 +664,10 @@ a.btn-round-lg:hover {
 #thriveOnSecion {
     height: 280px;
 }
+
+
+
+
 
 
 
@@ -651,6 +760,10 @@ a.btn-round-lg:hover {
 
 
 
+
+
+
+
 /*no title end*/
 
 
@@ -736,6 +849,10 @@ a.btn-round-lg:hover {
 
 
 
+
+
+
+
 /*get started end*/
 
 .btn-group-lg>.btn,
@@ -778,6 +895,10 @@ a.btn-round-lg:hover {
 
 
 
+
+
+
+
 /*call to actions*/
 
 #callToActions {
@@ -797,6 +918,10 @@ a.btn-round-lg:hover {
     border-color: #e6b600;
     color: #fff;
 }
+
+
+
+
 
 
 
@@ -834,6 +959,10 @@ a.btn-round-lg:hover {
         padding-top: 90px;
     }
 }
+
+
+
+
 
 
 
@@ -905,6 +1034,10 @@ a.btn-round-lg:hover {
 
 
 
+
+
+
+
 /* Medium devices (desktops, 992px and up) */
 
 @media (min-width: 992px) {
@@ -927,6 +1060,10 @@ a.btn-round-lg:hover {
     right: 0;
 } */
 }
+
+
+
+
 
 
 
