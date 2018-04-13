@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>StreamFluence</title>
+    <!-- bootstap html and cc elemets-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!--links my css page -->
+    <link rel="stylesheet" type="text/css" href="./assets/css/index1.1.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/pricingTable.css">
+    <!--Allows me to use JQuery -->
+    <script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
+    <!-- Allows me to use Bootstrap JS -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
+    <link rel="shortcut icon" href="assets/images/floo.png">
+    <link rel="apple-touch-icon" href="assets/images/favicon-floo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body id="top">
+    <div class="wrapper">
+        <nav class="navbar navbar-default navbar-fixed-top" id="navStarted">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#top">
+               <img id="navbar-logo" alt="Brand" src="./assets/images/logo.png">
+            </a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right" id="navLinks">
+                    <li>
+                        <a class="navFont" href="brands">Brands</a>
+                    </li>
+                    <li class="divider-vertical"></li>
+                    <li>
+                        <a class="navFont" href="benefits">Benefits</a>
+                    </li>
+                    <li class="divider-vertical"></li>
+                    <li>
+                        <a class="navFont" href="howitworks">How it Works</a>
+                    </li>
+                    <li class="divider-vertical"></li>
+                    <li>
+                        <a class="navFont" href="cost">Cost</a>
+                    </li>
+                    <li>
+                        <a class="navFont" id="navJoin" href="https://streamfluence.herokuapp.com/register" target="_blank">Get Started</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </nav>
+        <!-- BRAND LOGO with Triangle background-->
+        <div id="brand-corner" class="hidden-xs">
+            <div id="brand-background"></div>
+            <a href="/">
+                <img id="brand-logo" src="assets/images/streamfluence-logo.png">
+            </a>
+        </div>
+        <!-- Content -->
+        <section class="sec sec-top" id='homeBigScreenPricing'>
+            <img src="./assets/images/sfHomeImage.png" id='homeBigImage'>
+            <img src="./assets/images/sfHomeImage2.png" id='homeBigImage2'>
+            <div id="generic_price_table">
+                <div class="container" id=''>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <!--PRICE HEADING START-->
+                            <div class="price-heading clearfix">
+                                <h1>Transparent and Authentic Pricing</h1>
+                            </div>
+                            <!--//PRICE HEADING END-->
+                        </div>
+                    </div>
+                </div>
+                <!--BLOCK ROW START-->
+                <div class="row">
+                    <div class='col-md-1'>
+                    </div>
+                    <div class="col-md-5">
+                        <!--PRICE CONTENT START-->
+                        <div class="generic_content active clearfix">
+                            <!--HEAD PRICE DETAIL START-->
+                            <div class="generic_head_price clearfix">
+                                <!--HEAD CONTENT START-->
+                                <div class="generic_head_content clearfix">
+                                    <!--HEAD START-->
+                                    <div class="head_bg"></div>
+                                    <div class="head">
+                                        <span>Express Campaign</span>
+                                    </div>
+                                    <!--//HEAD END-->
+                                </div>
+                                <!--//HEAD CONTENT END-->
+                                <!--PRICE START-->
+                                <div class="generic_price_tag clearfix">
+                                    <span class="price">
+                                        <span class="sign">Simple.  Easy.  Effective.</span>
+                                    <br>
+                                    <span class="sign" id="pricingJiggle" style='color: #fe78fb;' '><strong>Flat Rate Pricing</strong></span>
+                                        <span class="currency"></span>
+                                        <span class="cent"></span>
+                                        <span class="month"></span>
+                                        </span>
+                                    </div>
+                                    <!--//PRICE END-->
+                                </div>
+                                <!--//HEAD PRICE DETAIL END-->
+                                <!--FEATURE LIST START-->
+                                <div class="generic_feature_list">
+                                    <ul>
+                                        <li style="text-align: center;"><span></span>This campaign is for those looking to gain exposure or awareness for their brand on Twitch. It’s the most simple and effective option we provide, paired with easily trackable results.</li>
+                                        <li><strong>1.  </strong>With this option, you will show the influencers one of the products you want them to review or demo!</li>
+                                        <li><strong>2.  </strong>If applicable, send StreamFluence one bulk shipment of your product and we'll handle mailing it out to our streamers. </li>
+                                    <li><strong>3.  </strong> You’ll be provided with a detailed analytics report on the amount of exposure your product and brand receive as well as the following:
+                                        <p style='margin-left: 10px;'>
+                                            <br> - Multiple Clips of the influencer highlighting your product on their stream
+                                            <br>
+                                            <br> - Social Media Spotlight from each Influencer
+                                            <br>
+                                            <br> - Your link shared and promoted on their stream the entire month</p>
+                                    </li>
+                                    </ul>
+                                </div>
+                                <!--//FEATURE LIST END-->
+                                <!--BUTTON START-->
+                                <div class="generic_price_btn active clearfix">
+                                    <a class="" href="/brand.dashboard/product-campaign-creation" style='background-color: #fe78fb;'>Sign up</a>
+                                </div>
+                                <!--//BUTTON END-->
+                            </div>
+                            <!--//PRICE CONTENT END-->
+                        </div>
+                        <div class="col-md-5">
+                            <!--PRICE CONTENT START-->
+                            <div class="generic_content active clearfix">
+                                <!--HEAD PRICE DETAIL START-->
+                                <div class="generic_head_price clearfix">
+                                    <!--HEAD CONTENT START-->
+                                    <div class="generic_head_content clearfix">
+                                        <!--HEAD START-->
+                                        <div class="head_bg"></div>
+                                        <div class="head">
+                                            <span style=""><p style="color: #fff; font-size: 30px;">Custom Campaign</p></span>
+                                        </div>
+                                        <!--//HEAD END-->
+                                    </div>
+                                    <!--//HEAD CONTENT END-->
+                                    <!--PRICE START-->
+                                    <div class="generic_price_tag clearfix">
+                                        <span class="price">
+                                        <span class="sign">Gain Full Control</span>
+                                        <br>
+                                        <span class="sign" id="pricingJiggle" style='color: #30b7fe;'>Flexible Budget</span>
+                                        <span class="currency"></span>
+                                        <span class="cent"></span>
+                                        <span class="month"></span>
+                                        </span>
+                                    </div>
+                                    <!--//PRICE END-->
+                                </div>
+                                <!--//HEAD PRICE DETAIL END-->
+                                <!--FEATURE LIST START-->
+                                <div class="generic_feature_list">
+                                    <ul>
+                                        <li style="text-align: center;"><span></span>This campaign is for those wanting more control and creativity over their campaign. You will define all the engagements and requirements of the campaign, and have constant contact with your influencers.</li>
+                                        <li><strong>1.  </strong>This option grants you a direct line of communication with your influencers. </li>
+                                        <li><strong>2.  </strong>You create a campaign with predefined goals, length, and descriptions of what each influencer will perform. </li>
+                                        <li><strong>3.  </strong>Influencers interested in your campaign will apply to work with you, and you'll have the power to either accept or deny their applications. </li>
+                                        <li><strong>4.  </strong>Once you’ve finalized the influencers you want to work with, start your campaign and our team will set up all communication channels. </li>
+                                        <br>
+                                        <br>
+                                    </ul>
+                                </div>
+                                <!--//FEATURE LIST END-->
+                                <!--BUTTON START-->
+                                <div class="generic_price_btn clearfix">
+                                    <a class="" href="/brand.dashboard/create-campaign" style='background-color: #30b7fe'>Sign up</a>
+                                </div>
+                                <!--//BUTTON END-->
+                            </div>
+                            <!--//PRICE CONTENT END-->
+                        </div>
+                        <div class='col-md-1'>
+                        </div>
+                    </div>
+                    <!--//BLOCK ROW END-->
+                </div>
+        </section>
+        </div>
+        <footer>
+            <div class="copyright">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <p class="copyrighttext">Copyright 2018 StreamFluence</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- SCRIPT -->
+        <script type="text/javascript" src="assets/js/app.js"></script>
+        <!-- Start of HubSpot Embed Code -->
+        <script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/2995043.js"></script>
+        <!-- End of HubSpot Embed Code -->
+</body>
+
+</html>

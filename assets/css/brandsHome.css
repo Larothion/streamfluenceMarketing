@@ -1,0 +1,97 @@
+    #homeBigScreen {
+        height: 80vh;
+    }
+
+    .homeContent {
+        position: relative;
+        top: 30%;
+        left: 15%;
+        z-index: 3;
+    }
+
+    .homeContentText {}
+
+    #homeTitle {
+        font-size: 55px;
+        color: #fff;
+        line-height: 50px;
+        letter-spacing: 2px;
+        font-weight: normal;
+        width: 750px;
+        font-family: 'Passion One', cursive;
+    }
+
+    #titleParagraph {
+        font-size: 16px;
+        color: #fff;
+        margin-top: 20px;
+        font-family: 'Roboto', sans-serif;
+        margin-left: 30px;
+        letter-spacing: 1px;
+    }
+
+    #brandHomeButton {
+        background-color: #30b7fe;
+        color: #fff;
+        height: 60px;
+        width: 340px;
+        font-size: 16px;
+        border-radius: 30px;
+        border: none;
+        padding: 20px;
+        font-weight: 500;
+        position: absolute;
+        top: 100%;
+        left: 10%;
+    }
+
+    #streamerImage1 {
+        position: absolute;
+        height: 700px;
+        width: 800px;
+        height: auto;
+        max-width: 100%;
+        left: 35%;
+        border: 2px solid #30b7fe;
+        box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.5);
+    }
+
+    #brand123Container {
+        height: 650px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    #brand123Row {
+        margin: 0px;
+        margin-top: 10px;
+        padding: 0px;
+    }
+
+    .backgroundBrand123 {
+        background-color: #e5efff;
+        height: 200px;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .brand123 {
+        padding: 15px;
+    }
+
+    .brand123 p {
+        color: #0c6dff;
+        line-height: 30px;
+    }
+
+    .brand123 h3 {
+        margin: 0 0 10px 0px;
+        font-size: 25px;
+        color: #0c6dff;
+        font-weight: bold;
+        letter-spacing: 2px;
+    }
+
+    .brand123Trophy {
+        padding: 30px 0 30px 0;
+    }
