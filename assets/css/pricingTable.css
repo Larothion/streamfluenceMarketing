@@ -607,6 +607,28 @@
         padding-bottom: 30px;
     }
 
+    #pricingHead2 {
+        background-color: #30b7fe;
+        height: 110px;
+    }
+
+    #pricingHead2 p {
+        color: #fff;
+        font-size: 35px;
+        padding: 25px 0 25px 0;
+    }
+
+    #pricingHead1 {
+        background-color: #D15FEE;
+        height: 110px;
+    }
+
+    #pricingHead1 p {
+        color: #fff;
+        font-size: 35px;
+        padding: 25px 0 25px 0;
+    }
+
     @media only screen and (max-width: 1400px) {
         footer {
 

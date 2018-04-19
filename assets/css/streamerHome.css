@@ -1,0 +1,151 @@
+#videoLayout1 {
+    position: absolute;
+    height: 450px;
+    width: 650px;
+    top: -10%;
+    left: 40%;
+    border: 2px solid #a023ff;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.5);
+}
+
+#homeBigScreen {
+    height: 90vh;
+}
+
+.homeContent {
+    position: relative;
+    top: 30%;
+    left: 15%;
+    z-index: 3;
+}
+
+.homeContentText {}
+
+#homeTitle {
+    font-size: 55px;
+    color: #fff;
+    line-height: 50px;
+    letter-spacing: 2px;
+    font-weight: normal;
+    width: 750px;
+    font-family: 'Passion One', cursive;
+}
+
+#titleParagraph {
+    font-size: 16px;
+    color: #fff;
+    margin-top: 35px;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 30px;
+    line-height: 28px;
+    letter-spacing: 1px;
+}
+
+#brandHomeButton {
+    background-color: #30b7fe;
+    color: #fff;
+    height: 60px;
+    width: 340px;
+    font-size: 20px;
+    border-radius: 30px;
+    border: none;
+    padding: 15px;
+    font-weight: 500;
+    position: absolute;
+    top: 120%;
+    left: 13%;
+}
+
+#twitchSectionImage {
+    position: absolute;
+    height: 450px;
+    width: 750px;
+    height: auto;
+    max-width: 100%;
+    left: 15%;
+    border: 2px solid #a023ff;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.5);
+    z-index: 99999;
+    border-radius: 30px;
+}
+
+#brand123Container {
+    height: 900px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#brand123Row {
+    margin: 0px;
+    margin-top: 250px;
+    padding: 0px;
+}
+
+.backgroundBrand123 {
+    background-color: #e5efff;
+    border-radius: 15px;
+    height: 200px;
+    margin: 0px;
+    padding: 20px 0 20px 0;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.5);
+}
+
+.brand123 {
+    padding: 15px;
+}
+
+.brand123 p {
+    line-height: 30px;
+    font-size: 18px;
+    color: #a3a3a3;
+}
+
+.brand123 h3 {
+    margin: 0 0 10px 0px;
+    font-size: 24px;
+    color: #0c6dff;
+    font-weight: bolder;
+    letter-spacing: 2px;
+}
+
+.brand123Trophy {
+    padding: 30px 0 30px 0;
+}
+
+#sfBrandSlant {
+    position: absolute;
+    height: 1800px;
+    width: 2900px;
+    top: 40%;
+    left: -20%;
+    z-index: 0;
+}
+
+#platformsLineImage {
+    position: absolute;
+    width: 110%;
+    height: 18%;
+    bottom: 14.8%;
+    z-index: 0;
+}
+
+.thriveOnImages {
+    height: 250px;
+    width: 300px;
+    height: auto;
+    max-width: 100%;
+    padding: 10px 10px 0 0;
+    margin-top: 50px;
+}
+
+#mixerImage {
+    margin-top: 90px;
+}
+
+#twitchImage {
+    margin-top: 100px;
+}
+
+footer {
+    bottom: -2%;
+}
