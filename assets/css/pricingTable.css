@@ -630,11 +630,6 @@
     }
 
     @media only screen and (max-width: 1400px) {
-        footer {
-
-            bottom: -10%;
-        }
-
         body {
             margin-bottom: 0px;
             padding-bottom: 30px;
@@ -644,3 +639,9 @@
             height: 120vh;
         }
     }
+
+     @media only screen and (max-width: 1400px) {
+        #pricingTitle {
+            font-size: 30px;
+        }
+     }

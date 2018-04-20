@@ -1,212 +1,341 @@
-    #homeBigScreen {
-        height: 90vh;
-    }
+        #homeBigScreen {
+            height: 90vh;
+        }
 
-    .homeContent {
-        position: relative;
-        top: 30%;
-        left: 15%;
-        z-index: 3;
-    }
+        .homeContent {
+            position: relative;
+            top: 30%;
+            left: 15%;
+            z-index: 3;
+        }
 
-    .homeContentText {}
 
-    #homeTitle {
-        font-size: 55px;
-        color: #fff;
-        line-height: 50px;
-        letter-spacing: 2px;
-        font-weight: normal;
-        width: 750px;
-        font-family: 'Passion One', cursive;
-    }
+        #homeTitle {
+            font-size: 55px;
+            color: #fff;
+            line-height: 50px;
+            letter-spacing: 2px;
+            font-weight: normal;
+            width: 750px;
+            font-family: 'Passion One', cursive;
+        }
 
-    #titleParagraph {
-        font-size: 16px;
-        color: #fff;
-        margin-top: 35px;
-        font-family: 'Roboto', sans-serif;
-        margin-left: 30px;
-        line-height: 28px;
-        letter-spacing: 1px;
-    }
+        #titleParagraph {
+            font-size: 16px;
+            color: #fff;
+            margin-top: 35px;
+            font-family: 'Roboto', sans-serif;
+            margin-left: 30px;
+            line-height: 28px;
+            letter-spacing: 1px;
+        }
 
-    #brandHomeButton {
-        background-color: #30b7fe;
-        color: #fff;
-        height: 60px;
-        width: 340px;
-        font-size: 16px;
-        border-radius: 30px;
-        border: none;
-        padding: 20px;
-        font-weight: 500;
-        position: absolute;
-        top: 120%;
-        left: 10%;
-    }
+        #brandHomeButton {
+            background-color: #30b7fe;
+            color: #fff;
+            height: 60px;
+            width: 340px;
+            font-size: 16px;
+            border-radius: 30px;
+            border: none;
+            padding: 20px;
+            font-weight: 500;
+            position: absolute;
+            top: 120%;
+            left: 10%;
+        }
 
-    #streamerImage1 {
-        position: absolute;
-        height: 00px;
-        width: 800px;
-        height: auto;
-        max-width: 100%;
-        left: 35%;
-        border: 2px solid #30b7fe;
-        box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.5);
-    }
+        #streamerImage1 {
+            position: absolute;
+            height: 00px;
+            width: 800px;
+            height: auto;
+            max-width: 100%;
+            left: 35%;
+            border: 2px solid #30b7fe;
+            box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.5);
+        }
 
-    #twitchSectionImage {
-        position: absolute;
-        height: 450px;
-        width: 750px;
-        height: auto;
-        max-width: 100%;
-        left: 15%;
-        border: 2px solid #a023ff;
-        box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.5);
-        z-index: 99999;
-        border-radius: 30px;
-    }
+        #twitchSectionImage {
+            position: absolute;
+            height: 450px;
+            width: 750px;
+            height: auto;
+            max-width: 100%;
+            left: 15%;
+            border: 2px solid #a023ff;
+            box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.5);
+            z-index: 99999;
+            border-radius: 30px;
+        }
 
-    #brand123Container {
-        height: 950px;
-        margin-right: auto;
-        margin-left: auto;
-    }
+        #brand123Container {
+            height: 950px;
+            margin-right: auto;
+            margin-left: auto;
+        }
 
-    #brand123Row {
-        margin: 0px;
-        margin-top: 180px;
-        padding: 0px;
-    }
+        #brand123Row {
+            margin: 0px;
+            margin-top: 180px;
+            padding: 0px;
+        }
 
-    .backgroundBrand123 {
-        background-color: #e5efff;
-        border-radius: 15px;
-        height: 250px;
-        margin: 0px;
-        padding: 20px 0 20px 0;
-        box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.5);
-    }
+        .backgroundBrand123 {
+            background-color: #e5efff;
+            border-radius: 15px;
+            height: 250px;
+            margin: 0px;
+            padding: 20px 0 20px 0;
+            box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.5);
+        }
 
-    .brand123 {
-        padding: 15px;
-    }
+        .brand123 {
+            padding: 15px;
+        }
 
-    .brand123 p {
-        line-height: 30px;
-        font-size: 18px;
-        color: #a3a3a3;
-    }
+        .brand123 p {
+            line-height: 30px;
+            font-size: 18px;
+            color: #a3a3a3;
+        }
 
-    .brand123 h3 {
-        margin: 0 0 10px 0px;
-        font-size: 24px;
-        color: #0c6dff;
-        font-weight: bolder;
-        letter-spacing: 2px;
-    }
+        .brand123 h3 {
+            margin: 0 0 10px 0px;
+            font-size: 24px;
+            color: #0c6dff;
+            font-weight: bolder;
+            letter-spacing: 2px;
+        }
 
-    .brand123Trophy {
-        padding: 30px 0 30px 0;
-    }
+        .brand123Trophy {
+            padding: 30px 0 30px 0;
+        }
 
-    #sfBrandSlant {
-        position: absolute;
-        height: 180vh;
-        width: 330vh;
-        top: 40%;
-        left: -30%;
-        z-index: 0;
-    }
+        #sfBrandSlant {
+            position: absolute;
+            height: 180vh;
+            width: 330vh;
+            top: 40%;
+            left: -30%;
+            z-index: 0;
+        }
 
-    #howItWorkTitle {
-        color: white;
-        font-size: 45px;
-        font-weight: bold;
-        letter-spacing: 2px;
-        line-height: 75px;
-    }
+        #howItWorkTitle {
+            color: white;
+            font-size: 45px;
+            font-weight: bold;
+            letter-spacing: 2px;
+            line-height: 75px;
+        }
 
-    .howitWorkSteps {
-        position: relative;
-        height: 200px;
-    }
+        .howitWorkSteps {
+            position: relative;
+            height: 200px;
+        }
 
-    #howItWorksStep1 {
-        top: 23%;
-        left: -5%;
-    }
+        #howItWorksStep1 {
+            top: 23%;
+            left: -5%;
+        }
 
-    #howItWorksStep1 p {
-        color: #fff;
-    }
+        #howItWorksStep1 p {
+            color: #fff;
+        }
 
-    #howItWorksStep2 {
-        top: 2%;
-        left: 6%;
-    }
+        #howItWorksStep2 {
+            top: 2%;
+            left: 6%;
+        }
 
-    #howItWorksStep2 p {
-        color: #fff;
-    }
+        #howItWorksStep2 p {
+            color: #fff;
+        }
 
-    #howItWorksStep3 {
-        top: -3%;
-        left: 15%;
-    }
+        #howItWorksStep3 {
+            top: -3%;
+            left: 15%;
+        }
 
-    #howItWorksStep3 p {
-        color: #fff;
-    }
+        #howItWorksStep3 p {
+            color: #fff;
+        }
 
-    #howItWorksStep4 {
-        top: -28%;
-        left: 28%;
-    }
+        #howItWorksStep4 {
+            top: -28%;
+            left: 28%;
+        }
 
-    #howItWorksStep4 p {
-        color: #fff;
-    }
+        #howItWorksStep4 p {
+            color: #fff;
+        }
 
-    #howItWorksBtn {
-        background-color: #fff;
-        color: #7fb1fe;
-        height: 50px;
-        font-size: 16px;
-        border-radius: 10px;
-        border: none;
-        padding: 15px;
-        font-weight: 750;
-        margin-left: 160px;
-        margin-top: 20px;
-    }
+        #howItWorksBtn {
+            background-color: #fff;
+            color: #7fb1fe;
+            height: 50px;
+            font-size: 16px;
+            border-radius: 10px;
+            border: none;
+            padding: 15px;
+            font-weight: 750;
+            margin-left: 160px;
+            margin-top: 20px;
+        }
 
-    #HowItWorksSection {
-        height: 900px;
-        /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#08f8f8+0,ae61ff+67 */
-        background: #08f8f8;
-        /* Old browsers */
-        background: -moz-linear-gradient(left, #08f8f8 0%, #ae61ff 75%);
-        /* FF3.6-15 */
-        background: -webkit-linear-gradient(left, #08f8f8 0%, #ae61ff 75%);
-        /* Chrome10-25,Safari5.1-6 */
-        background: linear-gradient(to right, #08f8f8 0%, #ae61ff 75%);
-        /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#08f8f8', endColorstr='#ae61ff', GradientType=1);
-        /* IE6-9 */
-    }
+        #HowItWorksSection {
+            height: 900px;
+            /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#08f8f8+0,ae61ff+67 */
+            background: #08f8f8;
+            /* Old browsers */
+            background: -moz-linear-gradient(left, #08f8f8 0%, #ae61ff 75%);
+            /* FF3.6-15 */
+            background: -webkit-linear-gradient(left, #08f8f8 0%, #ae61ff 75%);
+            /* Chrome10-25,Safari5.1-6 */
+            background: linear-gradient(to right, #08f8f8 0%, #ae61ff 75%);
+            /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#08f8f8', endColorstr='#ae61ff', GradientType=1);
+            /* IE6-9 */
+        }
 
-    #getStartedSection {
-        height: 0px;
-    }
+        #getStartedSection {
+            height: 0px;
+        }
 
-    #noTitleCastersSection {
-        background-color: #fff;
-    }
+        #noTitleCastersSection {
+            background-color: #fff;
+        }
 
-    footer {
-        
-    }
+
+        @media only screen and (max-width: 1669px) {
+
+            #streamerImage1 {
+                width: 700px;
+                left: 38%;
+            }
+        }
+
+        @media only screen and (max-width: 1600px) {
+
+            #streamerImage1 {
+                width: 600px;
+                left: 38%;
+            }
+        }
+
+        @media only screen and (max-width: 1550px) {
+
+            #streamerImage1 {
+                width: 600px;
+                left: 40%;
+            }
+        }
+
+        @media only screen and (max-width: 1455px) {
+
+            #streamerImage1 {
+                width: 500px;
+                left: 45%;
+            }
+        }
+
+        @media only screen and (max-width: 1302px) {
+
+            #homeTitle {
+                font-size: 45px;
+            }
+
+            #titleParagraph {
+                font-size: 14px;
+            }
+
+            #brandHomeButton {
+                width: 300px;
+            }
+        }
+
+        @media only screen and (max-width: 1167px) {
+
+            #homeTitle {
+                font-size: 35px;
+            }
+
+            #titleParagraph {
+                font-size: 13px;
+            }
+
+            #brandHomeButton {
+                width: 260px;
+            }
+
+            #streamerImage1 {
+                width: 400px;
+                top: 35%;
+            }
+        }
+
+        @media only screen and (max-width: 1100px) {
+            #titleParagraph {
+                width: auto margin-left: 50px;
+            }
+
+            #brandHomeButton {
+                width: 200px;
+                font-size: 14px;
+                top: 100%;
+            }
+            #streamerImage1 {
+                width: 400px;
+                left: 35%;
+            }
+        }
+
+        @media only screen and (max-width: 1100px) {
+            #streamerImage1 {
+                display: none;
+            }
+
+            #homeTitle {
+                font-size: 55px;
+            }
+
+            #titleParagraph {
+                font-size: 16px;
+                width: auto;
+                width: none;
+            }
+
+            #brandHomeButton {}
+        }
+
+        @media only screen and (max-width: 968px) {
+            #brandHomeButton {
+                top: 120%;
+            }
+        }
+
+        @media only screen and (max-width: 968px) {
+            #titleParagraph {
+                font-size: 14px;
+                width: auto;
+                margin-left: 0px;
+            }
+
+            #homeTitle {
+                font-size: 50px;
+            }
+        }
+
+        @media only screen and (max-width: 590px) {
+         #titleParagraph {
+                font-size: 14px;
+                width: 300px;
+                margin-left: 80px;
+            }
+
+            #brandHomeButton {
+                top: 110%;
+                left: 20%;
+            }
+            
+        }
