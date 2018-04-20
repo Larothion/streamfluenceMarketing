@@ -94,6 +94,16 @@
             padding: 15px;
         }
 
+        #brand123Title {
+            font-size: 32px;
+            font-weight: bold;
+        }
+
+        #brand123PTitle {
+            font-size: 18px;
+            color: #a3a3a3;
+        }
+
         .brand123 p {
             line-height: 30px;
             font-size: 18px;
@@ -123,7 +133,7 @@
 
         #howItWorkTitle {
             color: white;
-            font-size: 45px;
+            font-size: 55px;
             font-weight: bold;
             letter-spacing: 2px;
             line-height: 75px;
@@ -134,22 +144,61 @@
             height: 200px;
         }
 
-        #howItWorksStep1 {
-            top: 23%;
-            left: -5%;
+        #HowItWorksStep1Section {
+            top: -5%;
         }
 
-        #howItWorksStep1 p {
+        #howItWorksStep1 {
+            top: 23%;
+            left: -10%;
+        }
+
+        #howItWorksStep1 i {
+            font-size: 70px;
+            margin-left: 230px;
             color: #fff;
+        }
+
+        #howItWorksStep1P {
+            position: relative;
+            left: -15%;
+            top: 30%;
+            height: 100px;
+            padding-top: 25px;
+            padding-bottom: 20px;
+            border-radius: 20px;
+        }
+
+        #howItWorksStep1P p {
+            color: #fff;
+        }
+
+        #HowItWorksStep2Section {
+            top: 0%;
         }
 
         #howItWorksStep2 {
             top: 2%;
-            left: 6%;
+            left: 1%;
         }
 
-        #howItWorksStep2 p {
+        #howItWorksStep2P {
+            position: relative;
+            left: -1%;
+            top: 0%;
+            height: 100px;
+            padding-top: 25px;
+            padding-bottom: 20px;
+            border-radius: 20px;
+        }
+
+        #howItWorksStep2P p {
             color: #fff;
+        }
+
+        #HowItWorksStep3Section {
+            top: 4%;
+            left: -3%;
         }
 
         #howItWorksStep3 {
@@ -157,8 +206,23 @@
             left: 15%;
         }
 
-        #howItWorksStep3 p {
+        #howItWorksStep3P {
+            position: relative;
+            left: 14%;
+            top: -10%;
+            height: 100px;
+            padding-top: 25px;
+            padding-bottom: 20px;
+            border-radius: 20px;
+        }
+
+        #howItWorksStep3P p {
             color: #fff;
+        }
+
+        #HowItWorksStep4Section {
+            top: 6%;
+            left: -2%;
         }
 
         #howItWorksStep4 {
@@ -166,7 +230,17 @@
             left: 28%;
         }
 
-        #howItWorksStep4 p {
+        #howItWorksStep4P {
+            position: relative;
+            left: 24.7%;
+            top: -27%;
+            height: 100px;
+            padding-top: 25px;
+            padding-bottom: 20px;
+            border-radius: 20px;
+        }
+
+        #howItWorksStep4P p {
             color: #fff;
         }
 
@@ -206,6 +280,46 @@
             background-color: #fff;
         }
 
+        @media only screen and (max-width: 1773px) {
+
+
+            #howItWorksStep1P {
+
+                left: -11%;
+            }
+
+            #howItWorksStep2P {
+
+                left: 2%;
+            }
+
+            #howItWorksStep3P {
+
+                left: 16%;
+            }
+
+            #howItWorksStep4P {
+
+                left: 29%;
+            }
+
+            /*#howItWorkTitle {
+                width: 500px;
+            }*/
+            #HowItWorksStep1Section {
+                left: -5%;
+            }
+
+            #HowItWorksStep2Section {
+                left: -5%;
+            }
+            #HowItWorksStep3Section {
+                left: -5%;
+            }
+            #HowItWorksStep4Section {
+                left: -5%;
+            }
+        }
 
         @media only screen and (max-width: 1669px) {
 
@@ -220,6 +334,21 @@
             #streamerImage1 {
                 width: 600px;
                 left: 38%;
+            }
+        }
+
+        @media only screen and (max-width: 1574px) {
+
+            .brand123 p {
+                font-size: 16px;
+            }
+
+            #brand123Row {
+                margin-top: 100px;
+            }
+
+            .backgroundBrand123 {
+                height: 320px;
             }
         }
 
@@ -239,6 +368,72 @@
             }
         }
 
+        @media only screen and (max-width: 1437px) {
+
+            #sfBrandSlant {
+
+                height: 200vh;
+                width: 230vh;
+            }
+
+            #HowItWorksStep1Section {
+                left: -5%;
+                top: 3%;
+            }
+
+            #HowItWorksStep2Section {
+                left: -12%;
+                top: 10%;
+            }
+            #HowItWorksStep3Section {
+                left: -12%;
+                top: 10%;
+            }
+            #HowItWorksStep4Section {
+                left: -12%;
+                top: 10%;
+            }
+
+            #howItWorksStep1P {
+
+                left: -6%;
+            }
+
+            #howItWorksStep2P {
+
+                left: 8%;
+            }
+
+            #howItWorksStep3P {
+
+                left: 22%;
+            }
+
+            #howItWorksStep4P {
+
+                left: 35%;
+            }
+        }
+
+        @media only screen and (max-width: 1312px) {
+
+            .brand123 p {
+                font-size: 15px;
+            }
+
+            .brand123 h3 {
+                font-size: 25px;
+            }
+
+            #brand123Row {
+                margin-top: 50px;
+            }
+
+            .backgroundBrand123 {
+                height: 350px;
+            }
+        }
+
         @media only screen and (max-width: 1302px) {
 
             #homeTitle {
@@ -251,6 +446,53 @@
 
             #brandHomeButton {
                 width: 300px;
+            }
+        }
+
+        @media only screen and (max-width: 1437px) {
+
+            #sfBrandSlant {
+
+                height: 200vh;
+                width: 200vh;
+            }
+
+            #HowItWorksStep1Section {
+                left: -10%;
+                top: 3%;
+            }
+
+            #HowItWorksStep2Section {
+                left: -15%;
+                top: 10%;
+            }
+            #HowItWorksStep3Section {
+                left: -15%;
+                top: 10%;
+            }
+            #HowItWorksStep4Section {
+                left: -15%;
+                top: 10%;
+            }
+
+            #howItWorksStep1P {
+
+                left: 0%;
+            }
+
+            #howItWorksStep2P {
+
+                left: 14%;
+            }
+
+            #howItWorksStep3P {
+
+                left: 28%;
+            }
+
+            #howItWorksStep4P {
+
+                left: 41%;
             }
         }
 
@@ -270,7 +512,11 @@
 
             #streamerImage1 {
                 width: 400px;
-                top: 35%;
+                top: 30%;
+            }
+
+            #brand123Title {
+                font-size: 25px;
             }
         }
 
@@ -286,11 +532,9 @@
             }
             #streamerImage1 {
                 width: 400px;
-                left: 35%;
+                left: 30%;
             }
-        }
 
-        @media only screen and (max-width: 1100px) {
             #streamerImage1 {
                 display: none;
             }
@@ -305,7 +549,201 @@
                 width: none;
             }
 
-            #brandHomeButton {}
+            .brand123 p {
+                font-size: 14px;
+            }
+
+            .brand123 h3 {
+                font-size: 25px;
+            }
+
+            #brand123Row {
+                margin-top: 10px;
+            }
+
+            .backgroundBrand123 {
+                height: 375px;
+            }
+        }
+
+        @media only screen and (max-width: 1100px) {}
+
+
+        @media only screen and (max-width: 1040px) {
+            #streamerImage1 {
+                display: none;
+            }
+
+            #homeTitle {
+                font-size: 55px;
+            }
+
+            #titleParagraph {
+                font-size: 16px;
+                width: 700px;
+            }
+
+            #brandHomeButton {
+                top: 120%;
+            }
+        }
+
+
+        @media only screen and (max-width: 1008px) {
+
+            #brand123Container {
+                height: 1000px;
+                margin-right: auto;
+                margin-left: auto;
+            }
+
+            .brand123 p {
+                width: 220px;
+            }
+
+            .backgroundBrand123 {
+                height: 320px;
+            }
+
+            #twitchSectionImage {
+                top: 5000%;
+            }
+
+            #HowItWorksSection {
+                height: 1500px;
+            }
+
+            #sfBrandSlant {
+
+                display: none;
+            }
+
+            #HowItWorksStep1Section {
+                left: -25%;
+                top: 3%;
+            }
+
+            #HowItWorksStep2Section {
+                left: -36%;
+                top: 15%;
+            }
+            #HowItWorksStep3Section {
+                left: -51%;
+                top: 23%;
+            }
+            #HowItWorksStep4Section {
+                left: -67%;
+                top: 33%;
+            }
+
+
+            #howItWorksStep1P {
+
+                left: 27%;
+            }
+
+            #howItWorksStep2P {
+
+                left: 53%;
+            }
+
+            #howItWorksStep3P {
+
+                left: 56%;
+            }
+
+            #howItWorksStep4P {
+
+                left: 72%;
+            }
+            .brand123Trophy {
+                display: none;
+            }
+        }
+
+        @media only screen and (max-width: 1007px) {
+
+            #brand123Container {
+                height: 2000px;
+                margin-right: auto;
+                margin-left: auto;
+            }
+
+
+
+            .backgroundBrand123 {
+                margin-bottom: 40px;
+                height: 320px;
+                width: 500px;
+            }
+
+            #twitchSectionImage {
+                margin-top: 240px;
+                left: 3%;
+                width: auto;
+                height: 400px;
+            }
+
+            #brand123Title {
+                font-size: 40px;
+                font-weight: bold;
+            }
+
+            #brand123PTitle {
+                display: none;
+            }
+
+            .brand123 p {
+                font-size: 18px;
+                width: 300px;
+            }
+
+            #brand123Row {
+                margin-top: 400px;
+            }
+
+            #homeBigImage {
+                display: none;
+            }
+
+            #sfBrandSlant {
+                display: none;
+            }
+
+            #howItWorksStep1 i {
+                margin-right: 73px;
+            }
+
+
+            /* #brand123Row {
+                    margin: 0px;
+                    margin-top: 180px;
+                    padding: 0px;
+                }
+
+             
+                
+                .backgroundBrand123 {
+                    background-color: #e5efff;
+                    border-radius: 15px;
+                    height: 250px;
+                    margin: 0px;
+                    padding: 20px 0 20px 0;
+                    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.5);
+                }
+                
+             
+                
+                .brand123 h3 {
+                    margin: 0 0 10px 0px;
+                    font-size: 24px;
+                    color: #0c6dff;
+                    font-weight: bolder;
+                    letter-spacing: 2px;
+                } */
+            .brand123Trophy {
+                display: none;
+            }
         }
 
         @media only screen and (max-width: 968px) {
@@ -323,19 +761,126 @@
 
             #homeTitle {
                 font-size: 50px;
+                padding-left: 0px;
             }
         }
 
+        @media only screen and (max-width: 602px) {
+
+
+
+            #twitchSectionImage {
+                display: none;
+            }
+
+            #brand123Row {
+                margin-top: 40px;
+            }
+
+            #brand123Container {
+                height: 1600px;
+            }
+        }
+
+
         @media only screen and (max-width: 590px) {
-         #titleParagraph {
-                font-size: 14px;
-                width: 300px;
-                margin-left: 80px;
+
+            #titleParagraph {
+                font-size: 12px;
+                width: 500px;
+                margin-left: -40px;
+            }
+
+            #homeTitle {
+                font-size: 45px;
+                margin-left: -40px;
             }
 
             #brandHomeButton {
                 top: 110%;
-                left: 20%;
+                left: 15%;
             }
-            
+        }
+
+        @media only screen and (max-width: 492px) {
+
+            #titleParagraph {
+                font-size: 10px;
+                margin-left: -20px;
+                width: 500px;
+            }
+
+            #homeTitle {
+                font-size: 45px;
+                margin-left: -20px;
+            }
+
+            #brandHomeButton {
+                top: 110%;
+                left: 10%;
+            }
+        }
+
+        @media only screen and (max-width: 395px) {
+
+            #titleParagraph {
+                display: none;
+            }
+
+            #homeTitle {
+                font-size: 40px;
+                margin-left: -45px;
+            }
+
+            #brandHomeButton {
+                top: 180%;
+            }
+        }
+
+        @media only screen and (max-width: 337px) {
+
+            #titleParagraph {
+                display: none;
+            }
+
+            #homeTitle {
+                font-size: 30px;
+                margin-left: -35px;
+            }
+
+            #brandHomeButton {
+                top: 180%;
+                left: 5%;
+            }
+
+            #brand123Container {
+                height: 2000px;
+                margin-right: auto;
+                margin-left: auto;
+            }
+
+
+
+            .backgroundBrand123 {
+                margin-bottom: 40px;
+                height: 320px;
+                width: 250px;
+            }
+
+            .brand123 p {
+                font-size: 14px;
+                width: 225px;
+            }
+
+            #brand123Row {
+                margin-top: 40px;
+            }
+
+            #homeBigImage {
+                display: none;
+            }
+
+            #sfBrandSlant {
+                display: none;
+            }
         }
