@@ -144,25 +144,19 @@
             height: 200px;
         }
 
-        #HowItWorksStep1Section {
-            top: -5%;
-        }
-
-        #howItWorksStep1 {
-            top: 23%;
-            left: -10%;
-        }
-
-        #howItWorksStep1 i {
+        .howItWorksIcons i {
             font-size: 70px;
-            margin-left: 230px;
+            margin-left: 234.5px;
             color: #fff;
+        }
+
+        #HowItWorksStep1Section {
+            top: 0%;
+            left: -12%;
         }
 
         #howItWorksStep1P {
             position: relative;
-            left: -15%;
-            top: 30%;
             height: 100px;
             padding-top: 25px;
             padding-bottom: 20px;
@@ -177,14 +171,10 @@
             top: 0%;
         }
 
-        #howItWorksStep2 {
-            top: 2%;
-            left: 1%;
-        }
+
 
         #howItWorksStep2P {
             position: relative;
-            left: -1%;
             top: 0%;
             height: 100px;
             padding-top: 25px;
@@ -198,17 +188,12 @@
 
         #HowItWorksStep3Section {
             top: 4%;
-            left: -3%;
+            left: 12%;
         }
 
-        #howItWorksStep3 {
-            top: -3%;
-            left: 15%;
-        }
 
         #howItWorksStep3P {
             position: relative;
-            left: 14%;
             top: -10%;
             height: 100px;
             padding-top: 25px;
@@ -221,19 +206,14 @@
         }
 
         #HowItWorksStep4Section {
-            top: 6%;
-            left: -2%;
+
+            left: 22%;
         }
 
-        #howItWorksStep4 {
-            top: -28%;
-            left: 28%;
-        }
+
 
         #howItWorksStep4P {
             position: relative;
-            left: 24.7%;
-            top: -27%;
             height: 100px;
             padding-top: 25px;
             padding-bottom: 20px;
@@ -272,53 +252,16 @@
             /* IE6-9 */
         }
 
-        #getStartedSection {
-            height: 0px;
-        }
-
         #noTitleCastersSection {
             background-color: #fff;
         }
 
+
+
         @media only screen and (max-width: 1773px) {
 
 
-            #howItWorksStep1P {
-
-                left: -11%;
-            }
-
-            #howItWorksStep2P {
-
-                left: 2%;
-            }
-
-            #howItWorksStep3P {
-
-                left: 16%;
-            }
-
-            #howItWorksStep4P {
-
-                left: 29%;
-            }
-
-            /*#howItWorkTitle {
-                width: 500px;
-            }*/
-            #HowItWorksStep1Section {
-                left: -5%;
-            }
-
-            #HowItWorksStep2Section {
-                left: -5%;
-            }
-            #HowItWorksStep3Section {
-                left: -5%;
-            }
-            #HowItWorksStep4Section {
-                left: -5%;
-            }
+            #howItWorkTitle {}
         }
 
         @media only screen and (max-width: 1669px) {
@@ -326,6 +269,10 @@
             #streamerImage1 {
                 width: 700px;
                 left: 38%;
+            }
+
+            #howItWorksStep1 {
+                top: 20%;
             }
         }
 
@@ -371,47 +318,41 @@
         @media only screen and (max-width: 1437px) {
 
             #sfBrandSlant {
+                height: 220vh;
+                width: 350vh;
+                right: 15%;
+            }
 
-                height: 200vh;
-                width: 20vh;
+            #howItWorkTitle {
+                margin-left: 250px;
             }
 
             #HowItWorksStep1Section {
-                left: -5%;
-                top: 3%;
+                left: -18%;
+                top: -10%;
             }
 
             #HowItWorksStep2Section {
-                left: -12%;
-                top: 10%;
+                left: -10%;
+                top: -3%;
             }
-            #HowItWorksStep3Section {
-                left: -12%;
-                top: 10%;
-            }
-            #HowItWorksStep4Section {
-                left: -12%;
-                top: 10%;
-            }
+
 
             #howItWorksStep1P {
-
-                left: -6%;
+                margin-left: 50px;
+                top: 15%;
             }
 
             #howItWorksStep2P {
-
-                left: 8%;
+                margin-left: 80px;
             }
 
             #howItWorksStep3P {
-
-                left: 22%;
+                margin-left: 80px;
             }
 
             #howItWorksStep4P {
-
-                left: 30%;
+                margin-left: 80px;
             }
         }
 
@@ -446,53 +387,6 @@
 
             #brandHomeButton {
                 width: 300px;
-            }
-        }
-
-        @media only screen and (max-width: 1437px) {
-
-            #sfBrandSlant {
-
-                height: 200vh;
-                width: 280vh;
-            }
-
-            #HowItWorksStep1Section {
-                left: -10%;
-                top: 3%;
-            }
-
-            #HowItWorksStep2Section {
-                left: -15%;
-                top: 10%;
-            }
-            #HowItWorksStep3Section {
-                left: -15%;
-                top: 10%;
-            }
-            #HowItWorksStep4Section {
-                left: -15%;
-                top: 10%;
-            }
-
-            #howItWorksStep1P {
-
-                left: 0%;
-            }
-
-            #howItWorksStep2P {
-
-                left: 14%;
-            }
-
-            #howItWorksStep3P {
-
-                left: 28%;
-            }
-
-            #howItWorksStep4P {
-
-                left: 41%;
             }
         }
 
@@ -566,8 +460,6 @@
             }
         }
 
-        @media only screen and (max-width: 1100px) {}
-
 
         @media only screen and (max-width: 1040px) {
             #streamerImage1 {
@@ -585,6 +477,54 @@
 
             #brandHomeButton {
                 top: 120%;
+            }
+
+            #HowItWorksStep1Section {
+                left: -20%;
+                top: 1%;
+            }
+
+            #howItWorksStep1P {
+                left: 5%;
+                top: 15%;
+                width: 250px;
+            }
+
+            #HowItWorksStep2Section {
+                left: -10%;
+                top: 3%;
+            }
+
+            #howItWorksStep2P {
+                left: 10%;
+                width: 250px;
+            }
+
+            #HowItWorksStep3Section {
+                left: -5%;
+            }
+
+            #howItWorksStep3P {
+                left: 13%;
+                width: 250px;
+            }
+
+            #HowItWorksStep4Section {
+                left: 0%;
+            }
+
+            #howItWorksStep4P {
+                left: 10%;
+                width: 250px;
+            }
+
+            #sfBrandSlant {
+                left: -40%;
+                height: 250vh;
+            }
+
+            footer {
+                bottom: -5%;
             }
         }
 
@@ -618,44 +558,7 @@
                 display: none;
             }
 
-            #HowItWorksStep1Section {
-                left: -25%;
-                top: 3%;
-            }
 
-            #HowItWorksStep2Section {
-                left: -36%;
-                top: 15%;
-            }
-            #HowItWorksStep3Section {
-                left: -51%;
-                top: 23%;
-            }
-            #HowItWorksStep4Section {
-                left: -67%;
-                top: 33%;
-            }
-
-
-            #howItWorksStep1P {
-
-                left: 27%;
-            }
-
-            #howItWorksStep2P {
-
-                left: 53%;
-            }
-
-            #howItWorksStep3P {
-
-                left: 56%;
-            }
-
-            #howItWorksStep4P {
-
-                left: 72%;
-            }
             .brand123Trophy {
                 display: none;
             }
@@ -710,37 +613,33 @@
                 display: none;
             }
 
-            #howItWorksStep1 i {
-                margin-right: 73px;
+
+            #brand123Row {
+                margin: 0px;
+                margin-top: 180px;
+                padding: 0px;
             }
 
 
-            /* #brand123Row {
-                    margin: 0px;
-                    margin-top: 180px;
-                    padding: 0px;
-                }
 
-             
-                
-                .backgroundBrand123 {
-                    background-color: #e5efff;
-                    border-radius: 15px;
-                    height: 250px;
-                    margin: 0px;
-                    padding: 20px 0 20px 0;
-                    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.5);
-                }
-                
-             
-                
-                .brand123 h3 {
-                    margin: 0 0 10px 0px;
-                    font-size: 24px;
-                    color: #0c6dff;
-                    font-weight: bolder;
-                    letter-spacing: 2px;
-                } */
+            .backgroundBrand123 {
+                background-color: #e5efff;
+                border-radius: 15px;
+                height: 250px;
+                margin: 0px;
+                padding: 20px 0 20px 0;
+                box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.5);
+            }
+
+
+
+            .brand123 h3 {
+                margin: 0 0 10px 0px;
+                font-size: 24px;
+                color: #0c6dff;
+                font-weight: bolder;
+                letter-spacing: 2px;
+            }
             .brand123Trophy {
                 display: none;
             }
@@ -828,12 +727,136 @@
             }
 
             #homeTitle {
-                font-size: 40px;
-                margin-left: -45px;
+                font-size: 45px;
+                margin-left: 0px;
+                width: 300px;
             }
 
             #brandHomeButton {
                 top: 180%;
+            }
+
+            #streamerImage1 {
+                display: none;
+            }
+
+            #howItWorkTitle {
+                font-size: 55px;
+                margin-left: 0px;
+            }
+
+            #titleParagraph {
+                font-size: 16px;
+                width: 700px;
+            }
+
+            #brandHomeButton {
+                top: 120%;
+            }
+
+            #HowItWorksStep1Section {
+                left: 15%;
+                top: 0%;
+            }
+
+            #howItWorksStep1P {
+
+                top: 20%;
+                left: -7%;
+                width: 250px;
+            }
+
+            #howItWorksStep1 {
+                left: -50%;
+            }
+
+            #howItWorksStep1 i {
+                margin-right: 40px;
+            }
+
+            .howItWorksIcons i {
+                margin-left: 00px;
+            }
+
+            #HowItWorksStep2Section {
+                left: 15%;
+                top: 10%;
+            }
+
+            #howItWorksStep2P {
+
+                top: 8%;
+                left: -7%;
+                width: 250px;
+            }
+
+            #howItWorksStep2 {
+                left: -50%;
+            }
+
+            #howItWorksStep2 i {
+                margin-right: 40px;
+            }
+
+            #HowItWorksStep3Section {
+                left: 15%;
+                top: 20%;
+            }
+
+            #howItWorksStep3P {
+
+                top: 8%;
+                left: -7%;
+                width: 250px;
+            }
+
+            #howItWorksStep3 {
+                left: -50%;
+            }
+
+            #howItWorksStep3 i {
+                margin-right: 40px;
+            }
+
+            #HowItWorksStep4Section {
+                left: 17%;
+                top: 29%;
+            }
+
+            #howItWorksStep4P {
+
+                top: 8%;
+                left: -7%;
+                width: 250px;
+            }
+
+            #howItWorksStep4 {
+                left: -50%;
+            }
+
+            #howItWorksStep4 i {
+                margin-right: 40px;
+            }
+
+            #sfBrandSlant {
+                display: none;
+            }
+
+            .backgroundBrand123 {
+                margin-bottom: 50px;
+            }
+
+            .backgroundBrand123 {
+                width: 280px;
+                height: 320px;
+            }
+
+            .brand123 p {
+                width: 260px;
+            }
+
+            #brand123Container {
+                height: 1800px;
             }
         }
 
@@ -845,7 +868,9 @@
 
             #homeTitle {
                 font-size: 30px;
-                margin-left: -35px;
+                margin-left: 0px;
+                margin-right: 0px;
+                left: 10%;
             }
 
             #brandHomeButton {

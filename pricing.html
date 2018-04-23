@@ -39,22 +39,37 @@
             <div class="collapse navbar-collapse" id="navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right" id="navLinks">
                     <li>
-                        <a class="navFont" href="brands">Brands</a>
+                        <a class="navFont" href="streamers">Streamers</a>
+                    </li>
+                    <li>
+                        <a class="navFont" href="brands">Brands &amp; Agencies</a>
                     </li>
                     <li class="divider-vertical"></li>
-                    <li>
-                        <a class="navFont" href="benefits">Benefits</a>
-                    </li>
                     <li class="divider-vertical"></li>
                     <li>
-                        <a class="navFont" href="howitworks">How it Works</a>
-                    </li>
-                    <li class="divider-vertical"></li>
-                    <li>
-                        <a class="navFont" href="cost">Cost</a>
+                        <a class="navFont" href="pricing">Pricing</a>
                     </li>
                     <li>
-                        <a class="navFont" id="navJoin" href="https://streamfluence.herokuapp.com/register" target="_blank">Get Started</a>
+                        <a class="navFont" id="" data-toggle="dropdown">Login</a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a class="navFont" href="https://streamfluence.herokuapp.com/api/v1/auth/twitch">Streamer</a>
+                            </li>
+                            <li>
+                                <a class="navFont" href="https://streamfluence.herokuapp.com/login">Brand</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a class="navFont" id="navJoin" data-toggle="dropdown" href="https://streamfluence.herokuapp.com/register" target="_blank">Get Started</a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a class="navFont" href="https://streamfluence.herokuapp.com/api/v1/auth/twitch">Streamer</a>
+                            </li>
+                            <li>
+                                <a class="navFont" href="https://streamfluence.herokuapp.com/register">Brand</a>
+                            </li>
+                        </ul>
                     </li>
                 </ul>
             </div>
@@ -134,7 +149,8 @@
                                 <!--//FEATURE LIST END-->
                                 <!--BUTTON START-->
                                 <div class="generic_price_btn active clearfix">
-                                    <a class="" href="/brand.dashboard/product-campaign-creation" style='background-color: #D15FEE;'>Sign up</a>
+                                    <a class="" href="https://streamfluence.herokuapp.com/register" style='background-color: #D15FEE; z-index: 999; 
+                                    position: relative;'>Sign up</a>
                                 </div>
                                 <!--//BUTTON END-->
                             </div>
@@ -183,7 +199,8 @@
                                 <!--//FEATURE LIST END-->
                                 <!--BUTTON START-->
                                 <div class="generic_price_btn clearfix">
-                                    <a class="" href="/brand.dashboard/create-campaign" style='background-color: #30b7fe'>Sign up</a>
+                                    <a class="" href="https://streamfluence.herokuapp.com/register" style='background-color: #30b7fe; z-index: 999; 
+                                    position: relative;'>Sign up</a>
                                 </div>
                                 <!--//BUTTON END-->
                             </div>
@@ -202,12 +219,12 @@
                         <div class='col-md-4'>
                         </div>
                         <div class='col-md-6' id='casterContent'>
-                            <h4 class='text-left'>JOIN AS A STREAMER</h4>
+                            <h4 class='text-left'>SCHEDULE A CALL</h4>
                             <br>
-                            <p class='text-left'>Turn Live-streaming into a career with rewarding and fulfilling sponsorships.</p>
+                            <p class='text-left'>Have questions? Schedule a call with one of our knowledgeable account managers!</p>
                             <br>
                             <br>
-                            <a class="btn btn-lg btn-round-lg" id='aboutViewMoreBtn' href="https://streamfluence.herokuapp.com/register" target="_blank" role="button">JOIN NOW</a>
+                            <a class="btn btn-lg btn-round-lg" id='aboutViewMoreBtn' href="https://app.hubspot.com/meetings/alindsay/getting-started-with-streamfluence?embed=true%22%3E" target="_blank" role="button">QUESTIONS?</a>
                         </div>
                         <div class='col-md-2'>
                         </div>
@@ -224,7 +241,7 @@
                             </p>
                             <br>
                             <br>
-                            <a class="btn btn-lg btn-round-lg" id='brandViewMoreBtn' href="https://app.hubspot.com/meetings/alindsay/getting-started-with-streamfluence?embed=true%22%3E" target="_blank">
+                            <a class="btn btn-lg btn-round-lg" id='brandViewMoreBtn' href="https://streamfluence.herokuapp.com/register" target="_blank">
                                  GET STARTED
                            </a>
                         </div>
