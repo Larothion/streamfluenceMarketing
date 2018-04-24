@@ -73,6 +73,9 @@ a.btn:hover {
 
 
 
+
+
+
 /* Navbar */
 
 .navbar-default {
@@ -85,15 +88,22 @@ a.btn:hover {
 }
 
 .navFont {
-    color: #30b7fe !important;
+    color: #30b7fe;
     letter-spacing: 1px;
     margin-top: 6px;
+    margin-right: 15px;
+    font-size: 16px;
     font-weight: bold;
 }
 
-#navLinks a:hover {
+#navLinks a {
+    color: #30b7fe;
+}
+
+.navFont:hover {
     color: #a023ff !important;
 }
+
 
 .navbar .divider-vertical {
     height: 40px;
@@ -117,8 +127,8 @@ a.btn:hover {
 }
 
 #navJoin:hover {
-    background-color: #0399f1 !important;
-    color: #003d87 !important;
+    background-color: #a023ff !important;
+    color: #fff !important;
 }
 
 .navbar-brand {
@@ -147,6 +157,9 @@ a.btn:hover {
     top: 30%;
     left: 8%;
 }
+
+
+
 
 
 
@@ -211,6 +224,9 @@ a.btn:hover {
 
 
 
+
+
+
 /* Bottom right triangle background */
 
 #brand-bottom-corner {
@@ -228,6 +244,9 @@ a.btn:hover {
     border-color: transparent transparent #fff transparent;
     z-index: 1;
 }
+
+
+
 
 
 
@@ -310,6 +329,9 @@ footer h4 {
     /* Add a dark-grey background on hover */
     color: #fff;
 }
+
+
+
 
 
 
@@ -426,6 +448,9 @@ a.btn-round-lg:hover {
 
 
 
+
+
+
 /** Section 2 - info **/
 
 #section2>.row {
@@ -455,6 +480,9 @@ a.btn-round-lg:hover {
     border: none;
     padding-top: 13px;
 }
+
+
+
 
 
 
@@ -529,11 +557,17 @@ a.btn-round-lg:hover {
 
 
 
+
+
+
 /** Denied page **/
 
 .empty-footer {
     height: 50px;
 }
+
+
+
 
 
 
@@ -562,6 +596,9 @@ a.btn-round-lg:hover {
     width: 40%;
     background: #fff;
 }
+
+
+
 
 
 
@@ -683,6 +720,9 @@ a.btn-round-lg:hover {
 
 
 
+
+
+
 /*main home section end*/
 
 
@@ -763,6 +803,9 @@ a.btn-round-lg:hover {
 
 
 
+
+
+
 /*end why streamfluence section*/
 
 
@@ -820,6 +863,9 @@ a.btn-round-lg:hover {
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#08f8f8', endColorstr='#a023ff', GradientType=1);
     /* IE6-9 */
 }
+
+
+
 
 
 
@@ -916,6 +962,9 @@ a.btn-round-lg:hover {
 #brandedContent {
     padding: 60px 0 60px 0;
 }
+
+
+
 
 
 
@@ -1039,6 +1088,9 @@ a.btn-round-lg:hover {
 
 
 
+
+
+
 /*get started end*/
 
 .btn-group-lg>.btn,
@@ -1073,6 +1125,9 @@ a.btn-round-lg:hover {
     margin: 0 auto;
     float: none;
 }
+
+
+
 
 
 
@@ -1210,6 +1265,9 @@ a.btn-round-lg:hover {
 
 
 
+
+
+
 /*====================*/
 
 
@@ -1238,6 +1296,9 @@ a.btn-round-lg:hover {
         padding-top: 90px;
     }
 }
+
+
+
 
 
 
@@ -1331,6 +1392,9 @@ a.btn-round-lg:hover {
 
 
 
+
+
+
 /* Medium devices (desktops, 992px and up) */
 
 @media (min-width: 992px) {
@@ -1344,6 +1408,9 @@ a.btn-round-lg:hover {
         font-size: 22px;
     }
 }
+
+
+
 
 
 
@@ -1485,6 +1552,9 @@ a.btn-round-lg:hover {
         font-size: 12px;
     }
 }
+
+
+
 
 
 
