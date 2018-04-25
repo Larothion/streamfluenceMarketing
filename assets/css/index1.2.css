@@ -2009,7 +2009,11 @@ a.btn-round-lg:hover {
     }
 
     #engagementSection {
-        height: 600px;
+        height: 700px;
+    }
+
+    #engagementContent {
+        height: 475px;
     }
 
     #homeTitleEngagement {
@@ -2022,7 +2026,7 @@ a.btn-round-lg:hover {
     }
 
     #engagementBox {
-        height: 580px;
+        height: 650px;
     }
 
     #brandHomeButton {
