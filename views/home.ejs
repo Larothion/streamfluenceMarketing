@@ -15,64 +15,14 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
     <link rel="shortcut icon" href="assets/images/floo.png">
-    <link rel="apple-touch-icon" href="assets/images/favicon-floo.png">
+    <link rel="apple-touch-icon" href="../public/images/favicon-floo.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body id="top">
     <div class="wrapper">
         <nav class="navbar navbar-default navbar-fixed-top" id="navStarted">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="home">
-               <img id="navbar-logo" alt="Brand" src="./assets/images/logo.png">
-            </a>
-            </div>
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right" id="navLinks">
-                    <li>
-                        <a class="navFont" href="streamers">Streamers</a>
-                    </li>
-                    <li>
-                        <a class="navFont" href="brands">Brands &amp; Agencies</a>
-                    </li>
-                    <li class="divider-vertical"></li>
-                    <li class="divider-vertical"></li>
-                    <li>
-                        <a class="navFont" href="pricing">Pricing</a>
-                    </li>
-                    <li>
-                        <a class="navFont" id="" data-toggle="dropdown">Login</a>
-                        <ul class="dropdown-menu">
-                            <li>
-                                <a class="navFont" href="https://streamfluence.herokuapp.com/api/v1/auth/twitch">Streamer</a>
-                            </li>
-                            <li>
-                                <a class="navFont" href="https://streamfluence.herokuapp.com/login">Brand</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a class="navFont" id="navJoin" data-toggle="dropdown" href="https://streamfluence.herokuapp.com/register" target="_blank">Get Started</a>
-                        <ul class="dropdown-menu">
-                            <li>
-                                <a class="navFont" href="https://streamfluence.herokuapp.com/api/v1/auth/twitch">Streamer</a>
-                            </li>
-                            <li>
-                                <a class="navFont" href="https://streamfluence.herokuapp.com/register">Brand</a>
-                            </li>
-                        </ul>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
+             <%- include('layouts/nav'); %>
         </nav>
         <!-- BRAND LOGO with Triangle background-->
         <div id="brand-corner" class="hidden-xs">
@@ -274,27 +224,7 @@
         </div>
     </section>
     <footer>
-        <div class="copyright">
-            <div class="row ">
-                <div class="col-md-2 text-left">
-                </div>
-                <div class="col-md-2 text-left">
-                    <div id="blogCheck">
-                        <a href="http://blog.streamfluence.io/" style='color: #fff;'>Check Out Our Blog</a>
-                    </div>
-                    <div id="contactCheck">
-                        <a href="mailto:tross@streamfluencepartners.com" style='color: #fff;'>Questions? Contact Us!</a>
-                        <p style='color: #fff; margin-top: 20px;'>Email: tross@streamfluencepartners.com</p>
-                        <p style='color: #fff'>Phone Number: (321)-696-9647</p>
-                    </div>
-                </div>
-                <div class="col-md-4 text-center ">
-                    <p class="copyrighttext ">Copyright 2018 StreamFluence Inc.</p>
-                </div>
-                <div class="col-md-4 text-center ">
-                </div>
-            </div>
-        </div>
+        <%- include('layouts/footer'); %>
     </footer>
     <!-- SCRIPT -->
     <script type="text/javascript " src="assets/js/app.js "></script>

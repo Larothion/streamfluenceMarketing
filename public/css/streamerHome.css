@@ -8,6 +8,10 @@
     box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.5);
 }
 
+#noTitleCastersSection {
+    height: 700px;
+}
+
 #homeBigScreen {
     height: 90vh;
 }
@@ -127,8 +131,8 @@
 #platformsLineImage {
     position: absolute;
     width: 110%;
-    height: 18%;
-    bottom: 14.8%;
+    height: 95%;
+    bottom: -1%;
     z-index: 0;
 }
 
