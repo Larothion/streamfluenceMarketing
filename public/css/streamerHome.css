@@ -14,6 +14,18 @@
 
 #homeBigScreen {
     height: 90vh;
+
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#30b7fe+100,a023ff+100 */
+    background: #30b7fe;
+    /* Old browsers */
+    background: -moz-linear-gradient(-45deg, #30b7fe 100%, #a023ff 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, #30b7fe 100%, #a023ff 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, #30b7fe 100%, #a023ff 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#30b7fe', endColorstr='#a023ff', GradientType=1);
+    /* IE6-9 fallback on horizontal gradient */
 }
 
 .homeContent {
@@ -46,8 +58,18 @@
     width: 620px;
 }
 
-#brandHomeButton {
-    background-color: #30b7fe;
+.navFont {
+    color: #30b7fe;
+    letter-spacing: 1px;
+    margin-top: 6px;
+    margin-right: 15px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#streamerHomeButton {
+    background-color: #a023ff;
     color: #fff;
     height: 60px;
     width: 340px;
@@ -68,7 +90,7 @@
     height: auto;
     max-width: 100%;
     left: 15%;
-    border: 2px solid #a023ff;
+    border: 2px solid #6cccfe;
     box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.5);
     z-index: 99999;
     border-radius: 30px;
@@ -108,15 +130,15 @@
 .brand123 h3 {
     margin: 0 0 10px 0px;
     font-size: 24px;
-    color: #0c6dff;
-    font-weight: bolder;
+    color: #30b7fe;
+    font-weight: 900;
     letter-spacing: 2px;
 }
 
 .brand123Trophy {
     padding: 30px 0 30px 0;
     font-size: 50px;
-    color: #6a95ff;
+    color: #6cccfe;
 }
 
 #sfBrandSlant {
@@ -134,6 +156,21 @@
     height: 95%;
     bottom: -1%;
     z-index: 0;
+}
+
+#platformThriveSection {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#30b7fe+100,a023ff+100 */
+    background: #30b7fe;
+    /* Old browsers */
+    background: -moz-linear-gradient(-45deg, #30b7fe 100%, #a023ff 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, #30b7fe 100%, #a023ff 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, #30b7fe 100%, #a023ff 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#30b7fe', endColorstr='#a023ff', GradientType=1);
+    /* IE6-9 fallback on horizontal gradient */
+    position: relative;
 }
 
 .thriveOnImages {

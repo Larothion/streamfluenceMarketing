@@ -1,5 +1,17 @@
         #homeBigScreen {
             height: 90vh;
+            /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#a023ff+100,08f8f8+100 */
+            background: #a023ff;
+            /* Old browsers */
+            background: -moz-linear-gradient(-45deg, #a023ff 100%, #08f8f8 100%);
+            /* FF3.6-15 */
+            background: -webkit-linear-gradient(-45deg, #a023ff 100%, #08f8f8 100%);
+            /* Chrome10-25,Safari5.1-6 */
+            background: linear-gradient(135deg, #a023ff 100%, #08f8f8 100%);
+            /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a023ff', endColorstr='#08f8f8', GradientType=1);
+            /* IE6-9 fallback on horizontal gradient */
+            padding: 0px;
         }
 
         .homeContent {
@@ -24,7 +36,7 @@
             font-size: 16px;
             color: #fff;
             margin-top: 35px;
-            font-family: 'Roboto', sans-serif;
+            font-family: 'Open Sans', sans-serif;
             margin-left: 30px;
             line-height: 28px;
             letter-spacing: 1px;
@@ -113,13 +125,14 @@
         .brand123 h3 {
             margin: 0 0 10px 0px;
             font-size: 24px;
-            color: #0c6dff;
+            color: #a023ff;
             font-weight: bolder;
             letter-spacing: 2px;
         }
 
         .brand123Trophy {
             padding: 30px 0 30px 0;
+            color
         }
 
         #sfBrandSlant {
@@ -153,6 +166,10 @@
         #HowItWorksStep1Section {
             top: 0%;
             left: -12%;
+        }
+
+        #HowItWorksStep1{
+            background-color: #fff;
         }
 
         #howItWorksStep1P {
@@ -225,8 +242,8 @@
         }
 
         #howItWorksBtn {
-            background-color: #fff;
-            color: #7fb1fe;
+            background-color: #bc63ff;
+            color: #fff;
             height: 50px;
             font-size: 16px;
             border-radius: 10px;
@@ -239,17 +256,17 @@
 
         #HowItWorksSection {
             height: 900px;
-            /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#08f8f8+0,ae61ff+67 */
-            background: #08f8f8;
+            /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#a023ff+100,08f8f8+100 */
+            background: #a023ff;
             /* Old browsers */
-            background: -moz-linear-gradient(left, #08f8f8 0%, #ae61ff 75%);
+            background: -moz-linear-gradient(-45deg, #a023ff 100%, #08f8f8 100%);
             /* FF3.6-15 */
-            background: -webkit-linear-gradient(left, #08f8f8 0%, #ae61ff 75%);
+            background: -webkit-linear-gradient(-45deg, #a023ff 100%, #08f8f8 100%);
             /* Chrome10-25,Safari5.1-6 */
-            background: linear-gradient(to right, #08f8f8 0%, #ae61ff 75%);
+            background: linear-gradient(135deg, #a023ff 100%, #08f8f8 100%);
             /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#08f8f8', endColorstr='#ae61ff', GradientType=1);
-            /* IE6-9 */
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a023ff', endColorstr='#08f8f8', GradientType=1);
+            /* IE6-9 fallback on horizontal gradient */
         }
 
         #noTitleCastersSection {

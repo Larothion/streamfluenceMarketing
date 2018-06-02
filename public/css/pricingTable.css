@@ -10,6 +10,10 @@
         background-color: #eee;
     }
 
+    #pricingTitle {
+        color: #fff;
+    }
+
     #generic_price_table {}
     /*PRICE COLOR CODE START*/
 
@@ -82,7 +86,7 @@
 
     #generic_price_table {
         margin: 50px 0 50px 0;
-        font-family: 'Raleway', sans-serif;
+        font-family: 'Open Sans', sans-serif;
     }
 
     .row .table {
@@ -117,7 +121,8 @@
     }
 
     #generic_price_table .generic_content .generic_head_price .generic_head_content .head span {
-        font-family: "Raleway", sans-serif;
+        font-family: 'Roboto Slab', serif;
+
         font-size: 28px;
         font-weight: 400;
         letter-spacing: 2px;
@@ -136,14 +141,16 @@
 
     #generic_price_table .generic_content .generic_head_price .generic_price_tag .price .sign {
         display: inline-block;
-        font-family: "Lato", sans-serif;
+        font-family: 'Open Sans', sans-serif;
+
         font-size: 28px;
         font-weight: 400;
         vertical-align: middle;
     }
 
     #generic_price_table .generic_content .generic_head_price .generic_price_tag .price .currency {
-        font-family: "Lato", sans-serif;
+        font-family: 'Open Sans', sans-serif;
+
         font-size: 60px;
         font-weight: 300;
         letter-spacing: -2px;
@@ -154,14 +161,16 @@
 
     #generic_price_table .generic_content .generic_head_price .generic_price_tag .price .cent {
         display: inline-block;
-        font-family: "Lato", sans-serif;
+        font-family: 'Open Sans', sans-serif;
+
         font-size: 24px;
         font-weight: 400;
         vertical-align: bottom;
     }
 
     #generic_price_table .generic_content .generic_head_price .generic_price_tag .month {
-        font-family: "Lato", sans-serif;
+        font-family: 'Open Sans', sans-serif;
+
         font-size: 18px;
         font-weight: 400;
         letter-spacing: 3px;
@@ -176,7 +185,8 @@
     }
 
     #generic_price_table .generic_content .generic_feature_list ul li {
-        font-family: "Lato", sans-serif;
+        font-family: 'Open Sans', sans-serif;
+
         font-size: 18px;
         padding: 15px 0;
         margin: 0 0 0 10px;
@@ -207,7 +217,8 @@
         -o-border-radius: 50px;
         -webkit-border-radius: 50px;
         display: inline-block;
-        font-family: "Lato", sans-serif;
+        font-family: 'Open Sans', sans-serif;
+
         font-size: 18px;
         outline: medium none;
         padding: 12px 30px;
@@ -261,7 +272,7 @@
     @media (min-width: 1200px) {}
 
     #generic_price_table_home {
-        font-family: 'Raleway', sans-serif;
+        font-family: 'Open Sans', sans-serif;
     }
 
     .text-center h1,
@@ -586,18 +597,22 @@
         color: #fe992c;
     }
 
+    #aboutViewMoreBtn {
+        background-color: #42b6ff;
+    }
+
     #homeBigScreenPricing {
         height: 100%;
-        /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#08f8f8+6,50aafa+25,a023ff+55 */
-        background: #08f8f8;
+        /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#a023ff+100,08f8f8+100 */
+        background: #a023ff;
         /* Old browsers */
-        background: -moz-linear-gradient(45deg, #08f8f8 6%, #50aafa 25%, #a023ff 55%);
+        background: -moz-linear-gradient(-45deg, #a023ff 100%, #08f8f8 100%);
         /* FF3.6-15 */
-        background: -webkit-linear-gradient(45deg, #08f8f8 6%, #50aafa 25%, #a023ff 55%);
+        background: -webkit-linear-gradient(-45deg, #a023ff 100%, #08f8f8 100%);
         /* Chrome10-25,Safari5.1-6 */
-        background: linear-gradient(45deg, #08f8f8 6%, #50aafa 25%, #a023ff 55%);
+        background: linear-gradient(135deg, #a023ff 100%, #08f8f8 100%);
         /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#08f8f8', endColorstr='#a023ff', GradientType=1);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a023ff', endColorstr='#08f8f8', GradientType=1);
         /* IE6-9 fallback on horizontal gradient */
         padding: 0px;
     }
@@ -619,7 +634,7 @@
     }
 
     #pricingHead1 {
-        background-color: #D15FEE;
+        background-color: #bc63ff;
         height: 110px;
     }
 
@@ -640,8 +655,8 @@
         }
     }
 
-     @media only screen and (max-width: 1400px) {
+    @media only screen and (max-width: 1400px) {
         #pricingTitle {
             font-size: 30px;
         }
-     }
+    }

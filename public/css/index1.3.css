@@ -1,7 +1,7 @@
 /* Begin main css */
 
 @font-face {
-    font-family: "Terminator nfi";
+    font-family: 'Roboto Slab', serif;
     src: url("fonts/terminator real nfi.ttf") format("truetype");
 }
 
@@ -11,7 +11,8 @@ html {
 }
 
 body {
-    font-family: "Roboto", sans-serif;
+    font-family: 'Roboto Slab', serif;
+
     /* Margin bottom by footer height */
     overflow-x: hidden;
 }
@@ -38,7 +39,8 @@ h4 {
 }
 
 p {
-    font-family: "Raleway", sans-serif;
+    font-family: 'Open Sans', sans-serif;
+
     color: #696969;
 }
 
@@ -54,6 +56,8 @@ a.btn:hover {
     background-color: #4d98d3;
     color: white;
 }
+
+
 
 
 
@@ -106,6 +110,7 @@ a.btn:hover {
     margin-right: 15px;
     font-size: 16px;
     font-weight: bold;
+    cursor: pointer;
 }
 
 #navLinks a {
@@ -203,6 +208,8 @@ a.btn:hover {
 
 
 
+
+
 /* Top left logo with triangle background */
 
 #brand-corner {
@@ -229,6 +236,8 @@ a.btn:hover {
     max-height: 100px;
     width: auto;
 }
+
+
 
 
 
@@ -299,6 +308,8 @@ a.btn:hover {
 
 
 
+
+
 /*brands we work with section*/
 
 .carousel-indicators {
@@ -315,8 +326,10 @@ a.btn:hover {
 }
 
 #brands h2 {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Slab', serif;
 }
+
+
 
 
 
@@ -342,6 +355,17 @@ footer {
 
 footer h4 {
     color: #000;
+}
+
+#socialIcons {
+    font-size: 50px;
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+#blogQuestionsFooter {
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
 
 .copyright {
@@ -442,6 +466,8 @@ footer h4 {
 
 
 
+
+
 /******************/
 
 
@@ -478,7 +504,8 @@ footer h4 {
 }
 
 #hero h1 {
-    font-family: "Terminator nfi", "Roboto", sans-serif;
+    font-family: 'Roboto Slab', serif;
+
     font-size: 32px;
     font-weight: bolder;
     color: #003d87;
@@ -554,6 +581,8 @@ a.btn-round-lg:hover {
 
 
 
+
+
 /** Section 2 - info **/
 
 #section2>.row {
@@ -583,6 +612,8 @@ a.btn-round-lg:hover {
     border: none;
     padding-top: 13px;
 }
+
+
 
 
 
@@ -687,11 +718,15 @@ a.btn-round-lg:hover {
 
 
 
+
+
 /** Denied page **/
 
 .empty-footer {
     height: 50px;
 }
+
+
 
 
 
@@ -769,6 +804,8 @@ a.btn-round-lg:hover {
 
 
 
+
+
 /*main home section begin*/
 
 #homeBigScreen {
@@ -798,6 +835,7 @@ a.btn-round-lg:hover {
     height: 100vh;
     bottom: -1%;
     z-index: 2;
+    font-family: 'Roboto Slab', serif;
 }
 
 #homeTitle {
@@ -805,6 +843,7 @@ a.btn-round-lg:hover {
     font-size: 30px;
     letter-spacing: 2px;
     font-weight: normal;
+    font-family: 'Roboto Slab', serif;
     width: 650px;
 }
 
@@ -852,6 +891,8 @@ a.btn-round-lg:hover {
     top: 100%;
     left: 40%;
 }
+
+
 
 
 
@@ -981,6 +1022,8 @@ a.btn-round-lg:hover {
 
 
 
+
+
 /*end why streamfluence section*/
 
 
@@ -1039,6 +1082,8 @@ a.btn-round-lg:hover {
     /* IE6-9 */
     position: relative;
 }
+
+
 
 
 
@@ -1150,6 +1195,8 @@ a.btn-round-lg:hover {
 #brandedContent {
     padding: 60px 0 60px 0;
 }
+
+
 
 
 
@@ -1303,6 +1350,8 @@ a.btn-round-lg:hover {
 
 
 
+
+
 /*get started end*/
 
 .btn-group-lg>.btn,
@@ -1337,6 +1386,8 @@ a.btn-round-lg:hover {
     margin: 0 auto;
     float: none;
 }
+
+
 
 
 
@@ -1433,13 +1484,14 @@ a.btn-round-lg:hover {
     letter-spacing: 2px;
     font-weight: bold;
     margin-top: 5px;
-    font-family: 'Passion One', ;
+    font-family: 'Roboto Slab', serif;
 }
 
 #titleParagraph {
     font-size: 16px;
     margin-top: 35px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+
     line-height: 28px;
     letter-spacing: 1px;
 }
@@ -1504,6 +1556,8 @@ a.btn-round-lg:hover {
 
 
 
+
+
 /*====================*/
 
 
@@ -1532,6 +1586,8 @@ a.btn-round-lg:hover {
         padding-top: 90px;
     }
 }
+
+
 
 
 
@@ -1655,6 +1711,8 @@ a.btn-round-lg:hover {
 
 
 
+
+
 /* Medium devices (desktops, 992px and up) */
 
 @media (min-width: 992px) {
@@ -1668,6 +1726,8 @@ a.btn-round-lg:hover {
         font-size: 22px;
     }
 }
+
+
 
 
 
@@ -1833,6 +1893,8 @@ a.btn-round-lg:hover {
         bottom: 0%;
     }
 }
+
+
 
 
 
