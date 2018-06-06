@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <!--links my css page -->
     <link rel="stylesheet" type="text/css" href="./assets/css/index1.3.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/componentCSS/infinite-slider.css">
     <!--Allows me to use JQuery -->
     <script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
     <!-- Allows me to use Bootstrap JS -->
@@ -39,10 +40,10 @@
             <img src="./assets/images/sfHomeImage2.png" id='homeBigImage2'>
             <div class="row homeContent">
                 <div class="col-md-6">
-                    <h1 id='homeTitle'>THE INFLUENCER MARKETPLACE FOR</h1>
+                    <h1 id='homeTitle'>THE BROADCASTER MARKETPLACE FOR</h1>
                     <p id='liveContentTitle'> LIVE CONTENT</p>
-                    <a class="btn btn-lg btn-round-lg" id='broadcastersBtn' href="streamers" target="" role="button">BROADCASTERS</a>
-                    <a class="btn btn-lg btn-round-lg" id='brandsBtn' href="brands" target="" role="button">BRANDS</a>
+                    <a class="btn btn-lg btn-round-lg" id='broadcastersBtn' href="streamers" target="" role="button"><strong>BROADCASTERS</strong></a>
+                    <a class="btn btn-lg btn-round-lg" id='brandsBtn' href="brands" target="" role="button"><strong>BRANDS & AGENCIES</strong></a>
                 </div>
             </div>
             <div class="col-md-6">
@@ -81,8 +82,8 @@
                         <i class="fa fa-dollar" style="font-size:50px; color: #6a95ff;"></i>
                     </div>
                     <div class='col-sm-8'>
-                        <h3>Influence Made Accessible</h3>
-                        <p>We give you the ability to choose how many influencers you’ll work with and at what cost.</p>
+                        <h3>Influence made accessible</h3>
+                        <p>We give you the ability to choose how many broadcasters you’ll work with and at what cost.</p>
                     </div>
                     <div class='col-sm-1'>
                     </div>
@@ -94,8 +95,8 @@
                         <i class="fa fa-area-chart" style="font-size:50px; color: #6a95ff;"></i>
                     </div>
                     <div class='col-sm-8'>
-                        <h3>Data-Driven Decisions</h3>
-                        <p>We give you the anlytics that will help you scale your campaigns and maximize your ROI.</p>
+                        <h3>Data-Driven decisions</h3>
+                        <p>We give you the analytics that will help you scale your campaigns and maximize your ROI.</p>
                     </div>
                     <div class='col-sm-1'>
                     </div>
@@ -143,11 +144,12 @@
                     <div class=" col-md-6 " id='engagementContent'>
                         <h1 id='homeTitleEngagement'>Expose your brand to<br> a whole new audience</h1>
                         <p id='titleParagraph'> With StreamFluence, reaching that niche audience has never been easier.
-                            <br>We'll match you with the perfect influencers you can trust to represent your brand</p>
-                        <a class=" btn btn-lg btn-round-md " id='brandHomeButton' href="https://streamfluence.herokuapp.com/register " target="_blank " role="button ">JOIN NOW</a>
+                            <br>We'll match you with the perfect broadcasters you can trust to represent your brand</p>
+                        <a class=" btn btn-lg btn-round-md " id='brandHomeButton' href="/brands" target="_blank " role="button ">Learn More</a>
                     </div>
                     <div class="col-md-6 text-center " id='engagementImage'>
-                        <iframe src="https://clips.twitch.tv/embed?clip=BombasticEasyLatteNerfRedBlaster&autoplay=false&tt_medium=clips_embed&autoplay=true&muted=true" frameborder="0" scrolling="no" allowfullscreen="true" id='streamerVideo1'></iframe>
+                        <iframe src="https://clips.twitch.tv/embed?clip=BombasticEasyLatteNerfRedBlaster&tt_medium=clips_embed&autoplay=true&muted=true&loop=1" frameborder="0" scrolling="no" allowfullscreen="true" id='streamerVideo1'>
+                        </iframe>
                     </div>
                 </div>
             </div>
@@ -155,35 +157,56 @@
             </div>
         </div>
     </section>
-    <section id="brands">
-        <div class="container">
-            <div id="Carousel" class="carousel slide">
-                <h2 class="text-center" style='margin-bottom: 50px;'>SOME OF THE BRANDS WE'VE WORKED WITH</h2>
-                <ol class="carousel-indicators">
-                    <li data-target="#Carousel" data-slide-to="0" class="active"></li>
-                    <li data-target="#Carousel" data-slide-to="1"></li>
-                </ol>
-                <div class="carousel-inner">
-                    <div class="item active">
-                        <div class="row text-center">
-                            <div class="col-lg-3 col-xs-6"><img src="./assets/images/arcticLogo.png" alt="" target="" style="max-width:80%;"></div>
-                            <div class="col-lg-3 col-xs-6"><img src="./assets/images/onnitLogo2.png" alt="" target="" style="max-width:80%;"></div>
-                            <div class="col-lg-3 col-xs-6"><img src="./assets/images/overwolfLogo.png" alt="" target="" style="max-width:50%;"></div>
-                            <div class="col-lg-3 col-xs-6"><img src="./assets/images/prisonLogo.png" alt="" target="" style="max-width:100%; margin-top: 30px;"></div>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="row text-center">
-                            <div class="col-lg-3 col-xs-6"><img src="./assets/images/streamLoots.png" alt="" style="max-width:100%; background-color: #000628; margin-top: 55px;"></div>
-                            <div class="col-lg-3 col-xs-6"><img src="./assets/images/glitchLogo.png" alt="" target="" style="max-width:60%;"></div>
-                            <div class="col-lg-3 col-xs-6"><img src="./assets/images/stackUpLogo.png" alt="" target="" style="max-width:80%;"></div>
-                            <div class="col-lg-3 col-xs-6"><img src="./assets/images/legionLogo.png" alt="" target="" style="max-width:100%; margin-top: 55px;"></div>
-                        </div>
-                    </div>
-                </div>
-                <!-- carousel-inner -->
+    <section class='jumbotron' id='trackRecordSection'>
+        <h1 class='text-center' id='trackRecordTitle'><strong>Track</strong> <strong style='color: #6a95ff;'>Record</strong></h1>
+        <div class='row' id='trackRecordAnalytics' style='padding-top: 40px;'>
+            <div class='col-md-3 text-center'>
+                <figure class='text-center'>
+                    <i class="fa fa-handshake-o" style="font-size:75px; color: #6a95ff;"></i>
+                    <figcaption><strong style='font-size: 30px;'>50+</strong>
+                        <br>Brands On Platform</figcaption>
+                </figure>
             </div>
-            <!-- Carousel -->
+            <div class='col-md-3 text-center'>
+                <figure class='text-center'>
+                    <i class="fa fa-users" style="font-size:75px; color: #6a95ff;"></i>
+                    <figcaption><strong style='font-size: 30px;'>20M+</strong>
+                        <br>Monthly Reach</figcaption>
+                </figure>
+            </div>
+            <div class='col-md-3 text-center'>
+                <figure class='text-center'>
+                    <i class="fa fa-child" style="font-size:75px; color: #6a95ff;"></i>
+                    <figcaption><strong style='font-size: 30px;'>500+</strong>
+                        <br>Broadcasters In Our Network</figcaption>
+                </figure>
+            </div>
+            <div class='col-md-3 text-center'>
+                <figure class='text-center'>
+                    <i class="fa fa-area-chart" style="font-size:75px; color: #6a95ff;"></i>
+                    <figcaption><strong style='font-size: 30px;'>100k+</strong>
+                        <br>Monthly Engagements</figcaption>
+                </figure>
+            </div>
+        </div>
+        <br>
+        <br>
+        <br>
+    </section>
+    <section id="brands" style='padding-bottom: 10px;'>
+        <h2 class="text-center" style='margin-bottom: 50px; color: #bc63ff; margin-top:0px; padding-top: 15px;'><strong>A few brands we work with</strong></h2>
+        <div class="container">
+            <section class="customer-logos slider">
+                <div class="slide"><img src="./assets/images/arcticLogo.png" alt="" target="" style="max-width:80%;"></div>
+                <div class="slide"><img src="./assets/images/onnitLogo2.png" alt="" target="" style="max-width:80%;"></div>
+                <div class="slide"><img src="./assets/images/overwolfLogo.png" alt="" target="" style="max-width:50%; margin: 0 auto;"></div>
+                <div class="slide"><img src="./assets/images/prisonLogo.png" alt="" target="" style="max-width:100%; margin-top: 30px;"></div>
+                <div class="slide"><img src="./assets/images/manscape.png" alt="" target="" style="max-width:80%; margin: 10px auto 0 auto;"></div>
+                <div class="slide"><img src="./assets/images/andaseat.jpg" alt="" target="" style="max-width:60%; margin: 0 auto;"></div>
+                <div class="slide"><img src="./assets/images/streamLoots.png" alt="" style="max-width:100%; background-color: #000628; margin-top: 55px;"></div>
+                <div class="slide"><img src="./assets/images/glitchLogo.png" alt="" target="" style="max-width:50%; margin: 0 auto;"></div>
+                <div class="slide"><img src="./assets/images/legionLogo.png" alt="" target="" style="max-width:100%; margin-top: 55px;"></div>
+            </section>
         </div>
     </section>
     <section id='noTitleCastersSection'>
@@ -209,7 +232,7 @@
                     <div class='col-md-2'>
                     </div>
                     <div class='col-md-6' id='brandedContent'>
-                        <h4 class='text-left'>GET STARTED AS A BRAND</h4>
+                        <h4 class='text-left'>BRANDS, GET STARTED</h4>
                         <br>
                         <p class='text-left'>We have over 500+ Broadcasters that want to promote your brand!
                         </p>
@@ -229,7 +252,10 @@
         <%- include('layouts/footer'); %>
     </footer>
     <!-- SCRIPT -->
+    <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
     <script type="text/javascript " src="assets/js/app.js "></script>
+    <script type="text/javascript " src="assets/js/carousel.js "></script>
     <!-- Start of HubSpot Embed Code -->
     <script type="text/javascript " id="hs-script-loader " async defer src="//js.hs-scripts.com/2995043.js "></script>
     <!-- End of HubSpot Embed Code -->

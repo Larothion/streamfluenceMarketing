@@ -59,9 +59,8 @@
 
         #streamerImage1 {
             position: absolute;
-            height: 00px;
             width: 800px;
-            height: auto;
+            height: 500px;
             max-width: 100%;
             left: 35%;
             border: 2px solid #30b7fe;
@@ -70,9 +69,8 @@
 
         #twitchSectionImage {
             position: absolute;
-            height: 450px;
+            height: 400px;
             width: 750px;
-            height: auto;
             max-width: 100%;
             left: 15%;
             border: 2px solid #a023ff;
@@ -89,7 +87,7 @@
 
         #brand123Row {
             margin: 0px;
-            margin-top: 180px;
+            margin-top: 100px;
             padding: 0px;
         }
 
@@ -137,125 +135,60 @@
 
         #sfBrandSlant {
             position: absolute;
-            height: 180vh;
+            height: 130vh;
             width: 330vh;
-            top: 40%;
-            left: -30%;
+            left: -5%;
+
             z-index: 0;
         }
 
         #howItWorkTitle {
             color: white;
-            font-size: 55px;
+            font-size: 35px;
             font-weight: bold;
             letter-spacing: 2px;
-            line-height: 75px;
         }
 
-        .howitWorkSteps {
-            position: relative;
-            height: 200px;
-        }
-
-        .howItWorksIcons i {
-            font-size: 70px;
-            margin-left: 234.5px;
+        #howItWorksIcons {
+            font-size: 90px;
             color: #fff;
+            margin: 0 auto;
+            padding-top: 15px;
         }
 
-        #HowItWorksStep1Section {
-            top: 0%;
-            left: -12%;
+        .howItWorksLeft {
+            margin: 0 auto;
         }
 
-        #HowItWorksStep1{
-            background-color: #fff;
+        .howItWorksRight {
+            margin: 0 auto;
         }
 
-        #howItWorksStep1P {
-            position: relative;
-            height: 100px;
-            padding-top: 25px;
-            padding-bottom: 20px;
-            border-radius: 20px;
-        }
-
-        #howItWorksStep1P p {
+        #howItWorksLeftP {
+            margin: 0 auto;
             color: #fff;
+            font-size: 20px;
         }
 
-        #HowItWorksStep2Section {
-            top: 0%;
-        }
-
-
-
-        #howItWorksStep2P {
-            position: relative;
-            top: 0%;
-            height: 100px;
-            padding-top: 25px;
-            padding-bottom: 20px;
-            border-radius: 20px;
-        }
-
-        #howItWorksStep2P p {
-            color: #fff;
-        }
-
-        #HowItWorksStep3Section {
-            top: 4%;
-            left: 12%;
-        }
-
-
-        #howItWorksStep3P {
-            position: relative;
-            top: -10%;
-            height: 100px;
-            padding-top: 25px;
-            padding-bottom: 20px;
-            border-radius: 20px;
-        }
-
-        #howItWorksStep3P p {
-            color: #fff;
-        }
-
-        #HowItWorksStep4Section {
-
-            left: 22%;
-        }
-
-
-
-        #howItWorksStep4P {
-            position: relative;
-            height: 100px;
-            padding-top: 25px;
-            padding-bottom: 20px;
-            border-radius: 20px;
-        }
-
-        #howItWorksStep4P p {
-            color: #fff;
-        }
-
-        #howItWorksBtn {
-            background-color: #bc63ff;
-            color: #fff;
-            height: 50px;
+        .howItWorksSteps1 {
+            color: #520091;
             font-size: 16px;
-            border-radius: 10px;
-            border: none;
-            padding: 15px;
-            font-weight: 750;
-            margin-left: 160px;
-            margin-top: 20px;
         }
+
+        .howItWorksSteps2 {
+            color: #fff;
+            font-size: 16px;
+            letter-spacing: 2px;
+            font-weight: bolder;
+        }
+
+        .stepsRowsSection {
+            margin-top: 60px;
+        }
+
 
         #HowItWorksSection {
-            height: 900px;
+            height: 1200px;
             /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#a023ff+100,08f8f8+100 */
             background: #a023ff;
             /* Old browsers */
