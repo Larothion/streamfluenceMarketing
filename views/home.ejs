@@ -6,14 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>StreamFluence</title>
     <!-- bootstap html and cc elemets-->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
     <!--links my css page -->
     <link rel="stylesheet" type="text/css" href="./assets/css/index1.3.css">
     <link rel="stylesheet" type="text/css" href="./assets/css/componentCSS/infinite-slider.css">
     <!--Allows me to use JQuery -->
     <script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
     <!-- Allows me to use Bootstrap JS -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
     <link rel="shortcut icon" href="assets/images/floo.png">
     <link rel="apple-touch-icon" href="../public/images/favicon-floo.png">
@@ -23,7 +25,7 @@
 </head>
 
 <body id="top">
-    <div class="wrapper">
+    <div class="wrapper container-fluid">
         <nav class="navbar navbar-default navbar-fixed-top" id="navStarted">
             <%- include('layouts/nav'); %>
         </nav>
@@ -31,160 +33,188 @@
         <div id="brand-corner" class="hidden-xs">
             <div id="brand-background"></div>
             <a href="/">
-            <img id="brand-logo" src="assets/images/streamfluence-logo.png">
-         </a>
+                <img id="brand-logo" src="assets/images/streamfluence-logo.png">
+            </a>
         </div>
         <!-- Content -->
-        <section class="sec sec-top" id='homeBigScreen'>
+        <section class="sec sec-top row" id='homeBigScreen'>
             <img src="./assets/images/sfHomeImage.png" id='homeBigImage'>
             <img src="./assets/images/sfHomeImage2.png" id='homeBigImage2'>
-            <div class="row homeContent">
-                <div class="col-md-6">
-                    <h1 id='homeTitle'>THE BROADCASTER MARKETPLACE FOR</h1>
-                    <p id='liveContentTitle'> LIVE CONTENT</p>
-                    <a class="btn btn-lg btn-round-lg" id='broadcastersBtn' href="streamers" target="" role="button"><strong>BROADCASTERS</strong></a>
-                    <a class="btn btn-lg btn-round-lg" id='brandsBtn' href="brands" target="" role="button"><strong>BRANDS & AGENCIES</strong></a>
+            <div class="col-xs-12 homeContent">
+                <div class="row">
+                    <div class="col-md-offset-2 col-md-10 home-content__title-container">
+                        <h1 id='homeTitle'>THE BROADCASTER MARKETPLACE FOR</h1>
+                        <p id='liveContentTitle'> LIVE CONTENT</p>
+                        <div class="home-content__buttons">
+                            <a class="btn btn-lg btn-round-lg" id='broadcastersBtn' href="streamers" target="" role="button">
+                                <strong>BROADCASTERS</strong>
+                            </a>
+                            <a class="btn btn-lg btn-round-lg" id='brandsBtn' href="brands" target="" role="button">
+                                <strong>BRANDS & AGENCIES</strong>
+                            </a>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="col-md-6">
+        </section>
+
+        <section class="sec" id='whySteamfluenceContainer'>
+            <div class="row vcenter">
+                <div class="col-md-2">
+                </div>
+                <div class="col-md-4 whySFPanelTitle">
+                    <img src="./assets/images/sfFullLogo.png" id='whyStreamfluenceImage'>
+                </div>
+                <div class="col-md-4 whySFPanel" id='homePanel2'>
+                    <div class="row sfPanelInner">
+                        <div class='col-sm-3'>
+                            <i class="fa fa-trophy" style="font-size:50px; color: #6a95ff;"></i>
+                        </div>
+                        <div class='col-sm-8'>
+                            <h3>Trusted channels for your audience</h3>
+                            <p>Tap into the millennial and gen Z audience through the content that they’re already consuming
+                                everyday.
+                            </p>
+                        </div>
+                        <div class='col-sm-1'>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                </div>
+            </div>
+            <div class="row vcenter">
+                <div class="col-md-2">
+                </div>
+                <div class="col-md-4 whySFPanel dollarPanel" id='homePanel3'>
+                    <div class="row sfPanelInner">
+                        <div class='col-sm-3'>
+                            <i class="fa fa-dollar" style="font-size:50px; color: #6a95ff;"></i>
+                        </div>
+                        <div class='col-sm-8'>
+                            <h3>Influence made accessible</h3>
+                            <p>We give you the ability to choose how many broadcasters you’ll work with and at what cost.</p>
+                        </div>
+                        <div class='col-sm-1'>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 whySFPanel">
+                    <div class="row sfPanelInner">
+                        <div class='col-sm-3'>
+                            <i class="fa fa-area-chart" style="font-size:50px; color: #6a95ff;"></i>
+                        </div>
+                        <div class='col-sm-8'>
+                            <h3>Data-Driven decisions</h3>
+                            <p>We give you the analytics that will help you scale your campaigns and maximize your ROI.</p>
+                        </div>
+                        <div class='col-sm-1'>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                </div>
+            </div>
+        </section>
+
+        <section class="sec-lightpurple" id='platformThriveSection'>
+            <div class="row">
+                <div class="col-md-2">
+                </div>
+                <div class="col-md-10">
+                    <h1 class='text-left' id='platformThriveTitle'>PLATFORMS WE
+                        <br> THRIVE ON</h1>
+                </div>
+                <img src="./assets/images/sf_homeImage_white.png" id='platformsLineImage'>
+            </div>
+            <div class="container" id='thriveOnSecion'>
+                <div class="row">
+                    <div class="col-xs-12 col-md-offset-1 col-md-11">
+                        <div class="row">
+                            <div class="col-md-4 thrive-container__image">
+                                <span class=""></span>
+                                <img src="./assets/images/youtubeBlack.png" />
+                            </div>
+                            <div class="col-md-4 thrive-container__image">
+                                <span class=""></span>
+                                <img src="./assets/images/twitchBlack.png" />
+                            </div>
+                            <div class="col-md-4 thrive-container__image">
+                                <span class=""></span>
+                                <img src="./assets/images/mixerBlack.png" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id='engagementSection'>
+            <div class="row">
+                <div class="col-xs-offset-1 col-xs-10 col-md-offset-2 col-md-8">
+                    <div class="row text-left" id='engagementBox'>
+                        <div class="col-sm-6" id='engagementContent'>
+                            <h1 id='homeTitleEngagement'>Expose your brand to
+                                <br> a whole new audience</h1>
+                            <p id='titleParagraph'> With StreamFluence, reaching that niche audience has never been easier.
+                                <br>We'll match you with the perfect broadcasters you can trust to represent your brand</p>
+                            <a class=" btn btn-lg btn-round-md " id='brandHomeButton' href="/brands" target="_blank " role="button ">Learn More</a>
+                        </div>
+                        <iframe src="https://clips.twitch.tv/embed?clip=BombasticEasyLatteNerfRedBlaster&tt_medium=clips_embed&autoplay=true&muted=true&loop=1"
+                        frameborder="0" scrolling="no" allowfullscreen="true" id='streamerVideo1'>
+                        </iframe>
+                    </div>
+                </div>
+                <div class="col-md-2 ">
+                </div>
             </div>
         </section>
     </div>
-    <section class="container-fluid sec" id='whySteamfluenceContainer'>
-        <div class="row vcenter">
-            <div class="col-md-2">
-            </div>
-            <div class="col-md-4 whySFPanelTitle">
-                <img src="./assets/images/sfFullLogo.png" id='whyStreamfluenceImage'>
-            </div>
-            <div class="col-md-4 whySFPanel" id='homePanel2'>
-                <div class="row sfPanelInner">
-                    <div class='col-sm-3'>
-                        <i class="fa fa-trophy" style="font-size:50px; color: #6a95ff;"></i>
-                    </div>
-                    <div class='col-sm-8'>
-                        <h3>Trusted channels for your audience</h3>
-                        <p>Tap into the millennial and gen Z audience through the content that they’re already consuming everyday.</p>
-                    </div>
-                    <div class='col-sm-1'>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-2">
-            </div>
-        </div>
-        <div class="row vcenter">
-            <div class="col-md-2">
-            </div>
-            <div class="col-md-4 whySFPanel dollarPanel" id='homePanel3'>
-                <div class="row sfPanelInner">
-                    <div class='col-sm-3'>
-                        <i class="fa fa-dollar" style="font-size:50px; color: #6a95ff;"></i>
-                    </div>
-                    <div class='col-sm-8'>
-                        <h3>Influence made accessible</h3>
-                        <p>We give you the ability to choose how many broadcasters you’ll work with and at what cost.</p>
-                    </div>
-                    <div class='col-sm-1'>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4 whySFPanel">
-                <div class="row sfPanelInner">
-                    <div class='col-sm-3'>
-                        <i class="fa fa-area-chart" style="font-size:50px; color: #6a95ff;"></i>
-                    </div>
-                    <div class='col-sm-8'>
-                        <h3>Data-Driven decisions</h3>
-                        <p>We give you the analytics that will help you scale your campaigns and maximize your ROI.</p>
-                    </div>
-                    <div class='col-sm-1'>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-2">
-            </div>
-        </div>
-    </section>
-    <section class="sec-lightpurple" id='platformThriveSection'>
-        <div class="row">
-            <div class="col-md-2">
-            </div>
-            <div class="col-md-10">
-                <h1 class='text-left' id='platformThriveTitle' style=''>PLATFORMS WE<br> THRIVE ON</h1>
-            </div>
-            <img src="./assets/images/sf_homeImage_white.png" id='platformsLineImage'>
-        </div>
-        <div class="row" id='thriveOnSecion'>
-            <div class="col-md-2">
-            </div>
-            <div class="col-md-3">
-                <span class="helper"></span><img src="./assets/images/youtubeBlack.png" class='thriveOnImages' id='youtubeImage'>
-            </div>
-            <div class="col-md-3">
-                <span class="helper"></span><img src="./assets/images/twitchBlack.png" class='thriveOnImages' id='twitchImage'>
-            </div>
-            <div class="col-md-3">
-                <span class="helper"></span><img src="./assets/images/mixerBlack.png" class='thriveOnImages' id='mixerImage' style="">
-            </div>
-            <div class="col-md-1">
-            </div>
-        </div>
-    </section>
+
+
+
+
+
+
     </div>
     <!-- /.wrapper -->
     <!-- Get to top of page button -->
     <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
-    <section id='engagementSection'>
-        <div class="row">
-            <div class="col-md-2">
-            </div>
-            <div class="col-md-8">
-                <div class="row text-left" id='engagementBox'>
-                    <div class=" col-md-6 " id='engagementContent'>
-                        <h1 id='homeTitleEngagement'>Expose your brand to<br> a whole new audience</h1>
-                        <p id='titleParagraph'> With StreamFluence, reaching that niche audience has never been easier.
-                            <br>We'll match you with the perfect broadcasters you can trust to represent your brand</p>
-                        <a class=" btn btn-lg btn-round-md " id='brandHomeButton' href="/brands" target="_blank " role="button ">Learn More</a>
-                    </div>
-                    <div class="col-md-6 text-center " id='engagementImage'>
-                        <iframe src="https://clips.twitch.tv/embed?clip=BombasticEasyLatteNerfRedBlaster&tt_medium=clips_embed&autoplay=true&muted=true&loop=1" frameborder="0" scrolling="no" allowfullscreen="true" id='streamerVideo1'>
-                        </iframe>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-2 ">
-            </div>
-        </div>
-    </section>
     <section class='jumbotron' id='trackRecordSection'>
-        <h1 class='text-center' id='trackRecordTitle'><strong>Track</strong> <strong style='color: #6a95ff;'>Record</strong></h1>
+        <h1 class='text-center' id='trackRecordTitle'>
+            <strong>Track</strong>
+            <strong style='color: #6a95ff;'>Record</strong>
+        </h1>
         <div class='row' id='trackRecordAnalytics' style='padding-top: 40px;'>
             <div class='col-md-3 text-center'>
                 <figure class='text-center'>
                     <i class="fa fa-handshake-o" style="font-size:75px; color: #6a95ff;"></i>
-                    <figcaption><strong style='font-size: 30px;'>50+</strong>
+                    <figcaption>
+                        <strong style='font-size: 30px;'>50+</strong>
                         <br>Brands On Platform</figcaption>
                 </figure>
             </div>
             <div class='col-md-3 text-center'>
                 <figure class='text-center'>
                     <i class="fa fa-users" style="font-size:75px; color: #6a95ff;"></i>
-                    <figcaption><strong style='font-size: 30px;'>20M+</strong>
+                    <figcaption>
+                        <strong style='font-size: 30px;'>20M+</strong>
                         <br>Monthly Reach</figcaption>
                 </figure>
             </div>
             <div class='col-md-3 text-center'>
                 <figure class='text-center'>
                     <i class="fa fa-child" style="font-size:75px; color: #6a95ff;"></i>
-                    <figcaption><strong style='font-size: 30px;'>500+</strong>
+                    <figcaption>
+                        <strong style='font-size: 30px;'>500+</strong>
                         <br>Broadcasters In Our Network</figcaption>
                 </figure>
             </div>
             <div class='col-md-3 text-center'>
                 <figure class='text-center'>
                     <i class="fa fa-area-chart" style="font-size:75px; color: #6a95ff;"></i>
-                    <figcaption><strong style='font-size: 30px;'>100k+</strong>
+                    <figcaption>
+                        <strong style='font-size: 30px;'>100k+</strong>
                         <br>Monthly Engagements</figcaption>
                 </figure>
             </div>
@@ -194,18 +224,38 @@
         <br>
     </section>
     <section id="brands" style='padding-bottom: 10px;'>
-        <h2 class="text-center" style='margin-bottom: 50px; color: #bc63ff; margin-top:0px; padding-top: 15px;'><strong>A few brands we work with</strong></h2>
+        <h2 class="text-center" style='margin-bottom: 50px; color: #bc63ff; margin-top:0px; padding-top: 15px;'>
+            <strong>A few brands we work with</strong>
+        </h2>
         <div class="container">
             <section class="customer-logos slider">
-                <div class="slide"><img src="./assets/images/arcticLogo.png" alt="" target="" style="max-width:80%;"></div>
-                <div class="slide"><img src="./assets/images/onnitLogo2.png" alt="" target="" style="max-width:80%;"></div>
-                <div class="slide"><img src="./assets/images/overwolfLogo.png" alt="" target="" style="max-width:50%; margin: 0 auto;"></div>
-                <div class="slide"><img src="./assets/images/prisonLogo.png" alt="" target="" style="max-width:100%; margin-top: 30px;"></div>
-                <div class="slide"><img src="./assets/images/manscape.png" alt="" target="" style="max-width:80%; margin: 10px auto 0 auto;"></div>
-                <div class="slide"><img src="./assets/images/andaseat.jpg" alt="" target="" style="max-width:60%; margin: 0 auto;"></div>
-                <div class="slide"><img src="./assets/images/streamLoots.png" alt="" style="max-width:100%; background-color: #000628; margin-top: 55px;"></div>
-                <div class="slide"><img src="./assets/images/glitchLogo.png" alt="" target="" style="max-width:50%; margin: 0 auto;"></div>
-                <div class="slide"><img src="./assets/images/legionLogo.png" alt="" target="" style="max-width:100%; margin-top: 55px;"></div>
+                <div class="slide">
+                    <img src="./assets/images/arcticLogo.png" alt="" target="" style="max-width:80%;">
+                </div>
+                <div class="slide">
+                    <img src="./assets/images/onnitLogo2.png" alt="" target="" style="max-width:80%;">
+                </div>
+                <div class="slide">
+                    <img src="./assets/images/overwolfLogo.png" alt="" target="" style="max-width:50%; margin: 0 auto;">
+                </div>
+                <div class="slide">
+                    <img src="./assets/images/prisonLogo.png" alt="" target="" style="max-width:100%; margin-top: 30px;">
+                </div>
+                <div class="slide">
+                    <img src="./assets/images/manscape.png" alt="" target="" style="max-width:80%; margin: 10px auto 0 auto;">
+                </div>
+                <div class="slide">
+                    <img src="./assets/images/andaseat.jpg" alt="" target="" style="max-width:60%; margin: 0 auto;">
+                </div>
+                <div class="slide">
+                    <img src="./assets/images/streamLoots.png" alt="" style="max-width:100%; background-color: #000628; margin-top: 55px;">
+                </div>
+                <div class="slide">
+                    <img src="./assets/images/glitchLogo.png" alt="" target="" style="max-width:50%; margin: 0 auto;">
+                </div>
+                <div class="slide">
+                    <img src="./assets/images/legionLogo.png" alt="" target="" style="max-width:100%; margin-top: 55px;">
+                </div>
             </section>
         </div>
     </section>
@@ -221,7 +271,8 @@
                         <p class='text-left'>Turn Live-streaming into a career with rewarding and fulfilling sponsorships.</p>
                         <br>
                         <br>
-                        <a class="btn btn-lg btn-round-lg" id='aboutViewMoreBtn' href="https://streamfluence.herokuapp.com/api/v1/auth/twitch" target="_blank" role="button">JOIN NOW</a>
+                        <a class="btn btn-lg btn-round-lg" id='aboutViewMoreBtn' href="https://streamfluence.herokuapp.com/api/v1/auth/twitch" target="_blank"
+                            role="button">JOIN NOW</a>
                     </div>
                     <div class='col-md-2'>
                     </div>
@@ -239,8 +290,8 @@
                         <br>
                         <br>
                         <a class="btn btn-lg btn-round-lg" id='brandViewMoreBtn' href="https://streamfluence.herokuapp.com/register" target="_blank">
-                                 GET STARTED
-                           </a>
+                            GET STARTED
+                        </a>
                     </div>
                     <div class='col-md-4'>
                     </div>
