@@ -660,3 +660,17 @@
             font-size: 30px;
         }
     }
+
+     @media only screen and (max-width: 1100px) {
+        #noTitleCastersSection {
+            height: 550px;
+        }
+    }
+
+     @media only screen and (max-width: 1009px) {
+        #noTitleCastersSection {
+            height: 900px;
+        }
+    }
+
+    

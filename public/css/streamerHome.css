@@ -85,9 +85,8 @@
 
 #twitchSectionImage {
     position: absolute;
-    width: 800px;
-    height: 400px;
     max-width: 100%;
+    max-height: auto;
     left: 15%;
     border: 2px solid #6cccfe;
     box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.5);
@@ -181,13 +180,6 @@
     margin-top: 50px;
 }
 
-#mixerImage {
-    margin-top: 90px;
-}
-
-#twitchImage {
-    margin-top: 100px;
-}
 
 footer {
     bottom: -2%;
@@ -200,15 +192,21 @@ footer {
     }
 }
 
+@media only screen and (max-width: 1713px) {
+    #brand123Container {
+        height: 1000px;
+    }
+}
+
 @media only screen and (max-width: 1630px) {
     #brand123Row {
         margin-top: 180px;
     }
 }
 
-@media only screen and (max-width: 1404px) {
+@media only screen and (max-width: 1424px) {
     #brand123Row {
-        margin-top: 100px;
+        margin-top: 30px;
     }
 }
 
@@ -299,7 +297,7 @@ footer {
     }
 }
 
-@media only screen and (max-width: 1010px) {
+@media only screen and (max-width: 1008px) {
 
     #homeTitle {
         font-size: 30px;
@@ -339,6 +337,16 @@ footer {
 
     #brand123Container {
         height: 1200px;
+    }
+
+    #noTitleCastersSection {
+        height: 1000px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    #platformThriveSection {
+        height: 800px;
     }
 }
 
@@ -418,6 +426,11 @@ footer {
     #brandHomeButton {
         left: 0%;
         top: 180%;
+    }
+
+    #streamerHomeButton {
+        left: 0%;
+        width: 260px;
     }
 }
 

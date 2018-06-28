@@ -1,5 +1,5 @@
         #homeBigScreen {
-            height: 90vh;
+            height: 110vh;
             /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#a023ff+100,08f8f8+100 */
             background: #a023ff;
             /* Old browsers */
@@ -16,7 +16,7 @@
 
         .homeContent {
             position: relative;
-            top: 30%;
+            top: 25%;
             left: 15%;
             z-index: 3;
         }
@@ -28,7 +28,7 @@
             line-height: 50px;
             letter-spacing: 2px;
             font-weight: normal;
-            width: 750px;
+            width: 575px;
             font-family: 'Passion One', cursive;
         }
 
@@ -40,6 +40,7 @@
             margin-left: 30px;
             line-height: 28px;
             letter-spacing: 1px;
+            width: 500px;
         }
 
         #brandHomeButton {
@@ -53,7 +54,7 @@
             padding: 20px;
             font-weight: 500;
             position: absolute;
-            top: 120%;
+            top: 110%;
             left: 10%;
         }
 
@@ -69,9 +70,8 @@
 
         #twitchSectionImage {
             position: absolute;
-            height: 400px;
-            width: 750px;
             max-width: 100%;
+            height: auto;
             left: 15%;
             border: 2px solid #a023ff;
             box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.5);
@@ -87,7 +87,7 @@
 
         #brand123Row {
             margin: 0px;
-            margin-top: 100px;
+            margin-top: 180px;
             padding: 0px;
         }
 
@@ -102,11 +102,13 @@
 
         .brand123 {
             padding: 15px;
+            z-index: 1000;
         }
 
         #brand123Title {
             font-size: 32px;
             font-weight: bold;
+            z-index: 10;
         }
 
         #brand123PTitle {
@@ -129,7 +131,7 @@
         }
 
         .brand123Trophy {
-            padding: 30px 0 30px 0;
+            padding: 30px 2px 30px 2px;
             color
         }
 
@@ -164,7 +166,7 @@
             margin: 0 auto;
         }
 
-        #howItWorksLeftP {
+        .howItWorksLeftP {
             margin: 0 auto;
             color: #fff;
             font-size: 20px;
@@ -261,6 +263,7 @@
 
             #streamerImage1 {
                 width: 500px;
+                height: 400px;
                 left: 45%;
             }
         }
@@ -273,9 +276,6 @@
                 right: 15%;
             }
 
-            #howItWorkTitle {
-                margin-left: 250px;
-            }
 
             #HowItWorksStep1Section {
                 left: -18%;
@@ -306,6 +306,16 @@
             }
         }
 
+        @media only screen and (max-width: 1427px) {
+            #HowItWorksSection {
+                height: 1500px;
+            }
+
+            #homeTitle {
+                font-size: 42px;
+            }
+        }
+
         @media only screen and (max-width: 1312px) {
 
             .brand123 p {
@@ -313,7 +323,7 @@
             }
 
             .brand123 h3 {
-                font-size: 25px;
+                font-size: 22px;
             }
 
             #brand123Row {
@@ -355,8 +365,14 @@
             }
 
             #streamerImage1 {
-                width: 400px;
-                top: 30%;
+                width: 375px;
+                height: 350px;
+                top: 34%;
+                left: 49%;
+            }
+
+            #twitchSectionImage {
+                margin-top: 70px;
             }
 
             #brand123Title {
@@ -372,7 +388,7 @@
             #brandHomeButton {
                 width: 200px;
                 font-size: 14px;
-                top: 100%;
+                top: 90%;
             }
             #streamerImage1 {
                 width: 400px;
@@ -411,7 +427,7 @@
         }
 
 
-        @media only screen and (max-width: 1040px) {
+        @media only screen and (max-width: 1041px) {
             #streamerImage1 {
                 display: none;
             }
@@ -426,7 +442,7 @@
             }
 
             #brandHomeButton {
-                top: 120%;
+                top: 110%;
             }
 
             #HowItWorksStep1Section {
@@ -475,6 +491,10 @@
 
             footer {
                 bottom: -5%;
+            }
+
+            #noTitleCastersSection {
+                height: 700px;
             }
         }
 
@@ -593,6 +613,22 @@
             .brand123Trophy {
                 display: none;
             }
+
+            .howItWorksLeft {
+                padding-left: 10px;
+            }
+        }
+
+        @media only screen and (max-width: 991px) {
+
+
+            .backgroundBrand123 {
+                margin-top: 100px;
+            }
+
+            .background123FirstSection {
+                margin-top: 200px
+            }
         }
 
         @media only screen and (max-width: 968px) {
@@ -604,13 +640,50 @@
         @media only screen and (max-width: 968px) {
             #titleParagraph {
                 font-size: 14px;
-                width: auto;
                 margin-left: 0px;
             }
 
             #homeTitle {
                 font-size: 50px;
                 padding-left: 0px;
+            }
+        }
+
+        @media only screen and (max-width: 830px) {
+            #titleParagraph {
+                width: 500px;
+            }
+
+            #homeBigScreen {
+                height: 100vh;
+            }
+
+            .howItWorksSteps1 {
+                font-size: 16px;
+                padding: 10px;
+            }
+
+            .howItWorksSteps2 {
+                font-size: 16px;
+                padding: 10px;
+            }
+
+            .howItWorksLeftP {
+                padding: 10px;
+            }
+
+            #HowItWorksSection {
+                height: 1900px;
+            }
+        }
+
+        @media only screen and (max-width: 755px) {
+            #noTitleCastersSection {
+                height: 850px;
+            }
+
+             #noTitleCastersSection h4 {
+                font-size:  24px;
             }
         }
 
@@ -627,7 +700,7 @@
             }
 
             #brand123Container {
-                height: 1600px;
+                height: 1800px;
             }
         }
 
@@ -653,7 +726,7 @@
 
         @media only screen and (max-width: 492px) {
 
-            #titleParagraph {
+            #`graph {
                 font-size: 10px;
                 margin-left: -20px;
                 width: 500px;
@@ -806,7 +879,11 @@
             }
 
             #brand123Container {
-                height: 1800px;
+                height: 2000px;
+            }
+
+            #HowItWorksSection {
+                height: 2100px;
             }
         }
 
@@ -820,7 +897,8 @@
                 font-size: 30px;
                 margin-left: 0px;
                 margin-right: 0px;
-                left: 10%;
+                left: 2%;
+                width: 250px;
             }
 
             #brandHomeButton {
