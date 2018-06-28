@@ -253,7 +253,7 @@ a.btn:hover {
     font-weight: 500;
     position: absolute;
     top: 100%;
-    left: 10%;
+    left: 2%;
     letter-spacing: 1px;
 }
 
@@ -269,7 +269,7 @@ a.btn:hover {
     font-weight: 500;
     position: absolute;
     top: 100%;
-    left: 33%;
+    left: 22%;
 }
 
 
@@ -1182,7 +1182,7 @@ a.btn-round-lg:hover {
         font-size: 45px;
     }
     #brandsBtn {
-        left: 35%;
+        left: 30%;
     }
 }
 
@@ -1345,7 +1345,7 @@ a.btn-round-lg:hover {
         font-size: 30px;
     }
     #brandsBtn {
-        left: 45%;
+        left: 35%;
     }
     .sfPanelInner {
         padding: 5px;
@@ -1441,7 +1441,7 @@ a.btn-round-lg:hover {
 
 @media only screen and (max-width: 995px) {
     #brandsBtn {
-        left: 45%;
+        left: 35%;
     }
     .whySFPanel {
         width: 600px;
@@ -1472,13 +1472,13 @@ a.btn-round-lg:hover {
 
 @media only screen and (max-width: 965px) {
     #brandsBtn {
-        left: 45%;
+        left: 35%;
     }
 }
 
 @media only screen and (max-width: 900px) {
     #brandsBtn {
-        left: 45%;
+        left: 35%;
     }
     .homeContent h1 {
         left: 5%;
