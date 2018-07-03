@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <!--links my css page -->
     <link rel="stylesheet" type="text/css" href="./assets/css/index1.3.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/componentCSS/infinite-slider.css">
     <link rel="stylesheet" type="text/css" href="./assets/css/brandsHome.css">
     <!--Allows me to use JQuery -->
     <script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
@@ -39,7 +40,9 @@
             <img src="./assets/images/sfHomeImage.png" id='homeBigImage'>
             <img src="./assets/images/sfHomeImage2.png" id='homeBigImage2'>
             <div class="row homeContent">
-                <iframe src="https://www.youtube.com/embed/jN2zP-uXJN0?start=44&autoplay=1&mute=1" id='streamerImage1' frameborder="0" allowfullscreen="true" height="378" width="620"></iframe>
+                <video id='streamerImage1' border="5" controls loop muted autoplay>
+                    <source src="./assets/video/onnitReviewDTQ.mp4" type="video/mp4"> Your browser does not support the video tag.
+                </video>
                 <div class="col-md-6 homeContentText">
                     <h1 id='homeTitle'>Now is the time to launch your brand into the live streaming world</h1>
                     <p id='titleParagraph'>
@@ -120,8 +123,83 @@
             </div>
         </div>
     </section>
+    <section class='jumbotron' id='trackRecordSection'>
+        <h1 class='text-center' id='trackRecordTitle'>
+            <strong>Track</strong>
+            <strong style='color: #6a95ff;'>Record</strong>
+        </h1>
+        <div class='row' id='trackRecordAnalytics' style='padding-top: 40px;'>
+            <div class='col-md-3 text-center trackRecordIndividualSections'>
+                <figure class='text-center'>
+                    <i class="fa fa-handshake-o" style="font-size:75px; color: #6a95ff;"></i>
+                    <figcaption>
+                        <strong style='font-size: 30px;'>50+</strong>
+                        <br>Brands On Platform</figcaption>
+                </figure>
+            </div>
+            <div class='col-md-3 text-center trackRecordIndividualSections'>
+                <figure class='text-center'>
+                    <i class="fa fa-users" style="font-size:75px; color: #6a95ff;"></i>
+                    <figcaption>
+                        <strong style='font-size: 30px;'>25M+</strong>
+                        <br>Monthly Impressions</figcaption>
+                </figure>
+            </div>
+            <div class='col-md-3 text-center trackRecordIndividualSections'>
+                <figure class='text-center'>
+                    <i class="fa fa-child" style="font-size:75px; color: #6a95ff;"></i>
+                    <figcaption>
+                        <strong style='font-size: 30px;'>600+</strong>
+                        <br>Streamers In Our Network</figcaption>
+                </figure>
+            </div>
+            <div class='col-md-3 text-center trackRecordIndividualSections'>
+                <figure class='text-center'>
+                    <i class="fa fa-area-chart" style="font-size:75px; color: #6a95ff;"></i>
+                    <figcaption>
+                        <strong style='font-size: 30px;'>300k+</strong>
+                        <br>Monthly Engagements</figcaption>
+                </figure>
+            </div>
+        </div>
+        <br>
+        <br>
+        <br>
+    </section>
+    <section id="brands" style='padding-bottom: 10px;'>
+        <h2 class="text-center" style='margin-bottom: 50px; color: #bc63ff; margin-top:0px; padding-top: 15px;'>
+            <strong>Brands we’ve worked with</strong>
+        </h2>
+        <div class="container">
+            <section class="customer-logos slider">
+                <div class="slide">
+                    <img src="./assets/images/onnitLogo2.png" alt="" target="" style="max-width:80%;">
+                </div>
+                <div class="slide">
+                    <img src="./assets/images/overwolfLogo.png" alt="" target="" style="max-width:50%; margin: 0 auto;">
+                </div>
+                <div class="slide">
+                    <img src="./assets/images/prisonLogo.png" alt="" target="" style="max-width:100%; margin-top: 30px;">
+                </div>
+                <div class="slide">
+                    <img src="./assets/images/manscape.png" alt="" target="" style="max-width:80%; margin: 10px auto 0 auto;">
+                </div>
+                <div class="slide">
+                    <img src="./assets/images/andaseat.jpg" alt="" target="" style="max-width:60%; margin: 0 auto;">
+                </div>
+                <div class="slide">
+                    <img src="./assets/images/streamLoots.png" alt="" style="max-width:100%; background-color: #000628; margin-top: 55px;">
+                </div>
+                <div class="slide">
+                    <img src="./assets/images/glitchLogo.png" alt="" target="" style="max-width:50%; margin: 0 auto;">
+                </div>
+                <div class="slide">
+                    <img src="./assets/images/legionLogo.png" alt="" target="" style="max-width:100%; margin-top: 55px;">
+                </div>
+            </section>
+        </div>
+    </section>
     <section class="sec-lightpurple" id='HowItWorksSection'>
-        <img src="./assets/images/sfBrandSlant.png" id='homeBigImage'>
         <img src="./assets/images/sfHomeImage.png" id='sfBrandSlant'>
         <div class="row">
             <div class="col-md-12">
@@ -218,7 +296,10 @@
         <%- include('layouts/footer'); %>
     </footer>
     <!-- SCRIPT -->
-    <script type="text/javascript" src="assets/js/app.js"></script>
+    <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+    <script type="text/javascript " src="assets/js/app.js "></script>
+    <script type="text/javascript " src="assets/js/carousel.js "></script>
     <!-- Start of HubSpot Embed Code -->
     <script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/2995043.js"></script>
     <!-- End of HubSpot Embed Code -->

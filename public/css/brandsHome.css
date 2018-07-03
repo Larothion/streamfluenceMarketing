@@ -1,5 +1,5 @@
         #homeBigScreen {
-            height: 110vh;
+            height: 90vh;
             /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#a023ff+100,08f8f8+100 */
             background: #a023ff;
             /* Old browsers */
@@ -64,9 +64,8 @@
             height: 500px;
             max-width: 100%;
             left: 35%;
-            border: 2px solid #30b7fe;
-            box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.5);
         }
+
 
         #twitchSectionImage {
             position: absolute;
@@ -629,6 +628,10 @@
             .background123FirstSection {
                 margin-top: 200px
             }
+
+            #brand123Row {
+                margin-top: 400px;
+            }
         }
 
         @media only screen and (max-width: 968px) {
@@ -682,8 +685,8 @@
                 height: 850px;
             }
 
-             #noTitleCastersSection h4 {
-                font-size:  24px;
+            #noTitleCastersSection h4 {
+                font-size: 24px;
             }
         }
 
@@ -722,11 +725,23 @@
                 top: 110%;
                 left: 15%;
             }
+
+            .background123FirstSection {
+                margin-top: 20px;
+            }
+        }
+
+
+        @media only screen and (max-width: 519px) {
+
+            #brands {
+                height: 300px;
+            }
         }
 
         @media only screen and (max-width: 492px) {
 
-            #`graph {
+            #titleParagraph {
                 font-size: 10px;
                 margin-left: -20px;
                 width: 500px;
@@ -740,6 +755,10 @@
             #brandHomeButton {
                 top: 110%;
                 left: 10%;
+            }
+
+            #backgroundBrand123 {
+                margin: 50px;
             }
         }
 

@@ -62,6 +62,11 @@ a.btn:hover {
 
 /*========================================== Navbar */
 
+
+.container-fluid {
+    padding: 0px;
+}
+
 .navbar-default {
     background-color: #fff;
     border: none;
@@ -188,7 +193,7 @@ a.btn:hover {
 /*========================== main home section begin ==============================*/
 
 #homeBigScreen {
-    height: 100vh;
+    height: 90vh;
     /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#a023ff+11,a023ff+11,50aafa+80 */
     background: #a023ff;
     /* Old browsers */
@@ -1226,6 +1231,10 @@ a.btn-round-lg:hover {
     .whySFPanel p {
         font-size: 14px;
     }
+
+    #homeTitleEngagement {
+        width: 300px;
+    }
 }
 
 @media only screen and (max-width: 1380px) {
@@ -1365,7 +1374,10 @@ a.btn-round-lg:hover {
         display: none;
     }
     #homeTitleEngagement {
-        font-size: 20px;
+        font-size: 25px;
+    }
+    #titleParagraph {
+        font-size: 16px;
     }
 }
 
@@ -1588,7 +1600,7 @@ a.btn-round-lg:hover {
         margin-left: 0px;
     }
     #whySteamfluenceContainer {
-        height: 1100px;
+        height: 1400px;
     }
     #homeTitle {
         font-size: 15px;
@@ -1678,6 +1690,10 @@ a.btn-round-lg:hover {
     }
     #brandStreamersSection {
         margin-left: 50px;
+    }
+
+    #brands {
+        height: 100px;
     }
 }
 
