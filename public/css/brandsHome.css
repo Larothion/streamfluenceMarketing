@@ -106,7 +106,6 @@
 
         #brand123Title {
             font-size: 32px;
-            font-weight: bold;
             z-index: 10;
         }
 
@@ -125,7 +124,6 @@
             margin: 0 0 10px 0px;
             font-size: 24px;
             color: #a023ff;
-            font-weight: bolder;
             letter-spacing: 2px;
         }
 
@@ -146,7 +144,6 @@
         #howItWorkTitle {
             color: white;
             font-size: 35px;
-            font-weight: bold;
             letter-spacing: 2px;
         }
 
@@ -180,7 +177,6 @@
             color: #fff;
             font-size: 16px;
             letter-spacing: 2px;
-            font-weight: bolder;
         }
 
         .stepsRowsSection {
@@ -558,7 +554,6 @@
 
             #brand123Title {
                 font-size: 40px;
-                font-weight: bold;
             }
 
             #brand123PTitle {
@@ -606,7 +601,6 @@
                 margin: 0 0 10px 0px;
                 font-size: 24px;
                 color: #0c6dff;
-                font-weight: bolder;
                 letter-spacing: 2px;
             }
             .brand123Trophy {

@@ -11,18 +11,23 @@ html {
 }
 
 body {
-    font-family: 'Roboto Slab', serif;
+    /*font-family: 'Roboto Slab', serif;*/
     /* Margin bottom by footer height */
     overflow-x: hidden;
 }
 
 h1 {
     color: #003d87;
+    font-family: 'Passion One', cursive;
+    letter-spacing: 4px;
+    line-height: 80px;
 }
 
 h2 {
     font-size: 27px;
     color: #0399f1;
+    font-family: 'Passion One', cursive;
+    letter-spacing: 4px;
 }
 
 h3 {
@@ -30,11 +35,15 @@ h3 {
     line-height: 1.29;
     color: #003d87;
     font-weight: 400;
+    font-family: 'Passion One', cursive;
+       letter-spacing: 4px;
 }
 
 h4 {
     font-size: 16px;
     color: #fff;
+     font-family: 'Passion One', cursive;
+       letter-spacing: 4px;
 }
 
 p {
@@ -60,8 +69,11 @@ a.btn:hover {
 
 
 
-/*========================================== Navbar */
 
+
+
+
+/*========================================== Navbar */
 
 .container-fluid {
     padding: 0px;
@@ -152,6 +164,10 @@ a.btn:hover {
 
 
 
+
+
+
+
 /*======================= end nav*/
 
 
@@ -181,6 +197,10 @@ a.btn:hover {
     max-height: 100px;
     width: auto;
 }
+
+
+
+
 
 
 
@@ -219,24 +239,26 @@ a.btn:hover {
     height: 100vh;
     bottom: -1%;
     z-index: 2;
-    font-family: 'Roboto Slab', serif;
+    
 }
 
 #homeTitle {
     color: #fff;
     font-size: 30px;
     letter-spacing: 2px;
-    font-weight: normal;
-    font-family: 'Roboto Slab', serif;
     width: 700px;
+    line-height: 50px;
+    letter-spacing: 3px;
 }
 
 #liveContentTitle {
     color: #fff;
     font-size: 90px;
-    font-weight: bold;
     margin-left: 30px;
     width: 750px;
+    line-height: 80px;
+    letter-spacing: 4px;
+   font-family: 'Passion One', cursive;
 }
 
 .homeContent {
@@ -276,6 +298,10 @@ a.btn:hover {
     top: 100%;
     left: 22%;
 }
+
+
+
+
 
 
 
@@ -327,7 +353,6 @@ a.btn:hover {
     margin: 0 0 10px 0px;
     font-size: 25px;
     color: #0c6dff;
-    font-weight: bold;
     letter-spacing: 2px;
 }
 
@@ -348,6 +373,10 @@ a.btn:hover {
 
 
 
+
+
+
+
 /* ============================ end why streamfluence section ========================*/
 
 
@@ -361,7 +390,6 @@ a.btn:hover {
     color: white;
     font-size: 55px;
     padding-left: 7px;
-    font-weight: bold;
     letter-spacing: 2px;
     line-height: 75px;
 }
@@ -413,6 +441,10 @@ a.btn:hover {
 
 
 
+
+
+
+
 /* ================================= end thrive on section ========================== */
 
 
@@ -457,10 +489,9 @@ a.btn:hover {
 #homeTitleEngagement {
     font-size: 35px;
     line-height: 50px;
-    letter-spacing: 2px;
-    font-weight: bold;
     margin-top: 5px;
-    font-family: 'Roboto Slab', serif;
+     font-family: 'Passion One', cursive;
+       letter-spacing: 4px;
     width: 450px;
 }
 
@@ -471,6 +502,10 @@ a.btn:hover {
     line-height: 28px;
     letter-spacing: 1px;
 }
+
+
+
+
 
 
 
@@ -499,6 +534,10 @@ a.btn:hover {
 
 
 
+
+
+
+
 /*============================ end track record section ================================*/
 
 
@@ -521,7 +560,6 @@ a.btn:hover {
 #aboutStreamersSection h4 {
     font-size: 35px;
     color: black;
-    font-weight: bold;
     letter-spacing: 2px;
 }
 
@@ -541,7 +579,6 @@ a.btn:hover {
 #brandStreamersSection h4 {
     font-size: 35px;
     color: black;
-    font-weight: bold;
     letter-spacing: 2px;
 }
 
@@ -582,6 +619,10 @@ a.btn:hover {
 
 
 
+
+
+
+
 /*========================== no title end =============================*/
 
 #brand-bottom-corner {
@@ -599,6 +640,10 @@ a.btn:hover {
     border-color: transparent transparent #fff transparent;
     z-index: 1;
 }
+
+
+
+
 
 
 
@@ -700,6 +745,10 @@ footer h4 {
 
 
 
+
+
+
+
 /******************/
 
 
@@ -738,7 +787,6 @@ footer h4 {
 #hero h1 {
     font-family: 'Roboto Slab', serif;
     font-size: 32px;
-    font-weight: bolder;
     color: #003d87;
     text-shadow: 2px 2px #fff;
 }
@@ -784,6 +832,10 @@ a.btn-round-lg:hover {
 
 
 
+
+
+
+
 /** Section 2 - info **/
 
 #section2>.row {
@@ -813,6 +865,10 @@ a.btn-round-lg:hover {
     border: none;
     padding-top: 13px;
 }
+
+
+
+
 
 
 
@@ -861,11 +917,19 @@ a.btn-round-lg:hover {
 
 
 
+
+
+
+
 /** Denied page **/
 
 .empty-footer {
     height: 50px;
 }
+
+
+
+
 
 
 
@@ -881,6 +945,10 @@ a.btn-round-lg:hover {
     width: 40%;
     background: #fff;
 }
+
+
+
+
 
 
 
@@ -906,7 +974,6 @@ a.btn-round-lg:hover {
 #resourcesStreamersSection h4 {
     font-size: 35px;
     color: #585858;
-    font-weight: bold;
     letter-spacing: 2px;
 }
 
@@ -928,7 +995,6 @@ a.btn-round-lg:hover {
 #createAccountSubSection h4 {
     font-size: 35px;
     color: #585858;
-    font-weight: bold;
     letter-spacing: 2px;
 }
 
@@ -975,6 +1041,10 @@ a.btn-round-lg:hover {
 
 
 
+
+
+
+
 /*get started end*/
 
 .btn-group-lg>.btn,
@@ -1009,6 +1079,10 @@ a.btn-round-lg:hover {
     margin: 0 auto;
     float: none;
 }
+
+
+
+
 
 
 
@@ -1066,6 +1140,10 @@ a.btn-round-lg:hover {
 
 
 
+
+
+
+
 /*====================*/
 
 
@@ -1094,6 +1172,10 @@ a.btn-round-lg:hover {
         padding-top: 90px;
     }
 }
+
+
+
+
 
 
 
@@ -1161,6 +1243,10 @@ a.btn-round-lg:hover {
 
 
 
+
+
+
+
 /* Medium devices (desktops, 992px and up) */
 
 @media (min-width: 992px) {
@@ -1174,6 +1260,10 @@ a.btn-round-lg:hover {
         font-size: 22px;
     }
 }
+
+
+
+
 
 
 
@@ -1464,7 +1554,7 @@ a.btn-round-lg:hover {
     .thriveOnImages img {
         margin: 0px;
     }
-} 
+}
 
 @media only screen and (max-width: 992px) {
     .trackRecordIndividualSections {
