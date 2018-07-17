@@ -15,7 +15,7 @@ router.get('/brands', function(req, res) {
 });
 
 router.get('/pricing', function(req, res) {
-  res.render('pricing');
+  res.render('brands');
 });
 
 router.get('/streamers', function(req, res) {
