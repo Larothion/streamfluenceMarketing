@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>StreamFluence</title>
     <!-- bootstap html and cc elemets-->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
     <!--links my css page -->
     <link rel="stylesheet" type="text/css" href="./assets/css/index1.3.css">
     <link rel="stylesheet" type="text/css" href="./assets/css/componentCSS/infinite-slider.css">
@@ -14,7 +15,8 @@
     <!--Allows me to use JQuery -->
     <script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
     <!-- Allows me to use Bootstrap JS -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
     <link rel="shortcut icon" href="assets/images/floo.png">
     <link rel="apple-touch-icon" href="assets/images/favicon-floo.png">
@@ -23,32 +25,32 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto+Slab" rel="stylesheet">
     <!-- Start of Async Drift Code -->
     <script>
-    "use strict";
+        "use strict";
 
-    ! function() {
-        var t = window.driftt = window.drift = window.driftt || [];
-        if (!t.init) {
-            if (t.invoked) return void(window.console && console.error && console.error("Drift snippet included twice."));
-            t.invoked = !0, t.methods = ["identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on"],
-                t.factory = function(e) {
-                    return function() {
-                        var n = Array.prototype.slice.call(arguments);
-                        return n.unshift(e), t.push(n), t;
+        ! function () {
+            var t = window.driftt = window.drift = window.driftt || [];
+            if (!t.init) {
+                if (t.invoked) return void (window.console && console.error && console.error("Drift snippet included twice."));
+                t.invoked = !0, t.methods = ["identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on"],
+                    t.factory = function (e) {
+                        return function () {
+                            var n = Array.prototype.slice.call(arguments);
+                            return n.unshift(e), t.push(n), t;
+                        };
+                    }, t.methods.forEach(function (e) {
+                        t[e] = t.factory(e);
+                    }), t.load = function (t) {
+                        var e = 3e5,
+                            n = Math.ceil(new Date() / e) * e,
+                            o = document.createElement("script");
+                        o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + n + "/" + t + ".js";
+                        var i = document.getElementsByTagName("script")[0];
+                        i.parentNode.insertBefore(o, i);
                     };
-                }, t.methods.forEach(function(e) {
-                    t[e] = t.factory(e);
-                }), t.load = function(t) {
-                    var e = 3e5,
-                        n = Math.ceil(new Date() / e) * e,
-                        o = document.createElement("script");
-                    o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + n + "/" + t + ".js";
-                    var i = document.getElementsByTagName("script")[0];
-                    i.parentNode.insertBefore(o, i);
-                };
-        }
-    }();
-    drift.SNIPPET_VERSION = '0.3.1';
-    drift.load('s67437phywe2');
+            }
+        }();
+        drift.SNIPPET_VERSION = '0.3.1';
+        drift.load('s67437phywe2');
     </script>
     <!-- End of Async Drift Code -->
 </head>
@@ -62,8 +64,8 @@
         <div id="brand-corner" class="hidden-xs">
             <div id="brand-background"></div>
             <a href="/">
-            <img id="brand-logo" src="assets/images/streamfluence-logo.png">
-         </a>
+                <img id="brand-logo" src="assets/images/streamfluence-logo.png">
+            </a>
         </div>
         <!-- Content -->
         <section class="sec sec-top" id='homeBigScreen'>
@@ -76,9 +78,11 @@
                 <div class="col-md-6 homeContentText">
                     <h1 id='homeTitle'>Welcome to the Next Generation of Marketing</h1>
                     <p id='titleParagraph'>
-                        With StreamFluence you can easily find and activate livestreamers around the world, track reach and attribution in real time, and receive beautiful pieces of content to use across other social media efforts.
+                        With StreamFluence you can easily find and activate livestreamers around the world, track reach and attribution in real time,
+                        and receive beautiful pieces of content to use across other social media efforts.
                     </p>
-                    <a class="btn btn-lg btn-round-lg" id='brandHomeButton' href="https://streamfluence.herokuapp.com/register" target="_blank" role="button">GET STARTED FOR FREE</a>
+                    <a class="btn btn-lg btn-round-lg" id='brandHomeButton' href="https://streamfluencepartners.com/register" target="_blank"
+                        role="button">GET STARTED FOR FREE</a>
                 </div>
             </div>
             <div class="col-md-6">
@@ -100,7 +104,9 @@
                         <h3 id='brand123Title'>Broadcasting Your Brand Doesn’t Have to be Hard</h3>
                         <br>
                         <br>
-                        <p style='' id='brand123PTitle'>Livestreamers now reach hundreds of millions of viewers every month, and unlike Facebook, Instagram and Twitter, you don’t need to outbid your competition to let the world know about your new brand, product, or service. </p>
+                        <p style='' id='brand123PTitle'>Livestreamers now reach hundreds of millions of viewers every month, and unlike Facebook, Instagram
+                            and Twitter, you don’t need to outbid your competition to let the world know about your new brand,
+                            product, or service. </p>
                     </div>
                     <div class='col-sm-1'>
                     </div>
@@ -117,7 +123,8 @@
                     <div class='col-sm-9 text-left brand123'>
                         <h3>Flexible budget</h3>
                         <br>
-                        <p>We’ve worked with startups and fortune 500’s. No matter the budget, there’s streamers for every opportunity. </p>
+                        <p>We’ve worked with startups and fortune 500’s. No matter the budget, there’s streamers for every opportunity.
+                        </p>
                     </div>
                     <div class='col-sm-1'>
                     </div>
@@ -131,7 +138,8 @@
                     <div class='col-sm-9 text-left brand123'>
                         <h3>Pick your streamers</h3>
                         <br>
-                        <p>Review proposals, profiles and audience demographics prior to hiring. We give you the tools you need in order to select the best streamers for your brand.</p>
+                        <p>Review proposals, profiles and audience demographics prior to hiring. We give you the tools you need
+                            in order to select the best streamers for your brand.</p>
                     </div>
                     <div class='col-sm-1'>
                     </div>
@@ -145,7 +153,8 @@
                     <div class='col-sm-9 text-left brand123'>
                         <h3 class='text-left' style='padding-left: 5px;'>Grow your audience</h3>
                         <br>
-                        <p>StreamFluence lets you add live stream content to your marketing assets, getting you views, impressions, and interest.</p>
+                        <p>StreamFluence lets you add live stream content to your marketing assets, getting you views, impressions,
+                            and interest.</p>
                     </div>
                     <div class='col-sm-1'>
                     </div>
@@ -201,33 +210,33 @@
             Brands we’ve worked with
         </h2>
         <div class="container">
-                <section class="customer-logos slider">
-                    <div class="slide">
-                        <img src="./assets/images/onnitLogo2.png" alt="" target="" style="max-width:80%; margin: 0 auto;">
-                    </div>
-                    <div class="slide">
-                        <img src="./assets/images/overwolfLogo.png" alt="" target="" style="max-width:50%; margin: 0 auto;">
-                    </div>
-                    <div class="slide">
-                        <img src="./assets/images/SW30.png" alt="" target="" style="max-width:110%; margin: 0 auto;">
-                    </div>
-                    <div class="slide">
-                        <img src="./assets/images/prisonLogo.png" alt="" target="" style="max-width:100%; margin-top: 30px;">
-                    </div>
-                    <div class="slide">
-                        <img src="./assets/images/manscape.png" alt="" target="" style="max-width:80%; margin: 10px auto 0 auto;">
-                    </div>
-                    <div class="slide">
-                        <img src="./assets/images/streamLoots.png" alt="" style="max-width:100%; background-color: #000628; margin-top: 55px;">
-                    </div>
-                    <div class="slide">
-                        <img src="./assets/images/glitchLogo.png" alt="" target="" style="max-width:50%; margin: 0 auto;">
-                    </div>
-                    <div class="slide">
-                        <img src="./assets/images/legionLogo.png" alt="" target="" style="max-width:100%; margin-top: 55px;">
-                    </div>
-                </section>
-            </div>
+            <section class="customer-logos slider">
+                <div class="slide">
+                    <img src="./assets/images/onnitLogo2.png" alt="" target="" style="max-width:80%; margin: 0 auto;">
+                </div>
+                <div class="slide">
+                    <img src="./assets/images/overwolfLogo.png" alt="" target="" style="max-width:50%; margin: 0 auto;">
+                </div>
+                <div class="slide">
+                    <img src="./assets/images/SW30.png" alt="" target="" style="max-width:110%; margin: 0 auto;">
+                </div>
+                <div class="slide">
+                    <img src="./assets/images/prisonLogo.png" alt="" target="" style="max-width:100%; margin-top: 30px;">
+                </div>
+                <div class="slide">
+                    <img src="./assets/images/manscape.png" alt="" target="" style="max-width:80%; margin: 10px auto 0 auto;">
+                </div>
+                <div class="slide">
+                    <img src="./assets/images/streamLoots.png" alt="" style="max-width:100%; background-color: #000628; margin-top: 55px;">
+                </div>
+                <div class="slide">
+                    <img src="./assets/images/glitchLogo.png" alt="" target="" style="max-width:50%; margin: 0 auto;">
+                </div>
+                <div class="slide">
+                    <img src="./assets/images/legionLogo.png" alt="" target="" style="max-width:100%; margin-top: 55px;">
+                </div>
+            </section>
+        </div>
     </section>
     <section class="sec-lightpurple" id='HowItWorksSection'>
         <img src="./assets/images/sfHomeImage.png" id='sfBrandSlant'>
@@ -240,7 +249,9 @@
             <div class="col-md-3">
             </div>
             <div class="col-md-3" class='howItWorksLeft text-center'>
-                <h2 class='howItWorksSteps1'><a style='color: yellow;'>Step 1: </a></h2>
+                <h2 class='howItWorksSteps1'>
+                    <a style='color: yellow;'>Step 1: </a>
+                </h2>
                 <h2 class='howItWorksSteps2'>Sign Up</h2>
                 <p class='howItWorksLeftP'>Discover what kind of advertisement works for your brand best with our campaign selection tool </p>
                 <hr>
@@ -255,7 +266,9 @@
             <div class="col-md-3">
             </div>
             <div class="col-md-3" class='howItWorksLeft text-center'>
-                <h2 class='howItWorksSteps1'><a style='color: yellow;'>Step 2:</a> </h2>
+                <h2 class='howItWorksSteps1'>
+                    <a style='color: yellow;'>Step 2:</a>
+                </h2>
                 <h2 class='howItWorksSteps2'>Receive Bids</h2>
                 <p class='howItWorksLeftP'>Streamers will bid on your opportunity and you can select which ones work for your goals and budget. </p>
                 <hr>
@@ -270,9 +283,12 @@
             <div class="col-md-3">
             </div>
             <div class="col-md-3" class='howItWorksLeft text-center'>
-                <h2 class='howItWorksSteps1'><a style='color: yellow;'>Step 3:</a> </h2>
+                <h2 class='howItWorksSteps1'>
+                    <a style='color: yellow;'>Step 3:</a>
+                </h2>
                 <h2 class='howItWorksSteps2'>Content for your Brand </h2>
-                <p class='howItWorksLeftP'> With streamers selected and the campaign started, streamers will begin creating, sharing, and publishing the content that you’ve asked for with their loyal audience.</p>
+                <p class='howItWorksLeftP'> With streamers selected and the campaign started, streamers will begin creating, sharing, and publishing
+                    the content that you’ve asked for with their loyal audience.</p>
                 <hr>
             </div>
             <div class="col-md-3 text-center">
@@ -295,7 +311,8 @@
                         <p class='text-left'>Schedule a call with one of our knowledgable Campaign Strategist.</p>
                         <br>
                         <br>
-                        <a class="btn btn-lg btn-round-lg" id='aboutViewMoreBtn' href="https://app.hubspot.com/meetings/tross" target="_blank" role="button" style='background-color: #42b6ff;'>LEARN MORE</a>
+                        <a class="btn btn-lg btn-round-lg" id='aboutViewMoreBtn' href="https://app.hubspot.com/meetings/tross" target="_blank" role="button"
+                            style='background-color: #42b6ff;'>LEARN MORE</a>
                     </div>
                     <div class='col-md-2'>
                     </div>
@@ -312,9 +329,9 @@
                         </p>
                         <br>
                         <br>
-                        <a class="btn btn-lg btn-round-lg" id='brandViewMoreBtn' href="https://streamfluence.herokuapp.com/register" target="_blank">
-                                 GET STARTED
-                           </a>
+                        <a class="btn btn-lg btn-round-lg" id='brandViewMoreBtn' href="https://streamfluencepartners.com/register" target="_blank">
+                            GET STARTED
+                        </a>
                     </div>
                     <div class='col-md-4'>
                     </div>

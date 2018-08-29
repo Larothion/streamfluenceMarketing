@@ -6,14 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>StreamFluence</title>
     <!-- bootstap html and cc elemets-->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
     <!--links my css page -->
     <link rel="stylesheet" type="text/css" href="./assets/css/index1.3.css">
     <link rel="stylesheet" type="text/css" href="./assets/css/componentCSS/infinite-slider.css">
     <!--Allows me to use JQuery -->
     <script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
     <!-- Allows me to use Bootstrap JS -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
     <link rel="shortcut icon" href="assets/images/floo.png">
     <link rel="apple-touch-icon" href="../public/images/favicon-floo.png">
@@ -22,32 +24,32 @@
     <link href="https://fonts.googleapis.com/css?family=Passion+One|Patua+One|Roboto" rel="stylesheet">
     <!-- Start of Async Drift Code -->
     <script>
-    "use strict";
+        "use strict";
 
-    ! function() {
-        var t = window.driftt = window.drift = window.driftt || [];
-        if (!t.init) {
-            if (t.invoked) return void(window.console && console.error && console.error("Drift snippet included twice."));
-            t.invoked = !0, t.methods = ["identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on"],
-                t.factory = function(e) {
-                    return function() {
-                        var n = Array.prototype.slice.call(arguments);
-                        return n.unshift(e), t.push(n), t;
+        ! function () {
+            var t = window.driftt = window.drift = window.driftt || [];
+            if (!t.init) {
+                if (t.invoked) return void (window.console && console.error && console.error("Drift snippet included twice."));
+                t.invoked = !0, t.methods = ["identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on"],
+                    t.factory = function (e) {
+                        return function () {
+                            var n = Array.prototype.slice.call(arguments);
+                            return n.unshift(e), t.push(n), t;
+                        };
+                    }, t.methods.forEach(function (e) {
+                        t[e] = t.factory(e);
+                    }), t.load = function (t) {
+                        var e = 3e5,
+                            n = Math.ceil(new Date() / e) * e,
+                            o = document.createElement("script");
+                        o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + n + "/" + t + ".js";
+                        var i = document.getElementsByTagName("script")[0];
+                        i.parentNode.insertBefore(o, i);
                     };
-                }, t.methods.forEach(function(e) {
-                    t[e] = t.factory(e);
-                }), t.load = function(t) {
-                    var e = 3e5,
-                        n = Math.ceil(new Date() / e) * e,
-                        o = document.createElement("script");
-                    o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + n + "/" + t + ".js";
-                    var i = document.getElementsByTagName("script")[0];
-                    i.parentNode.insertBefore(o, i);
-                };
-        }
-    }();
-    drift.SNIPPET_VERSION = '0.3.1';
-    drift.load('s67437phywe2');
+            }
+        }();
+        drift.SNIPPET_VERSION = '0.3.1';
+        drift.load('s67437phywe2');
     </script>
     <!-- End of Async Drift Code -->
 </head>
@@ -130,7 +132,7 @@
         </section>
         <section id="brands" style='padding-bottom: 10px;'>
             <h2 class="text-center" style='margin-bottom: 50px; color: #bc63ff; margin-top:0px; padding-top: 15px;'>
-            Brands we’ve worked with
+                Brands we’ve worked with
             </h2>
             <div class="container">
                 <section class="customer-logos slider">
@@ -198,7 +200,8 @@
                     <div class="row text-left" id='engagementBox'>
                         <div class="col-sm-6" id='engagementContent'>
                             <h1 id='homeTitleEngagement'>Place your brand in front of a whole new audience</h1>
-                            <p id='titleParagraph'> StreamFluence gives advertisers the opportunity to reach the over 100 million consumers of livestream content worldwide. </p>
+                            <p id='titleParagraph'> StreamFluence gives advertisers the opportunity to reach the over 100 million consumers of livestream
+                                content worldwide. </p>
                             <a class=" btn btn-lg btn-round-md " id='brandHomeButton' href="/brands" target="_blank " role="button ">Learn More</a>
                         </div>
                         <img src="./assets/images/cyborgAngelImage.png" id='streamerVideo1'>
@@ -222,7 +225,8 @@
                         </div>
                         <div class='col-sm-8'>
                             <h3>Find your audience</h3>
-                            <p>Tap into the millennial and gen Z audience through the content that they’re already consuming everyday.
+                            <p>Tap into the millennial and gen Z audience through the content that they’re already consuming
+                                everyday.
                             </p>
                         </div>
                         <div class='col-sm-1'>
@@ -279,7 +283,8 @@
                         <p class='text-left'>Get sponsored by the brands you love, so that they can love you back.</p>
                         <br>
                         <br>
-                        <a class="btn btn-lg btn-round-lg" id='aboutViewMoreBtn' href="https://streamfluence.herokuapp.com/api/v1/auth/twitch" target="_blank" role="button">JOIN NOW</a>
+                        <a class="btn btn-lg btn-round-lg" id='aboutViewMoreBtn' href="https://streamfluencepartners.com/api/v1/auth/twitch" target="_blank"
+                            role="button">JOIN NOW</a>
                     </div>
                     <div class='col-md-2'>
                     </div>
